@@ -1,9 +1,13 @@
 import os
+from winreg import QueryInfoKey
 import programEvaluator 
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 from asyncio import subprocess
 from treelib import Tree, Node
 
+from multiprocessing import Process, Queue, Lock
+import time 
+import random
 
 
 def dateStr():
@@ -54,6 +58,70 @@ class ProgramGenerator:
             decstr = decstr.replace("<EOS>","\n")
             decoded.append(decstr)
         return decoded
+
+
+#Producer aka Program expander
+def program_expander (queue_source:Queue, queue_destination:Queue):
+    #take one otem from source 
+    os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+    program_to_be_extendet = None
+
+    while True:
+        program_to_be_extendet = queue_source.get()
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    print ("instanciating two Queues")
+    queue_program_expansion = Queue()
+    queue_program_evaluation = Queue()
+
+    print ("instanciating two Locks")
+    lock_expansion = Lock()
+    lock_evaluation = Lock()
+
+    #setup  transformer
+    os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
+    prompts = []
+    #lese inputtemplates ein
+    import os
+    inFolder = "/inputPrograms"
+    for filename in os.listdir(os.getcwd() + inFolder):
+        with open(os.path.join(os.getcwd() + inFolder, filename), 'r') as f:
+            prompts.append(f.read())
+
+    dateStr = dateStr()
+    
+    outFolder = "outputPrograms/exp" + dateStr 
+    try: 
+        os.mkdir(outFolder) 
+    except OSError as error: 
+        print(error)  
+
+    #the transformer to generate programs     
+    generator  =  ProgramGenerator()
+
+    for p in prompts
+        queue_program_expansion.put(p)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
 
