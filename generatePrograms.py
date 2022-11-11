@@ -1,5 +1,4 @@
 import os
-from winreg import QueryInfoKey
 import programEvaluator 
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 from asyncio import subprocess
@@ -67,8 +66,32 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
 
     program_to_be_extendet = None
 
+    #the transformer to generate programs     
+    generator  =  ProgramGenerator()
+
     while True:
         program_to_be_extendet = queue_source.get()
+
+        extendet_programs = generator.programAppender(program_to_be_extendet)
+
+        for p in extendet_programs:
+            queue_destination.put(p)
+
+
+def program_evaluator(queue_source:Queue, queue_destination:Queue):
+
+    program_to_be_evaluated = None
+    #evaluator init
+    evaluator = programEvaluator.ProgramEvaluator()
+
+    while True:
+        program_to_be_evaluated = queue_source.get()
+        evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
+        print(evaluation)
+        if (evaluation.executable):
+            queue_destination.put(program_to_be_evaluated)
+            print(program_to_be_evaluated)
+
 
 
 
@@ -104,12 +127,17 @@ if __name__ == "__main__":
     except OSError as error: 
         print(error)  
 
-    #the transformer to generate programs     
-    generator  =  ProgramGenerator()
-
-    for p in prompts
+    for p in prompts:
         queue_program_expansion.put(p)
 
+    process_expansion = Process(target=program_expander, args=(queue_program_expansion,queue_program_evaluation))
+    process_evaluation = Process(target=program_evaluator, args=(queue_program_evaluation,queue_program_expansion))
+
+    process_expansion.start()
+    process_evaluation.start()
+
+    process_expansion.join()
+    process_evaluation.join()
 
 
 
