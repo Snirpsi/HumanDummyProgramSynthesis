@@ -1,9 +1,9 @@
-from asyncio import subprocess
 import os
-import programTester 
-
-
+import programEvaluator 
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
+from asyncio import subprocess
+from treelib import Tree, Node
+
 
 
 def dateStr():
@@ -21,10 +21,12 @@ def dateStr():
 
 
 class ProgramGenerator:
+    #class to extend a given program using a transformer model 
     def __init__(self) -> None:
         #tokenizer = GPT2Tokenizer.from_pretrained("microsoft/codebert-base")
         #model = GPT2LMHeadModel.from_pretrained("microsoft/codebert-base")
         #SIC98/GPT2-python-code-generatorrite(s)
+        #select the model 
         self.tokenizer = GPT2Tokenizer.from_pretrained("SIC98/GPT2-python-code-generator")
         self.model = GPT2LMHeadModel.from_pretrained("SIC98/GPT2-python-code-generator")
         self.prompts = []
@@ -34,15 +36,23 @@ class ProgramGenerator:
         input_ids = self.tokenizer.encode(inputProgramStr, add_special_tokens=False, return_tensors='pt')
         outputs = self.model.generate(input_ids=input_ids, max_length=64 + len(inputProgramStr),
         temperature=1.0,
-        top_k=50,top_p=0.95,
+        top_k=50,
+        top_p=0.95,
         repetition_penalty=2.0,
         do_sample=True,
-        num_return_sequences=1,
+        num_return_sequences=50,
         length_penalty=2.0,
         early_stopping=True)
         #bitte mal testen was an outputs[1...n] steht
-        decoded = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        decoded = decoded.replace("<EOS><BOS>","\n")
+        decoded =[] 
+        print("outputs:", outputs)
+        for i,p in enumerate(outputs):
+            decstr = ""
+            decstr = ( self.tokenizer.decode(outputs[0], skip_special_tokens=True))
+            decstr = decstr.replace("<EOS><BOS>","\n")
+            decstr = decstr.replace("<BOS>","\n")
+            decstr = decstr.replace("<EOS>","\n")
+            decoded.append(decstr)
         return decoded
 
 if __name__ == "__main__":
@@ -61,7 +71,7 @@ if __name__ == "__main__":
 
     dateStr = dateStr()
     
-    outFolder = "ergebnisse/exp" + dateStr 
+    outFolder = "outputPrograms/exp" + dateStr 
     try: 
         os.mkdir(outFolder) 
     except OSError as error: 
@@ -73,53 +83,43 @@ if __name__ == "__main__":
 
     depth = 0
     max_trye = 0
-    while depth < 10 and max_trye < 100:
+    program_version = 0
+    
+    possibleProgramList = generator.programAppender("".join(valid_program))
 
 
-        invalid_program = generator.programAppender("".join(valid_program))
-        ##entfernen der letzten zeile des Programms 
-        invalid_program = invalid_program[0: invalid_program.rfind('\n')]
-
-        #invalid_program = prompts[0] 
-        """
-import numpy as np
-if __name__ == "__main__":
-    print(1+1)
-        """
-
-        print ("INPUT PROGRAM #########################################################################")
-        print (invalid_program)
-        print ("INPUT PROGRAM END #########################################################################")
-
-        ret_val = None
-        import subprocess
-        import os
-        try:
-            #ret_val = programTester.testProgram(invalid_program)
-            with open('tmp.py', 'w') as f:
-                f.write(invalid_program)
-            #execstring = 
-            os.system("chmod +x tmp.py")
-            retClass = subprocess.Popen(["python3", "tmp.py"])
-            retClass.wait(5)
-            ret_val = retClass.returncode
-            print("> %s"%(ret_val))
-        except Exception as e:
-            print("fail to execute program %s"%(e))
-
-        if (ret_val == 0 and not ("\"\"\"" in invalid_program)): 
-            depth += 1
-            valid_program = invalid_program
-
-        max_trye += 1
-        print("retval",ret_val, "depth", depth,"max_trye", max_trye)
-
-    i = 0
-
-    f = open(outFolder + "/" + str(i) + ".py", "w")
-    f.write("".join(valid_program))
-    f.close()
+    program_tree = Tree()
+    program_tree.create_node("0",data=[valid_program,programEvaluator.ProgramEvaluator()])
 
 
 
 
+    for programs in possibleProgramList:
+
+
+        while depth < 10 and max_trye < 100:
+
+
+            invalid_program = ""
+            ##entfernen der letzten zeile des Programms da diese meist unvollständig sind
+            invalid_program = invalid_program[0: invalid_program.rfind('\n')]
+
+            #invalid_program = prompts[0] 
+            print ("INPUT PROGRAM #########################################################################")
+            print (invalid_program)
+            print ("INPUT PROGRAM END #########################################################################")
+            evaluator = programEvaluator.ProgramEvaluator()
+
+            stats = evaluator.evaluateProgram(invalid_program)
+
+            if ( stats.executable == True and not ("\"\"\"" in invalid_program)): 
+                depth += 1
+                valid_program = invalid_program
+                f = open(outFolder + "/" + str(program_version) + ".py", "w")
+                f.write("".join(valid_program))
+                f.close()
+
+            max_trye += 1
+            print("retval", stats.executable, "depth", depth,"max_trye", max_trye)
+
+    print ("FIN.")      
