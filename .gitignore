@@ -1,9 +1,15 @@
-!resultPrograms
-resultPrograms/*
+#Program
+
+!outputPrograms
+outputPrograms/*
+!outputPrograms/dummy.file
 
 !inputPrograms
 inputPrograms/*
 !inputPrograms/main.py
+
+tf
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

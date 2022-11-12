@@ -9,6 +9,9 @@ import time
 import random
 
 
+
+
+
 def dateStr():
 
     from datetime import datetime
@@ -23,6 +26,16 @@ def dateStr():
     return dt_string  
 
 
+#class ProgramNode:
+#    def __init__(self,programGenerationID:int, parent:ProgramNode, programText:str ,programStats:ProgramStats ):
+#        self.parent = parent
+#        self.programStats = programStats
+#        self.programGenerationID = programGenerationID
+#        self.programText = programText
+    
+
+    
+    
 class ProgramGenerator:
     #class to extend a given program using a transformer model 
     def __init__(self) -> None:
@@ -37,25 +50,29 @@ class ProgramGenerator:
     #appends new lines to the Program 
     def programAppender (self, inputProgramStr):
         input_ids = self.tokenizer.encode(inputProgramStr, add_special_tokens=False, return_tensors='pt')
-        outputs = self.model.generate(input_ids=input_ids, max_length=64 + len(inputProgramStr),
-        temperature=1.0,
-        top_k=50,
-        top_p=0.95,
-        repetition_penalty=2.0,
-        do_sample=True,
-        num_return_sequences=50,
-        length_penalty=2.0,
-        early_stopping=True)
-        #bitte mal testen was an outputs[1...n] steht
+        outputs = self.model.generate(
+            input_ids=input_ids, 
+            max_length=64 + len(inputProgramStr),
+            temperature=0.75,
+            top_k=20,
+            top_p=0.95,
+            repetition_penalty=2.0,
+            do_sample=True,
+            num_return_sequences=100,
+            length_penalty=2.0,
+            early_stopping=True
+        )
+        #outputs[1...n] sind die verschiedenen vektoren 
         decoded =[] 
         print("outputs:", outputs)
         for i,p in enumerate(outputs):
             decstr = ""
-            decstr = ( self.tokenizer.decode(outputs[0], skip_special_tokens=True))
+            decstr = ( self.tokenizer.decode(outputs[i], skip_special_tokens=True))
             decstr = decstr.replace("<EOS><BOS>","\n")
             decstr = decstr.replace("<BOS>","\n")
             decstr = decstr.replace("<EOS>","\n")
             decoded.append(decstr)
+        print(decoded)
         return decoded
 
 
@@ -69,32 +86,65 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
     #the transformer to generate programs     
     generator  =  ProgramGenerator()
 
+   
+    
     while True:
-        program_to_be_extendet = queue_source.get()
 
+        #take a node from the data and extract the program data from the node 
+        program_dict =  queue_source.get()
+        program_to_be_extendet = program_dict ["program"]
+        program_to_be_extendet_ID = program_dict ["index"]
         extendet_programs = generator.programAppender(program_to_be_extendet)
-
+        i = 0
         for p in extendet_programs:
-            queue_destination.put(p)
+            ##entfernen der letzten zeile des Programms da diese meist unvollständig sind
+            p = p[0: p.rfind('\n')]
 
+            #p="""print("HALLOOOOO")"""
+            
+            prog = {
+                "index" : str(program_to_be_extendet_ID) + "." + str(i),
+                "program" : p
+            }
+
+            queue_destination.put(prog)
+            i += 1
 
 def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
-    program_to_be_evaluated = None
-    #evaluator init
     evaluator = programEvaluator.ProgramEvaluator()
 
+    #output folder
+    dateStrS = dateStr()
+    
+    outFolder = "outputPrograms/exp" + dateStrS 
+    try: 
+        os.mkdir(outFolder) 
+    except OSError as error: 
+        print(error)  
+
+    program_tree = Tree()
+
+    i:int = 0
     while True:
-        program_to_be_evaluated = queue_source.get()
+        program_dict = queue_source.get()
+
+        print(type(program_dict))
+        
+        program_to_be_evaluated = program_dict["program"]
+        program_to_be_evaluated_ID = program_dict["index"]
         evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
         print(evaluation)
         if (evaluation.executable):
             queue_destination.put(program_to_be_evaluated)
             print(program_to_be_evaluated)
+ 
+            program_version=  program_to_be_evaluated_ID
+            f = open(outFolder + "/" + str(program_version) + ".py", "w")
+            f.write(program_to_be_evaluated)
+            f.close()
 
-
-
-
+        i+=1 
 
 
 
@@ -103,10 +153,6 @@ if __name__ == "__main__":
     print ("instanciating two Queues")
     queue_program_expansion = Queue()
     queue_program_evaluation = Queue()
-
-    print ("instanciating two Locks")
-    lock_expansion = Lock()
-    lock_evaluation = Lock()
 
     #setup  transformer
     os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
@@ -119,16 +165,12 @@ if __name__ == "__main__":
         with open(os.path.join(os.getcwd() + inFolder, filename), 'r') as f:
             prompts.append(f.read())
 
-    dateStr = dateStr()
-    
-    outFolder = "outputPrograms/exp" + dateStr 
-    try: 
-        os.mkdir(outFolder) 
-    except OSError as error: 
-        print(error)  
-
-    for p in prompts:
-        queue_program_expansion.put(p)
+    for i,p in enumerate (prompts):
+        program = {
+            "index": str(i),
+            "program" : str(p)
+        }
+        queue_program_expansion.put(program)
 
     process_expansion = Process(target=program_expander, args=(queue_program_expansion,queue_program_evaluation))
     process_evaluation = Process(target=program_evaluator, args=(queue_program_evaluation,queue_program_expansion))
@@ -219,3 +261,5 @@ if __name__ == "__main__":
             print("retval", stats.executable, "depth", depth,"max_trye", max_trye)
 
     print ("FIN.")      
+
+# %%
