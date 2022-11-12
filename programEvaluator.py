@@ -13,7 +13,7 @@ class ProgramEvaluator:
     def evaluateProgram(self,s) -> programStats.ProgramStats:
         stats = programStats.ProgramStats()
         stats.returnValue = self._program_exec(s)
-        print("------------------> " ,stats.returnValue )
+        #print("------------------> " ,stats.returnValue )
         if (stats.returnValue == 0):
             stats.executable = True
         else:
@@ -30,14 +30,14 @@ class ProgramEvaluator:
             os.system("chmod +x tmp.py")
             retClass = subprocess.Popen(["python3", "tmp.py"])
             retClass.wait(5)
-            print(retClass)
+            #print(retClass)
             ret_val = retClass.returncode
-            print(ret_val)
+            #print(ret_val)
             if(ret_val == None):
                 return (0)
             return(ret_val)
         except Exception as e:
-            print(e)
+            #print(e)
             return(-999)
 
 if __name__ == "__main__":

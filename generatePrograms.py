@@ -64,7 +64,7 @@ class ProgramGenerator:
         )
         #outputs[1...n] sind die verschiedenen vektoren 
         decoded =[] 
-        print("outputs:", outputs)
+        #print("outputs:", outputs)
         for i,p in enumerate(outputs):
             decstr = ""
             decstr = ( self.tokenizer.decode(outputs[i], skip_special_tokens=True))
@@ -72,7 +72,7 @@ class ProgramGenerator:
             decstr = decstr.replace("<BOS>","\n")
             decstr = decstr.replace("<EOS>","\n")
             decoded.append(decstr)
-        print(decoded)
+        #print(decoded)
         return decoded
 
 
@@ -107,6 +107,8 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
                 "program" : p
             }
 
+
+
             queue_destination.put(prog)
             i += 1
 
@@ -125,19 +127,20 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
     program_tree = Tree()
 
+    #zur überprüfung von duplikaten der programme
+    program_hash_set = set()
+
     i:int = 0
     while True:
-        program_dict = queue_source.get()
-
-        print(type(program_dict))
-        
+        program_dict = queue_source.get()        
         program_to_be_evaluated = program_dict["program"]
         program_to_be_evaluated_ID = program_dict["index"]
         evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
-        print(evaluation)
-        if (evaluation.executable):
-            queue_destination.put(program_to_be_evaluated)
-            print(program_to_be_evaluated)
+        print("evaluating:", program_to_be_evaluated_ID, "executable?:" , evaluation.executable )
+        if (evaluation.executable and hash(program_to_be_evaluated) not in program_hash_set ):
+            queue_destination.put(program_dict)
+            #verhindere programme die schon exestieren füge hash set hinzu
+            program_hash_set.add(hash(program_to_be_evaluated))
  
             program_version=  program_to_be_evaluated_ID
             f = open(outFolder + "/" + str(program_version) + ".py", "w")
