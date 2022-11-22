@@ -7,6 +7,7 @@ from treelib import Tree, Node
 from multiprocessing import Process, Queue, Lock
 import time 
 import random
+import pdb #debugger
 
 
 
@@ -52,7 +53,7 @@ class ProgramGenerator:
         input_ids = self.tokenizer.encode(inputProgramStr, add_special_tokens=False, return_tensors='pt')
         outputs = self.model.generate(
             input_ids=input_ids, 
-            max_length=64 + len(inputProgramStr),
+            #max_length=64 + len(inputProgramStr), #keine maximahle länge
             temperature=0.75,
             top_k=20,
             top_p=0.95,
@@ -89,14 +90,42 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
    
     
     while True:
-
         #take a node from the data and extract the program data from the node 
         program_dict =  queue_source.get()
         program_to_be_extendet = program_dict ["program"]
         program_to_be_extendet_ID = program_dict ["index"]
-        extendet_programs = generator.programAppender(program_to_be_extendet)
+        #exeption can occurre when the iput vector is to long
+        #kürze input bis es nichtmehr failt
+        try:
+            extended_programs = generator.programAppender(program_to_be_extendet)
+        except:
+            fail=True #für dens ersten durchlauf
+            program_head_list = [] #das was abgespalten wird
+            program_tail =""
+            #versuche solange eine programmerweiterung bis es klappt
+            while(fail):
+                fail = False
+                print("transformer crash:", program_to_be_extendet_ID , "shortening program")
+                #input to long remove first
+                # line your_string.split('\n')[2:]
+                #aufspalten in liste aus zeilen
+                splited=extended_programs.split("\n",1)
+                extended_programs=splited[1]
+                #entfernen des ersten listenelements
+                program_head_list.append(splited[0])
+                #rest für generator
+                program_to_be_extendet = splited[1]
+                #
+                try:
+                    program_tail = generator.programAppender(program_to_be_extendet)
+                except:
+                    pass
+            extended_programs = "\n".join(program_head_list)
+            extended_programs += program_tail
+            breakpoint()
+            
         i = 0
-        for p in extendet_programs:
+        for p in extended_programs:
             ##entfernen der letzten zeile des Programms da diese meist unvollständig sind
             p = p[0: p.rfind('\n')]
 
@@ -106,12 +135,9 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
                 "index" : str(program_to_be_extendet_ID) + "." + str(i),
                 "program" : p
             }
-
-
-
             queue_destination.put(prog)
             i += 1
-
+        
 def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
     evaluator = programEvaluator.ProgramEvaluator()
@@ -186,15 +212,7 @@ if __name__ == "__main__":
 
 
 
-
-
-
-
-
-
-
-
-
+#OLD CODE
 
 if __name__ == "__main__":
 
