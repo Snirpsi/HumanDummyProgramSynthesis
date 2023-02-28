@@ -1,7 +1,7 @@
 pip install protobuf==3.20.*
 pip install protobuf==3.9.2
 pip install protobuf==3.12.2
-
+pip install numba
 
 pip install tensorflow
 pip install tensorflow-gpu

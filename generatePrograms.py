@@ -9,6 +9,8 @@ import time
 import random
 import pdb #debugger
 
+from numba import jit, cuda
+
 
 
 
