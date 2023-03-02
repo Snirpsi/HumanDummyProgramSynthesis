@@ -5,12 +5,16 @@ from asyncio import subprocess
 from treelib import Tree, Node
 
 from multiprocessing import Process, Queue, Lock
+from queue import LifoQueue
+from multiprocessing.managers import BaseManager
+
 import time 
 import random
 import pdb #debugger
 
 from numba import jit, cuda
 
+import program_cleaner 
 
 
 
@@ -63,7 +67,7 @@ class ProgramGenerator:
             do_sample=True,
             num_return_sequences=100,
             length_penalty=2.0,
-            early_stopping=True
+            early_stopping=False
         )
         #outputs[1...n] sind die verschiedenen vektoren 
         decoded =[] 
@@ -109,7 +113,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
                 fail = False
                 print("transformer crash:", program_to_be_extendet_ID , "shortening program")
                 #input to long remove first
-                # line your_string.split('\n')[2:]
+                #line your_string.split('\n')[2:]
                 #aufspalten in liste aus zeilen
                 splited=extended_programs.split("\n",1)
                 extended_programs=splited[1]
@@ -125,19 +129,24 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
             extended_programs = "\n".join(program_head_list)
             extended_programs += program_tail
             breakpoint()
-            
+        
+
         i = 0
         for p in extended_programs:
             ##entfernen der letzten zeile des Programms da diese meist unvollständig sind
             p = p[0: p.rfind('\n')]
-
+            #entfernen von unnötigen leerzeichen
+            p = program_cleaner.clean_code(p)
             #p="""print("HALLOOOOO")"""
             
             prog = {
                 "index" : str(program_to_be_extendet_ID) + "." + str(i),
                 "program" : p
             }
+            #fügt valides Programm am ende der queue an 
             queue_destination.put(prog)
+            #fügt valides programm am anfang der zeile an 
+            #queue_destination.insert(0,prog)
             i += 1
         
 def program_evaluator(queue_source:Queue, queue_destination:Queue):
@@ -166,6 +175,7 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
         evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
         print("evaluating:", program_to_be_evaluated_ID, "executable?:" , evaluation.executable )
         if (evaluation.executable and hash(program_to_be_evaluated) not in program_hash_set ):
+            # füge programm in queue ein 
             queue_destination.put(program_dict)
             #verhindere programme die schon exestieren füge hash set hinzu
             program_hash_set.add(hash(program_to_be_evaluated))
@@ -179,11 +189,25 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
 
 
+# create manager that knows how to create and manage LifoQueues
+class QueueManager(BaseManager):
+    pass
+QueueManager.register('LifoQueue', LifoQueue)
+
+
 
 if __name__ == "__main__":
+
+    print ("Instanciate QUEUE manager")
+    manager = QueueManager()
+    manager.start()
+
+
     print ("instanciating two Queues")
-    queue_program_expansion = Queue()
-    queue_program_evaluation = Queue()
+    #für Breitensuche Queue()
+    #für Tiefensuche manager.LifoQueue() 
+    queue_program_expansion = manager.LifoQueue()#Queue()
+    queue_program_evaluation = manager.LifoQueue()#Queue()
 
     #setup  transformer
     os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
