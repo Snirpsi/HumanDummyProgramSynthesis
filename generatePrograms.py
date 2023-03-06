@@ -42,7 +42,6 @@ def dateStr():
     
 
     
-    
 class ProgramGenerator:
     #class to extend a given program using a transformer model 
     def __init__(self) -> None:
@@ -63,10 +62,10 @@ class ProgramGenerator:
             temperature=0.75,
             top_k=20,
             top_p=0.95,
-            repetition_penalty=2.0,
+            repetition_penalty=20.0,
             do_sample=True,
-            num_return_sequences=100,
-            length_penalty=2.0,
+            num_return_sequences=500, # anzahl der sequenzen die zurückkommen 
+            length_penalty=1000, 
             early_stopping=False
         )
         #outputs[1...n] sind die verschiedenen vektoren 
@@ -134,7 +133,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
         i = 0
         for p in extended_programs:
             ##entfernen der letzten zeile des Programms da diese meist unvollständig sind
-            p = p[0: p.rfind('\n')]
+            #p = p[0: p.rfind('\n')]
             #entfernen von unnötigen leerzeichen
             p = program_cleaner.clean_code(p)
             #p="""print("HALLOOOOO")"""
@@ -149,6 +148,15 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
             #queue_destination.insert(0,prog)
             i += 1
         
+def remove_lines_below_error(program_string, error_line):
+    """
+    Removes all lines below the given error line number in the specified Python program string.
+    """
+    lines = program_string.splitlines()
+    lines = lines[:error_line-1]
+    return '\n'.join(lines)
+
+
 def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
     evaluator = programEvaluator.ProgramEvaluator()
@@ -173,9 +181,22 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
         program_to_be_evaluated = program_dict["program"]
         program_to_be_evaluated_ID = program_dict["index"]
         evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
-        print("evaluating:", program_to_be_evaluated_ID, "executable?:" , evaluation.executable )
+        #print("evaluating:", program_to_be_evaluated_ID, "executable?:" , evaluation.executable )
+        print("Evaluation:\n"+ str(program_to_be_evaluated_ID)+ ":\n" +str(evaluation))
+        if(evaluation.error_line != -1): # sind syntaxfehler vorhanden ?
+            #entferne die entsprechenden codezeilen darunter
+            program_to_be_evaluated = remove_lines_below_error(program_to_be_evaluated,evaluation.error_line)
+            # second chance
+            
+            evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
+            print("Second Evaluation:\n"+ str(program_to_be_evaluated_ID)+ ":\n" +str(evaluation))
+            pass
+
+
+
         if (evaluation.executable and hash(program_to_be_evaluated) not in program_hash_set ):
             # füge programm in queue ein 
+            print("Insert: "+ str(program_to_be_evaluated_ID) )
             queue_destination.put(program_dict)
             #verhindere programme die schon exestieren füge hash set hinzu
             program_hash_set.add(hash(program_to_be_evaluated))

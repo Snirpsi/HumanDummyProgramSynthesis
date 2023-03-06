@@ -1,2 +1,3 @@
-import numpy as np
-from scipy import stats, sparse
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
