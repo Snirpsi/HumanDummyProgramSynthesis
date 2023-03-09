@@ -1,11 +1,7 @@
 import os
 import programEvaluator 
-from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 #codebert python 
-from transformers import AutoTokenizer, AutoModelForMaskedLM, AutoModelForCausalLM
-
-
 
 from asyncio import subprocess
 from treelib import Tree, Node
@@ -22,12 +18,14 @@ from numba import jit, cuda
 import torch
 from torch.multiprocessing import Pool, Process, set_start_method
 
-print(torch.cuda.is_available())
 
 
 import program_cleaner 
 
 
+from generator_transformer_model import ProgramGenerator
+
+set_start_method("spawn", force=True)
 
 
 def dateStr():
@@ -44,77 +42,7 @@ def dateStr():
     return dt_string  
 
 
-#class ProgramNode:
-#    def __init__(self,programGenerationID:int, parent:ProgramNode, programText:str ,programStats:ProgramStats ):
-#        self.parent = parent
-#        self.programStats = programStats
-#        self.programGenerationID = programGenerationID
-#        self.programText = programText
-    
-
-    
-class ProgramGenerator:
-    #class to extend a given program using a transformer model 
-    def __init__(self) -> None:
-        #self.tokenizer = GPT2Tokenizer.from_pretrained("microsoft/codebert-base")
-        #self.model = GPT2LMHeadModel.from_pretrained("microsoft/codebert-base")
-        #SIC98/GPT2-python-code-generatorrite(s)
-        #select the model 
-        
-        if torch.cuda.is_available():  
-            dev = "cuda:0" 
-        else:  
-            dev = "cpu"  
-        device = torch.device(dev)  
-        #a = torch.zeros(4,3)    
-        #a = a.to(device)
-        set_start_method('spawn')
-        self.tokenizer = GPT2Tokenizer.from_pretrained("SIC98/GPT2-python-code-generator")
-        #self.tokenizer = GPT2Tokenizer.from_pretrained("SIC98/GPT2-python-code-generator").to(device)
-        self.model = GPT2LMHeadModel.from_pretrained("SIC98/GPT2-python-code-generator")
-        #self.model.to(device)
-        print(torch.cuda.is_available())
-        #'EleutherAI/gpt-neo-2.7B'
-        #self.tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-2.7B")
-        #self.model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-neo-2.7B")
-
-        #neulab/codebert-python
-        #self.tokenizer = AutoTokenizer.from_pretrained("neulab/codebert-python")
-        #self.model = AutoModelForMaskedLM.from_pretrained("neulab/codebert-python")
-        self.prompts = []
-        
-
-    #appends new lines to the Program 
-    def programAppender (self, inputProgramStr):
-        input_ids = self.tokenizer.encode(inputProgramStr, add_special_tokens=False, return_tensors='pt')
-        outputs = self.model.generate(
-            input_ids=input_ids, 
-            max_new_tokens=265,
-            min_length=64,
-            #max_length=64 + len(inputProgramStr), #keine maximahle länge
-            temperature=0.5,
-            top_k=100,
-            top_p=0.90,
-            repetition_penalty=20.0,
-            do_sample=True,
-            num_return_sequences=500, # anzahl der sequenzen die zurückkommen 
-            length_penalty=1000, 
-            early_stopping=False
-        )
-        #outputs[1...n] sind die verschiedenen vektoren 
-        decoded =[] 
-        #print("outputs:", outputs)
-        for i,p in enumerate(outputs):
-            decstr = ""
-            decstr = ( self.tokenizer.decode(outputs[i], skip_special_tokens=True))
-            #decstr = decstr.replace("<EOS><>BOS","\n")
-            #decstr = decstr.replace("<BOS>","\n")
-            #decstr = decstr.replace("<EOS>","\n")
-            decoded.append(decstr)
-        #print(decoded)
-        return decoded
-
-
+generator  =  ProgramGenerator()
 #Producer aka Program expander
 def program_expander (queue_source:Queue, queue_destination:Queue):
     #take one otem from source 
@@ -122,10 +50,8 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
 
     program_to_be_extendet = None
 
-    #the transformer to generate programs     
-    generator  =  ProgramGenerator()
-
-   
+    #the transformer to generate programs
+       
     
     while True:
         #take a node from the data and extract the program data from the node 
@@ -134,10 +60,13 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
         program_to_be_extendet_ID = program_dict ["index"]
         #exeption can occurre when the iput vector is to long
         #kürze input bis es nichtmehr failt
-        extended_programs = "i=1\n" # naja
+        extended_programs = "\n" # naja
         try:
+            time.sleep(5)
             extended_programs = generator.programAppender(program_to_be_extendet)
-        except:
+            
+        except Exception as e: 
+            print(e)
             fail=True #für dens ersten durchlauf
             program_head_list = [] #das was abgespalten wird
             program_tail =""
@@ -161,11 +90,9 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
                     pass
             extended_programs = "\n".join(program_head_list)
             extended_programs += program_tail
-            breakpoint()
-        
+    
 
-        i = 0
-        for p in extended_programs:
+        for i,p in enumerate(extended_programs):
             ##entfernen der letzten zeile des Programms da diese meist unvollständig sind
             #p = p[0: p.rfind('\n')]
             #entfernen von unnötigen leerzeichen
@@ -180,8 +107,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
             queue_destination.put(prog)
             #fügt valides programm am anfang der zeile an 
             #queue_destination.insert(0,prog)
-            i += 1
-        
+            
 def remove_lines_below_error(program_string, error_line):
     """
     Removes all lines below the given error line number in the specified Python program string.
