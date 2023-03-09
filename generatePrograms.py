@@ -1,6 +1,12 @@
 import os
 import programEvaluator 
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
+
+#codebert python 
+from transformers import AutoTokenizer, AutoModelForMaskedLM, AutoModelForCausalLM
+
+
+
 from asyncio import subprocess
 from treelib import Tree, Node
 
@@ -13,6 +19,11 @@ import random
 import pdb #debugger
 
 from numba import jit, cuda
+import torch
+from torch.multiprocessing import Pool, Process, set_start_method
+
+print(torch.cuda.is_available())
+
 
 import program_cleaner 
 
@@ -45,23 +56,45 @@ def dateStr():
 class ProgramGenerator:
     #class to extend a given program using a transformer model 
     def __init__(self) -> None:
-        #tokenizer = GPT2Tokenizer.from_pretrained("microsoft/codebert-base")
-        #model = GPT2LMHeadModel.from_pretrained("microsoft/codebert-base")
+        #self.tokenizer = GPT2Tokenizer.from_pretrained("microsoft/codebert-base")
+        #self.model = GPT2LMHeadModel.from_pretrained("microsoft/codebert-base")
         #SIC98/GPT2-python-code-generatorrite(s)
         #select the model 
+        
+        if torch.cuda.is_available():  
+            dev = "cuda:0" 
+        else:  
+            dev = "cpu"  
+        device = torch.device(dev)  
+        #a = torch.zeros(4,3)    
+        #a = a.to(device)
+        set_start_method('spawn')
         self.tokenizer = GPT2Tokenizer.from_pretrained("SIC98/GPT2-python-code-generator")
+        #self.tokenizer = GPT2Tokenizer.from_pretrained("SIC98/GPT2-python-code-generator").to(device)
         self.model = GPT2LMHeadModel.from_pretrained("SIC98/GPT2-python-code-generator")
+        #self.model.to(device)
+        print(torch.cuda.is_available())
+        #'EleutherAI/gpt-neo-2.7B'
+        #self.tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-2.7B")
+        #self.model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-neo-2.7B")
+
+        #neulab/codebert-python
+        #self.tokenizer = AutoTokenizer.from_pretrained("neulab/codebert-python")
+        #self.model = AutoModelForMaskedLM.from_pretrained("neulab/codebert-python")
         self.prompts = []
+        
 
     #appends new lines to the Program 
     def programAppender (self, inputProgramStr):
         input_ids = self.tokenizer.encode(inputProgramStr, add_special_tokens=False, return_tensors='pt')
         outputs = self.model.generate(
             input_ids=input_ids, 
+            max_new_tokens=265,
+            min_length=64,
             #max_length=64 + len(inputProgramStr), #keine maximahle länge
-            temperature=0.75,
-            top_k=20,
-            top_p=0.95,
+            temperature=0.5,
+            top_k=100,
+            top_p=0.90,
             repetition_penalty=20.0,
             do_sample=True,
             num_return_sequences=500, # anzahl der sequenzen die zurückkommen 
@@ -74,9 +107,9 @@ class ProgramGenerator:
         for i,p in enumerate(outputs):
             decstr = ""
             decstr = ( self.tokenizer.decode(outputs[i], skip_special_tokens=True))
-            decstr = decstr.replace("<EOS><BOS>","\n")
-            decstr = decstr.replace("<BOS>","\n")
-            decstr = decstr.replace("<EOS>","\n")
+            #decstr = decstr.replace("<EOS><>BOS","\n")
+            #decstr = decstr.replace("<BOS>","\n")
+            #decstr = decstr.replace("<EOS>","\n")
             decoded.append(decstr)
         #print(decoded)
         return decoded
@@ -101,6 +134,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
         program_to_be_extendet_ID = program_dict ["index"]
         #exeption can occurre when the iput vector is to long
         #kürze input bis es nichtmehr failt
+        extended_programs = "i=1\n" # naja
         try:
             extended_programs = generator.programAppender(program_to_be_extendet)
         except:
@@ -183,6 +217,7 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
         evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
         #print("evaluating:", program_to_be_evaluated_ID, "executable?:" , evaluation.executable )
         print("Evaluation:\n"+ str(program_to_be_evaluated_ID)+ ":\n" +str(evaluation))
+        print("Code:\n"+ "========START=========\n"+str(program_to_be_evaluated)+"\n"+"========END=========\n")
         if(evaluation.error_line != -1): # sind syntaxfehler vorhanden ?
             #entferne die entsprechenden codezeilen darunter
             program_to_be_evaluated = remove_lines_below_error(program_to_be_evaluated,evaluation.error_line)
@@ -191,8 +226,6 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
             evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
             print("Second Evaluation:\n"+ str(program_to_be_evaluated_ID)+ ":\n" +str(evaluation))
             pass
-
-
 
         if (evaluation.executable and hash(program_to_be_evaluated) not in program_hash_set ):
             # füge programm in queue ein 
@@ -227,8 +260,8 @@ if __name__ == "__main__":
     print ("instanciating two Queues")
     #für Breitensuche Queue()
     #für Tiefensuche manager.LifoQueue() 
-    queue_program_expansion = manager.LifoQueue()#Queue()
-    queue_program_evaluation = manager.LifoQueue()#Queue()
+    queue_program_expansion = Queue() #manager.LifoQueue()#Queue()
+    queue_program_evaluation = Queue() #manager.LifoQueue()#Queue()
 
     #setup  transformer
     os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"

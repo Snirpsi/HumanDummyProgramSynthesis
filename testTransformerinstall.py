@@ -47,6 +47,6 @@ res = generator(
 print(res)
 
 res = generator(
-    "for i in listOne:"
+    "for i in listOne:\n"
 )  # doctest: +SKIP
 print(res)

@@ -11,6 +11,7 @@ def remove_spaces_and_empyt_lines(text):
 
 def clean_code(text):
     text= remove_spaces_and_empyt_lines(text)
+    text+="\n" #add last linebreak
     return text;
 
 if __name__ == "__main__":

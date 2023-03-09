@@ -4,7 +4,7 @@ pip install protobuf==3.12.2
 pip install numba
 
 pip install tensorflow
-pip install tensorflow-gpu
+#pip install tensorflow-gpu
 
 
 pip install transformers
