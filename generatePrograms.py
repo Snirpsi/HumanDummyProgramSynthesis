@@ -40,13 +40,12 @@ def dateStr():
 generator  =  ProgramGenerator()
 #Producer aka Program expander
 def program_expander (queue_source:Queue, queue_destination:Queue):
-    #take one otem from source 
+    #take one item from source 
     os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
     program_to_be_extendet = None
 
     #the transformer to generate programs
-       
     
     while True:
         #take a node from the data and extract the program data from the node 
@@ -111,7 +110,6 @@ def remove_lines_below_error(program_string, error_line):
     lines = program_string.splitlines()
     lines = lines[:error_line-1]
     return '\n'.join(lines)
-
 
 def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
@@ -203,9 +201,10 @@ if __name__ == "__main__":
         }
         queue_program_expansion.put(program)
 
+    #
     process_expansion = Process(target=program_expander, args=(queue_program_expansion,queue_program_evaluation))
     process_evaluation = Process(target=program_evaluator, args=(queue_program_evaluation,queue_program_expansion))
-
+    
     process_expansion.start()
     process_evaluation.start()
 

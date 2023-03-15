@@ -2,6 +2,7 @@ from time import sleep
 import programStats
 import os
 import subprocess
+import py_compile
 
 
 def extract_line_number_from_error(error_string):
@@ -29,7 +30,7 @@ class ProgramEvaluator:
     
     def evaluateProgram(self,s) -> programStats.ProgramStats:
         stats = programStats.ProgramStats()
-        return_dict = self._program_exec(s)
+        return_dict = self._compile(s)#self._program_exec(s)
         stats.returnValue = return_dict["ret_val"]
         stats.error_line = return_dict["error_line"]
         #print("------------------> " ,stats.returnValue )
@@ -39,8 +40,35 @@ class ProgramEvaluator:
             stats.executable = False
         return stats
 
-   
+    def _compile(self,s) -> programStats.ProgramStats:
+        return_dict = {
+            "ret_val" : 0,
+            "error_line" : -1,
+        }
+        try:
+            with open('tmp.py', 'w') as f:
+                f.write(s)
+                
+            try:
+                py_compile.compile("tmp.py")
+            except (SyntaxError, IndentationError) as err:
+                print("err:",err)
+                print("err_dec:",err.decode('utf-8'))
+                
+                error_line = extract_line_number_from_error(err.decode('utf-8'))
+                if (error_line):
+                    return_dict["error_line"] = error_line
 
+            pass
+            
+        except Exception as e:
+            print(e)
+            return_dict["ret_val"]=-999
+            return(return_dict)
+            
+                
+            
+        
     def _program_exec(self,s):
         #eventuell hier art der exeption unterscheiden...
         return_dict = {
