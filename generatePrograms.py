@@ -13,19 +13,14 @@ from multiprocessing.managers import BaseManager
 import time 
 import random
 import pdb #debugger
-
-from numba import jit, cuda
-import torch
-from torch.multiprocessing import Pool, Process, set_start_method
-
-
+import traceback
 
 import program_cleaner 
-
-
+#os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+#os.environ["CUDA_VISIBLE_DEVICES"]="0"
 from generator_transformer_model import ProgramGenerator
 
-set_start_method("spawn", force=True)
+#set_start_method("spawn", force=True)
 
 
 def dateStr():
@@ -62,11 +57,12 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
         #kürze input bis es nichtmehr failt
         extended_programs = "\n" # naja
         try:
-            time.sleep(5)
             extended_programs = generator.programAppender(program_to_be_extendet)
             
         except Exception as e: 
             print(e)
+            traceback.print_exc()
+            print("=============")
             fail=True #für dens ersten durchlauf
             program_head_list = [] #das was abgespalten wird
             program_tail =""
@@ -90,7 +86,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
                     pass
             extended_programs = "\n".join(program_head_list)
             extended_programs += program_tail
-    
+
 
         for i,p in enumerate(extended_programs):
             ##entfernen der letzten zeile des Programms da diese meist unvollständig sind
@@ -219,7 +215,7 @@ if __name__ == "__main__":
 
 
 #OLD CODE
-
+"""
 if __name__ == "__main__":
 
     print("Hi")
@@ -243,7 +239,7 @@ if __name__ == "__main__":
         print(error)  
 
     #the transformer to generate programs     
-    generator  =  ProgramGenerator()
+    #generator  =  ProgramGenerator()
     valid_program = prompts[0]
 
     depth = 0
@@ -290,3 +286,4 @@ if __name__ == "__main__":
     print ("FIN.")      
 
 # %%
+"""
