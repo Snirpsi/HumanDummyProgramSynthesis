@@ -1,8 +1,8 @@
 ##os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 ##os.environ["CUDA_VISIBLE_DEVICES"]="1"
-import gc
-import sys
-import time
+#import gc
+#import sys
+#import time
 #from numba import jit, cuda
 #import torch
 #from torch.multiprocessing import Pool, Process, set_start_method
@@ -50,7 +50,7 @@ class ProgramGenerator:
                     top_p=0.90,
                     repetition_penalty=20.0,
                     do_sample=True,
-                    num_return_sequences=1000, # anzahl der sequenzen die zurückkommen 
+                    num_return_sequences=200, # anzahl der sequenzen die zurückkommen 
                     length_penalty=1000, 
                     early_stopping=False
                 )
@@ -70,3 +70,11 @@ class ProgramGenerator:
             #gc.collect()
             #time.sleep(10)
         return decoded
+    
+if __name__ == "__main__":
+    generator = ProgramGenerator()
+    extended_programs = [ "n=3\n" ]
+    while True: 
+        extended_programs = generator.programAppender([extended_programs[0]])
+        print("\n=======================================\n")
+        print(extended_programs)

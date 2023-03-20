@@ -3,12 +3,12 @@ import programEvaluator
 
 #codebert python 
 
-from asyncio import subprocess
-from treelib import Tree, Node
 
-from multiprocessing import Process, Queue, Lock
-from queue import LifoQueue
-from multiprocessing.managers import BaseManager
+#from treelib import Tree, Node
+from queue import Queue
+#from multiprocessing import Process, Queue, Lock
+#from queue import LifoQueue
+#from multiprocessing.managers import BaseManager
 
 import time 
 import random
@@ -47,7 +47,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
 
     #the transformer to generate programs
     
-    while True:
+    while not queue_source.empty():
         #take a node from the data and extract the program data from the node 
         program_dict =  queue_source.get()
         program_to_be_extendet = program_dict ["program"]
@@ -113,6 +113,7 @@ def remove_lines_below_error(program_string, error_line):
 
 def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
+    print("Evaluation Startet")
     evaluator = programEvaluator.ProgramEvaluator()
 
     #output folder
@@ -124,17 +125,18 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
     except OSError as error: 
         print(error)  
 
-    program_tree = Tree()
+    #program_tree = Tree()
 
     #zur überprüfung von duplikaten der programme
     program_hash_set = set()
 
     i:int = 0
-    while True:
+    while not queue_source.empty():
         program_dict = queue_source.get()        
         program_to_be_evaluated = program_dict["program"]
         program_to_be_evaluated_ID = program_dict["index"]
         evaluation = evaluator.evaluateProgram(program_to_be_evaluated)
+        print(evaluation)
         #print("evaluating:", program_to_be_evaluated_ID, "executable?:" , evaluation.executable )
         print("Evaluation:\n"+ str(program_to_be_evaluated_ID)+ ":\n" +str(evaluation))
         print("Code:\n"+ "========START=========\n"+str(program_to_be_evaluated)+"\n"+"========END=========\n")
@@ -154,7 +156,7 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
             #verhindere programme die schon exestieren füge hash set hinzu
             program_hash_set.add(hash(program_to_be_evaluated))
  
-            program_version=  program_to_be_evaluated_ID
+            program_version =  program_to_be_evaluated_ID
             f = open(outFolder + "/" + str(program_version) + ".py", "w")
             f.write(program_to_be_evaluated)
             f.close()
@@ -164,17 +166,17 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
 
 # create manager that knows how to create and manage LifoQueues
-class QueueManager(BaseManager):
-    pass
-QueueManager.register('LifoQueue', LifoQueue)
+#class QueueManager(BaseManager):
+#    pass
+#QueueManager.register('LifoQueue', LifoQueue)
 
 
 
 if __name__ == "__main__":
 
     print ("Instanciate QUEUE manager")
-    manager = QueueManager()
-    manager.start()
+    #manager = QueueManager()
+    #manager.start()
 
 
     print ("instanciating two Queues")
@@ -204,13 +206,16 @@ if __name__ == "__main__":
     count_max_generator_iterations = 10000; # maximum depth of the search "Tree"
     iter_count = 0 
     while(iter_count < count_max_generator_iterations):
+        print("Start Generator")
         while (not queue_program_expansion.empty()):
             program_expander(queue_program_expansion,queue_program_evaluation)
-            
+        print("Start Evaluator")
         while (not queue_program_evaluation.empty()):
             program_evaluator(queue_program_evaluation,queue_program_expansion)
+            print("eval_loop")
+        print("End Eval")
         iter_count = iter_count + 1
-       
+
 
 #OLD CODE
 """
