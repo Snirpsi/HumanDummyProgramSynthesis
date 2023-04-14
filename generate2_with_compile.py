@@ -50,6 +50,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
     while not queue_source.empty():
         #take a node from the data and extract the program data from the node 
         program_dict =  queue_source.get()
+        print("len source queue", queue_source.qsize())
         program_to_be_extendet = program_dict ["program"]
         program_to_be_extendet_ID = program_dict ["index"]
         #exeption can occurre when the iput vector is to long
@@ -99,7 +100,9 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
                 "program" : p
             }
             #fügt valides Programm am ende der queue an 
+            print("Insert Program ")
             queue_destination.put(prog)
+            print("len destQueue:", queue_destination.qsize())
             #fügt valides programm am anfang der zeile an 
             #queue_destination.insert(0,prog)
             
@@ -206,6 +209,9 @@ if __name__ == "__main__":
     count_max_generator_iterations = 10000; # maximum depth of the search "Tree"
     iter_count = 0 
     while(iter_count < count_max_generator_iterations):
+        
+        print("Iteration!" , iter_count)
+        
         print("Start Generator")
         while (not queue_program_expansion.empty()):
             program_expander(queue_program_expansion,queue_program_evaluation)
