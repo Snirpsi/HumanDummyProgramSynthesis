@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A function that stores words. """    
+    
+    words.append(raw_input('Enter a word: '))
+    
+    words = ' '.join(words)
+    
+    print words
+<|/ file |>

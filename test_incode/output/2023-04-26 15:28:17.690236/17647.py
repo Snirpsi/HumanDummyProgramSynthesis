@@ -1,0 +1,50 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that stores a list of numbers. """    
+    numbers = []
+    while True:
+        number = int(input('Enter a number: '))
+        if number == -1:
+            break
+        numbers.append(number)
+    print('The numbers are:')
+    for number in numbers:
+        print(number)
+    print('\nThe average of the numbers is ', sum(numbers) / len(numbers))
+    print('The median of the numbers is ', sorted(numbers)[len(numbers)//2])
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(numbers)/len(numbers))
+    print('The mode of the numbers is ', max(numbers))
+    print('The mode of the numbers is ', min(numbers))
+    print('The mode of the numbers is ', sum(

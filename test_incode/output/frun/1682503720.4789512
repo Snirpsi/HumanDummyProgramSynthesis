@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    fruits = Fruits(['apple', 'banana', 'orange'])
+    """ A array that converts fruits. """    
+    
+    
+    
+<|/ file |>

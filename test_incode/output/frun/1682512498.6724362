@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    """ A programm that converts words. """    
+    import sys
+    
+    words = sys.argv[1:]
+    
+    for word in words:
+        convert(word)
+<|/ file |>

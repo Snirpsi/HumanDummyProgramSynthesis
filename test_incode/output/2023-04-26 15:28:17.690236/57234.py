@@ -1,0 +1,41 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that opens a list of words. """    
+    while True:
+        words = []
+        with open('words.txt', 'r') as f:
+            words = f.readlines()
+        words = [word.strip() for word in words]
+        words = [word.lower() for word in words]
+        words = [word for word in words if word.isalpha()]
+        words = [word for word in words if len(word) > 2]
+        words = [word for word in words if len(word) > 1]
+        words = [word for word in words if len(word) > 0]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS and word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWORDS]
+        words = [word for word in words if word not in STOPWOR

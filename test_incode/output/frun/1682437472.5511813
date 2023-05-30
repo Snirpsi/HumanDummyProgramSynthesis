@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    import sys
+    """ A programm that converts a list of words. """    
+    wordlist = sys.argv[1:]
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(filter(None, wordlist))
+    wordlist = list(
+<|/ file |>

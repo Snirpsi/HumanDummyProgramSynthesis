@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    wordlist = openwordlist('wordlist.txt')
+    """ A function that opens a list of words. """    
+    wordlist = openwordlist('wordlist.txt')
+    
+    
+    
+<|/ file |>

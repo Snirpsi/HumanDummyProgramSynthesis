@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    """ A list that opens words. """    
+    words = []
+    
+    words.append(Word('word'))
+    words.append(Word('word'))
+    words.append(Word('word'))
+    
+    for word in words:
+        print word.word
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A function that enumerates a list of words. """    
+    words = [w for w in words]
+    words.sort()
+    return words
+<|/ file |>

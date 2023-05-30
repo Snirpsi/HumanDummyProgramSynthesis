@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    ports = Ports()
+    """ A list that converts a port. """    
+    ports.ports = [int(p) for p in sys.argv[1:]]
+    ports.run()
+<|/ file |>

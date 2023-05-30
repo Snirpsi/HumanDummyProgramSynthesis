@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    ports = PortMap()
+    ports.port('8080')
+    ports.port('8081')
+    ports.port('8082')
+    ports.port('8083')
+    ports.port('8084')
+    ports.port('8085')
+    ports.port('8086')
+    ports.port('8087')
+    ports.port('8088')
+    ports.port('8089')
+    ports.port('8090')
+    ports.port('8091')
+    ports.port('8092')
+    ports.port('
+    """ A hash map that returns a port. """    
+    return ports
+<|/ file |>

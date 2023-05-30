@@ -1,0 +1,67 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that enumerates fruits or converts fruits. """    
+    
+    fruit = input("Enter a fruit: ")
+    
+    if fruit == "apple":
+        print("The fruit is apple")
+    elif fruit == "orange":
+        print("The fruit is orange")
+    elif fruit == "banana":
+        print("The fruit is banana")
+    elif fruit == "cherry":
+        print("The fruit is cherry")
+    elif fruit == "grape":
+        print("The fruit is grape")
+    elif fruit == "kiwi":
+        print("The fruit is kiwi")
+    elif fruit == "watermelon":
+        print("The fruit is watermelon")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango":
+        print("The fruit is mango")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango":
+        print("The fruit is mango")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango":
+        print("The fruit is mango")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango":
+        print("The fruit is mango")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango":
+        print("The fruit is mango")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango":
+        print("The fruit is mango")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango":
+        print("The fruit is mango")
+    elif fruit == "lemon":
+        print("The fruit is lemon")
+    elif fruit == "pineapple":
+        print("The fruit is pineapple")
+    elif fruit == "mango

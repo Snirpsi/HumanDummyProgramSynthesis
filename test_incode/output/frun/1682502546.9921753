@@ -1,0 +1,27 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.eat()
+    fruit.
+    """ A array that removes fruits. """    
+    
+    
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    import sys
+    
+    wordlist = WordList()
+    """ A list that converts words. """    
+    
+    wordlist.convert(sys.argv[1:])
+<|/ file |>

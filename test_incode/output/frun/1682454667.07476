@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A array that prints a list of words. """    
+    words = wordlist
+    
+    
+    
+<|/ file |>

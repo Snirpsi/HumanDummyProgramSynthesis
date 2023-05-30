@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A hash map that calculates a list of numbers. """    
+    numbers = []
+    for x in range(1, 101):
+        numbers.append(x)
+    return numbers
+<|/ file |>

@@ -1,0 +1,29 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = [ int(i) for i in sys.argv[1:] ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    array = [ i * 2 for i in array ]
+    
+    """ A array that calculates a list of numbers. """    
+    
+    
+<|/ file |>

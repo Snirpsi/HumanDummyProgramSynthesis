@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    wordlist = WordList()
+    """ A list that opens words. """    
+    wordlist.open()
+<|/ file |>

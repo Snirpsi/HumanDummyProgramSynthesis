@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    """ A array that removes numbers. """    
+    array = [int(i) for i in array]
+    return array
+<|/ file |>

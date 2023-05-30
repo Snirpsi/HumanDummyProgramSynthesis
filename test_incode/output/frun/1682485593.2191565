@@ -1,0 +1,34 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that stores a list of words. """    
+    
+    wordlist = list(set(words))
+    
+    wordlist.sort()
+    
+    wordlist.insert(0, "The")
+    
+    wordlist.insert(0, "is")
+    
+    wordlist.insert(0, "a")
+    
+    wordlist.insert(0, "list")
+    
+    wordlist.insert(0, "of")
+    
+    wordlist.insert(0, "words")
+    
+    wordlist.insert(0, "in")
+    
+    wordlist.insert(0, "Python")
+    
+    wordlist.insert(0, ".")
+    
+    wordlist.insert(0, "!")
+    
+    wordlist.insert(0, ".")
+    
+    word
+<|/ file |>

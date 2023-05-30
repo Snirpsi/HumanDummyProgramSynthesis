@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    """ A function that adds a list of words. """    
+    words = ['hello', 'world']
+    words.extend(['python', 'is', 'great'])
+    words.extend(['python', 'is', 'great', 'too'])
+    words.extend(['python', 'is', 'great', 'too', 'too'])
+    words.extend(['python', 'is', 'great', 'too', 'too', 'too'])
+    words.extend(['python', 'is', 'great', 'too', 'too', 'too', 'too'])
+    words.extend(['python', 'is', 'great', 'too', 'too', 'too', 'too', 'too'])
+    words.extend(['python', 'is', 'great', 'too', 'too', 'too', 'too', 'too'])
+    word
+<|/ file |>

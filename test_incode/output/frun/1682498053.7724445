@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    import sys
+    """ A array that converts a list of numbers. """    
+    
+    array = []
+    for x in sys.argv[1:]:
+        array.append(int(x))
+    
+    array.reverse()
+    
+    
+    
+    
+<|/ file |>

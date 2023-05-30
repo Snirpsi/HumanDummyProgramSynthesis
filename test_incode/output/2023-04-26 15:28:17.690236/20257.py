@@ -1,0 +1,50 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that stores words. """    
+    while True:
+        word = input('Enter a word: ')
+        word = word.lower()
+        if word == 'quit':
+            break
+        word = word.split()
+        word = [word.index(i) for i in word]
+        word = [i for i in word if i > 0]
+        word = [i for i in word if i < len(word) - 1]
+        word = [i for i in word if word[i] != '']
+        word = [i for i in word if word[i] != '-']
+        word = [i for i in word if word[i] != '?']
+        word = [i for i in word if word[i] != '!']
+        word = [i for i in word if word[i] != '/']
+        word = [i for i in word if word[i] != '%']
+        word = [i for i in word if word[i] != '$']
+        word = [i for i in word if word[i] != '&']
+        word = [i for i in word if word[i] != '*']
+        word = [i for i in word if word[i] != '(']
+        word = [i for i in word if word[i] != ')']
+        word = [i for i in word if word[i] != '<']
+        word = [i for i in word if word[i] != '>']
+        word = [i for i in word if word[i] != '[']
+        word = [i for i in word if word[i] != ']']
+        word = [i for i in word if word[i] != '{']
+        word = [i for i in word if word[i] != '|']
+        word = [i for i in word if word[i] != '}']
+        word = [i for i in word if word[i] != '~']
+        word = [i for i in word if word[i] != '?']
+        word = [i for i in word if word[i] != '.']
+        word = [i for i in word if word[i] != '?']
+        word = [i for i in word if word[i] != ',']
+        word = [i for i in word if word[i] != ';']
+        word = [i for i in word if word[i] != ':']
+        word = [i for i in word if word[i] != '+']
+        word = [i for i in word if word[i] != '-']
+        word = [i for i in word if word[i] != '*']
+        word = [i for i in word if word[i] != '/']
+        word = [i for i in word if word[i] != '%']
+        word = [i for i in word if word[i] != '$']
+        word = [i for i in word if word[i] != '&']
+        word = [i for i in word if word[i] != '(']
+        word = [i for i in word if word[i] != ')']
+        word = [i for i in word if word[i] != '<']
+        word = [i for i in word if word[i] != '>']
+        word = [i for i in word if word[i] != '[']
+        word = [i for i in word if word[i] 

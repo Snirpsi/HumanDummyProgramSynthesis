@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    """ A hash map that removes a list of words. """    
+    
+    words = ['a', 'b', 'c', 'd', 'e']
+    
+    words_to_remove = ['a', 'c', 'e']
+    
+    words_to_remove = set(words_to_remove)
+    
+    words_to_remove.difference_update(words)
+    
+    print words_to_remove
+<|/ file |>

@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that adds numbers or multiplyes fruits. """    
+    
+    httpd = HTTPServer(('localhost', 8080), Handler)
+    httpd.serve_forever()

@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    import sys
+    words = list_words()
+    """ A programm that returns a list of words. """    
+    
+    
+<|/ file |>

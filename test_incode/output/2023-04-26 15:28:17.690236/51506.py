@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that prints words and multiplyes words. """    
+    
+    words = ['hello', 'world']
+    
+    for word in words:
+        print('

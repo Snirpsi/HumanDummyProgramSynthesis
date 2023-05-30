@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = [ 1, 2, 3, 4, 5 ]
+    
+    enumerate_list = enumerate( array )
+    
+    for index, value in enumerate_list:
+        print index, value
+    
+    
+    
+    """ A array that enumerates a list of numbers. """    
+<|/ file |>

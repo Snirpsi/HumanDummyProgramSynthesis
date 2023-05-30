@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that opens numbers. """    
+    numbers = [int(i) for i in raw_input().split()]
+    numbers.sort()
+    print numbers
+<|/ file |>

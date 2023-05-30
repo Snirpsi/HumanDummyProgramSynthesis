@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    port = getPort()
+    """ A function that calculates a port. """    
+    port = port()
+    
+    
+<|/ file |>

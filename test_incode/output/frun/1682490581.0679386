@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    wordlist = WordList('words.txt')
+    wordlist.printList()
+    """ A list that returns a list of words. """    
+    words = []
+    for word in wordlist.words: 
+        words.append(word)
+    return words
+<|/ file |>

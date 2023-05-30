@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = []
+    """ A array that adds a list of numbers. """    
+    array.append( sys.argv[1] )
+    
+    for arg in sys.argv[2:]:
+        array.append( int(arg) )
+    
+    print array
+<|/ file |>

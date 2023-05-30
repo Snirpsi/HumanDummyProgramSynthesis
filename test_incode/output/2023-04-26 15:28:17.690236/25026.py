@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that stores user input and returns numbers. """    
+    while True:
+        number = int(input('Enter a number: '))
+        print('You entered', number, '

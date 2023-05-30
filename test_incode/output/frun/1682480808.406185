@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    import sys
+    """ A programm that prints a port. """    
+    
+    port = sys.argv[1]
+    
+    
+    
+<|/ file |>

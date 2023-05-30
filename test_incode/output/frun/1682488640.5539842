@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    fruits = calculate_fruits()
+    """ A function that calculates fruits. """    
+    
+    
+<|/ file |>

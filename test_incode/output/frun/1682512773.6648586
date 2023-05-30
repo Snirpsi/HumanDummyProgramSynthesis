@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = range(1,10)
+    """ A function that prints a list of numbers. """    
+    
+    for number in numbers:
+        print number
+<|/ file |>

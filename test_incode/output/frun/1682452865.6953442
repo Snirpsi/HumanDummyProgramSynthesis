@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    ports = PortMap()
+    ports.add_port('tcp://127.0.0.1:12345')
+    ports.add_port('tcp://127.0.0.1:23456')
+    ports.add_port('tcp://127.0.0.1:3456')
+    
+    ports.print_ports()
+    
+    """ A hash map that adds a port. """    
+    
+    
+<|/ file |>

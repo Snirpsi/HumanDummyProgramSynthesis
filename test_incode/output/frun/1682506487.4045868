@@ -1,0 +1,52 @@
+if __name__ == '__main__': 
+    
+    fruits = HashMap()
+    fruits.put('apple', 'banana')
+    fruits.put('orange', 'apple')
+    fruits.put('pear', 'banana')
+    fruits.put('grape', 'apple')
+    
+    fruits.remove('apple')
+    
+    fruits.put('pear', 'grape')
+    
+    fruits.put('orange', 'grape')
+    
+    fruits.remove('orange')
+    
+    fruits.remove('grape')
+    
+    fruits.remove('pear')
+    
+    fruits.remove('apple')
+    
+    
+    """ A hash map that removes fruits. """    
+    
+    fruits = HashMap()
+    fruits.put('apple', 'banana')
+    fruits.put('orange', 'apple')
+    fruits.put('pear', 'banana')
+    fruits.put('grape', 'apple')
+    
+    fruits.remove('apple')
+    
+    fruits.put('pear', 'grape')
+    
+    fruits.remove('orange')
+    
+    fruits.remove('grape')
+    
+    fruits.remove('pear')
+    
+    fruits.remove('apple')
+    
+    
+    
+    
+    
+    
+    
+    
+
+<|/ file |>

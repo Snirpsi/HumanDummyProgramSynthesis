@@ -1,0 +1,25 @@
+if __name__ == '__main__': 
+    
+    words = ['word1', 'word2', 'word3', 'word4']
+    """ A hash map that stores a list of words. """    
+    
+    words = ['word1', 'word2', 'word3', 'word4']
+    
+    wordHash = HashMap(words)
+    
+    wordHash.put('word5', 5)
+    
+    wordHash.put('word6', 6)
+    
+    wordHash.put('word7', 7)
+    
+    wordHash.put('word8', 8)
+    
+    wordHash.put('word9', 9)
+    
+    wordHash.put('word10', 10)
+    
+    wordHash.put('word11', 11)
+    
+    wordHash.put('word12', 
+<|/ file |>

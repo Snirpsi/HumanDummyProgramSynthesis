@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that converts fruits. """    
+    fruits = ['apple', 'orange', 'banana']
+    fruits.sort()
+    print(fruits)
+<|/ file |>

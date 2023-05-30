@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    words = []
+    """ A list that stores words. """    
+    words.append('hello')
+    words.append('world')
+    words.append('!')
+<|/ file |>

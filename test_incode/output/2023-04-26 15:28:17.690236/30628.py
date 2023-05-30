@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that stores words. """    
+    import sys
+    
+    words = []
+    
+    for word in sys.stdin:
+        words.append(word.strip())
+    
+    words.sort()
+    
+    for word in words:
+        print(word)
+        

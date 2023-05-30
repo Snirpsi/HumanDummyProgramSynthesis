@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    wordstore = WordStore()
+    """ A function that stores words. """    
+    wordstore.store()
+<|/ file |>

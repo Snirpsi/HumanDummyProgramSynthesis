@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = [ int(i) for i in sys.argv[1:] ]
+    
+    for n in array:
+        print n
+        
+    
+    """ A array that iterates numbers. """    
+<|/ file |>

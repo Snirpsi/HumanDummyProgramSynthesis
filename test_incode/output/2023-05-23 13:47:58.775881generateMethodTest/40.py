@@ -1,0 +1,111 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    #A minimal webserver that returns user input.
+    import sys
+    import socketserver
+    import cgi
+    import random
+    import re
+    import cgi
+    import cgitb
+    from wsgiref.simple_server import make_server
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import make_server
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from wsgiref.simple_server import WSGIRequestHandler
+    from 

@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    """ A array that calculates fruits. """    
+    fruits = [
+        'apple',
+        'banana',
+        'orange',
+        'pear',
+        'grape',
+        'watermelon'
+    ]
+    
+    fruits_sum = sum(fruits)
+    
+    print(fruits_sum)
+<|/ file |>

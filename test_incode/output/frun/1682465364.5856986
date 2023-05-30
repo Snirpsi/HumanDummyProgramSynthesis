@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    array = []
+    """ A array that iterates numbers. """    
+    
+    for i in xrange(sys.maxint):
+        array.append(i)
+        
+    for i in array:
+        print i
+<|/ file |>

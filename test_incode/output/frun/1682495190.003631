@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    wordlist = WordList()
+    """ A list that calculates a list of words. """    
+    
+    wordlist.calculate()
+    
+    sys.stdout.write('\n'.join('%s: %s' % (word, wordlist[word]) for word in wordlist))
+    
+    
+<|/ file |>

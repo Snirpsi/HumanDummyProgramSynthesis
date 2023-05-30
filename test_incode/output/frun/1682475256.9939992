@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A function that adds numbers. """    
+    numbers = range(1,10)
+    numbers.append(sum(numbers))
+    print(numbers)
+<|/ file |>

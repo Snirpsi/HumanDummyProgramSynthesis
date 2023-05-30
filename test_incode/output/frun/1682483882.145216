@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    arr = Array()
+    
+    for n in arr:
+        print n
+    
+    
+    """ A array that enumerates numbers. """    
+<|/ file |>

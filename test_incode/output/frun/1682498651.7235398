@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    """ A list that adds numbers. """    
+    numbers = range(1,101)
+    numbers.extend([i+1 for i in range(101)])
+    numbers.extend([i+1 for i in range(101,201)])
+    numbers.extend([i+1 for i in range(201,301)])
+    numbers.extend([i+1 for i in range(301,401)])
+    numbers.extend([i+1 for i in range(401,501)])
+    numbers.extend([i+1 for i in range(501,601)])
+    numbers.extend([i+1 for i in range(601,701)])
+    numbers.extend([i+1 for i in range(701,801)])
+    numbers.extend([i+1 for i in range(801,901)])
+    numbers.extend([i+1 for i in range(901,1001)])
+    
+<|/ file |>

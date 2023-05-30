@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    words = ['python', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', '
+    """ A function that adds words. """    
+    
+    words = ['python', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', 'django', '
+<|/ file |>

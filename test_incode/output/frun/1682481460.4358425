@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that adds words. """    
+    words = []
+    words.append(word)
+    return words
+<|/ file |>

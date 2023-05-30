@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    """ A function that converts a list of numbers. """    
+    
+    numbers = [int(i) for i in raw_input().split()]
+    
+    numbers_converted = []
+    
+    for number in numbers:
+        numbers_converted.append(number * 2)
+        
+    print numbers_converted
+<|/ file |>

@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    fruits = enumerate('apple')
+    """ A programm that enumerates fruits. """    
+    
+    fruits = enumerate('apple')
+    
+    for fruit in fruits:
+        print fruit
+<|/ file |>

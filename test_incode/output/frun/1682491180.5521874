@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    fruits()
+    """ A function that prints fruits. """    
+    
+    
+<|/ file |>

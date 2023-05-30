@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    wordlist = Wordlist('words.txt')
+    """ A hash map that calculates words. """    
+    wordlist = Wordlist('words.txt')
+    wordlist.words()
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    import sys
+    wordlist = WordList(sys.argv[1])
+    """ A list that adds a list of words. """    
+    wordlist.add(sys.argv[2])
+<|/ file |>

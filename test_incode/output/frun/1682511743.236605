@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    ports = remove_ports(ports)
+    """ A programm that removes a port. """    
+    
+<|/ file |>

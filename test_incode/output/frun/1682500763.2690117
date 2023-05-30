@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    import sys
+    wordlist = WordList()
+    """ A array that returns a list of words. """    
+    wordlist.wordlist = wordlist.wordlist[1:]
+    wordlist.wordlist = wordlist.wordlist[:1]
+<|/ file |>

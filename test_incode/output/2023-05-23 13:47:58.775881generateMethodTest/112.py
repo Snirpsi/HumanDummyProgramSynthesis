@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+words = ["hello","world","!"]
+if __name__ == '__main__':
+    #A minimal webserver that opens a list of words.
+    #The server will respond with a list of words and a link to the
+    #next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server will also respond with a link to the next page.
+    #The server will also respond with a link to the previous page.
+    #The server 

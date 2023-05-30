@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A hash map that returns words. """    
+    words = {}
+    
+    words = words + word
+    
+    return words
+<|/ file |>

@@ -1,0 +1,34 @@
+if __name__ == '__main__': 
+    """ A array that calculates numbers. """    
+    
+    array = [1,2,3,4,5,6,7,8,9,10]
+    
+    array2 = array.copy()
+    
+    array2[0] = 10
+    
+    array3 = array.copy()
+    
+    array3[0] = 20
+    
+    array4 = array.copy()
+    
+    array4[0] = 10
+    
+    array5 = array.copy()
+    
+    array5[0] = 20
+    
+    array6 = array.copy()
+    
+    array6[0] = 10
+    
+    array7 = array.copy()
+    
+    array7[0] = 20
+    
+    array8 = array.copy()
+    
+    array8[0] = 10
+    
+<|/ file |>

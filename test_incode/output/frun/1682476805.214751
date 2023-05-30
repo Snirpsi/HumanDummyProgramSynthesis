@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'python', 'is', 'cool']
+    
+    wordHash = HashMap(words)
+    """ A hash map that stores a list of words. """    
+    
+    wordHash.put('hello', 'world')
+    wordHash.put('python', 'is')
+    wordHash.put('cool', 'python')
+    
+    print wordHash.get('hello')
+    print wordHash.get('python')
+    print wordHash.get('cool')
+<|/ file |>

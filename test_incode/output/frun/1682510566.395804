@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    
+    fruits = HashMap()
+    """ A hash map that prints fruits. """    
+    fruits.put("apple", "banana")
+    fruits.put("orange", "pear")
+    fruits.put("grape", "pineapple")
+    fruits.put("mango", "grapefruit")
+    fruits.put("grape", "mango")
+    fruits.put("grape", "orange")
+    fruits.put("grape", "apple")
+    fruits.put("grape", "mango")
+    fruits.put("grape", "grapefruit")
+    fruits.put("grape", "grape")
+    fruits.put("grape", "p
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A hash map that prints a list of numbers. """    
+    numbers = range(10)
+    numbers_map = HashMap(numbers)
+    numbers_map.print()
+<|/ file |>

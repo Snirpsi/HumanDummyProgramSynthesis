@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    
+    h = HashMap()
+    h['foo'] = 1
+    h['bar'] = 2
+    
+    print h['foo']
+    print h['bar']
+    
+    
+    """ A hash map that returns a list of numbers. """    
+    
+    h = HashMap()
+    h['foo'] = 1
+    h['bar'] = 2
+    
+    print h.values()
+    
+    
+    
+<|/ file |>

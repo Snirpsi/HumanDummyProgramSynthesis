@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that returns words. """    
+    
+    words = [word for word in words if word.isalpha()]
+    
+    
+    
+    
+<|/ file |>

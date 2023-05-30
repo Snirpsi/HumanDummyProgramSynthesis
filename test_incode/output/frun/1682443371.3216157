@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    
+    words = []
+    
+    for word in words: 
+        words.append(word) 
+        
+    words.sort()
+    
+    
+    
+    
+    """ A hash map that returns a list of words. """    
+    
+    
+    
+    
+<|/ file |>

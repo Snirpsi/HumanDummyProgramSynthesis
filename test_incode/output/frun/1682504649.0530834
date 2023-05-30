@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = []
+    """ A array that adds a list of numbers. """    
+    array.append( sys.argv[1] )
+    array.append( sys.argv[2] )
+    array.append( sys.argv[3] )
+    array.append( sys.argv[4] )
+    array.append( sys.argv[5] )
+    array.append( sys.argv[6] )
+    array.append( sys.argv[7] )
+    array.append( sys.argv[8] )
+    array.append( sys.argv[9] )
+    array.append( sys.argv[10] )
+    array.append( sys.argv[11] )
+    array.append( sys.argv[12] )
+    array.append( sys.argv[13] )
+    array.append( sys.argv[14] )
+    
+<|/ file |>

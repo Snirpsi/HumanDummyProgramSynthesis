@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A function that opens numbers. """    
+    numbers = open()
+    
+if __name__ == '__main__': 
+    numbers = open()
+<|/ file |>

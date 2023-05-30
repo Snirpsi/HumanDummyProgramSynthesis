@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that iterates over user input and adds numbers. """    
+    while True:
+        try:
+            num = input("Enter a number: ")
+            num = float(num)
+            

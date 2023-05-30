@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    wordHashMap()
+    """ A hash map that prints words. """    
+<|/ file |>

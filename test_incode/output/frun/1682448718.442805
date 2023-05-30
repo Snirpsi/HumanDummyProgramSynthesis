@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A function that adds a list of numbers. """    
+    numbers = map(int, raw_input().split())
+    numbers = map(add, numbers)
+    numbers = list(map(str, numbers))
+    print " ".join(numbers)
+<|/ file |>

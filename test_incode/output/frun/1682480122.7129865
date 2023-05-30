@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    """ A list that prints a port. """    
+    ports = Ports()
+    ports.print_ports()
+<|/ file |>

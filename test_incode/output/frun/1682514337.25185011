@@ -1,0 +1,4 @@
+if __name__ == '__main__':
+    """ A endless loop that enumerates numbers. """    
+    for i in looping:
+<|/ file |>

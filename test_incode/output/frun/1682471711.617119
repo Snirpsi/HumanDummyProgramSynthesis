@@ -1,0 +1,48 @@
+if __name__ == '__main__': 
+    
+    wordlist = Wordlist('words.txt')
+    
+    wordlist.words()
+    
+    wordlist.words('hello')
+    
+    wordlist.words('hello', 'world')
+    
+    wordlist.words('hello', 'world', 'hello')
+    
+    wordlist.words('hello', 'world', 'hello', 'world')
+    
+    wordlist.words('hello', 'world', 'hello', 'world', 'hello')
+    
+    wordlist.words('hello', 'world', 'hello', 'world', 'hello', 'world')
+    
+    wordlist.words('hello', 'world', 'hello', 'world', 'hello', '
+    """ A hash map that adds words. """    
+    
+    words = {}
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+<|/ file |>

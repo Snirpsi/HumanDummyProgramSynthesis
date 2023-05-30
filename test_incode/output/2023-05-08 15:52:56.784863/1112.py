@@ -1,0 +1,73 @@
+#!/usr/bin/python3
+ports = [666,8080,80,443,22,3]
+if __name__ == '__main__':
+    #A function that enumerates ports.
+    #The port number is the second argument of the enumerate function.
+    #The port number is the third argument of the enumerate function.
+    #The port number is the fourth argument of the enumerate function.
+    #The port number is the fifth argument of the enumerate function.
+    #The port number is the sixth argument of the enumerate function.
+    #The port number is the seventh argument of the enumerate function.
+    #The port number is the eighth argument of the enumerate function.
+    #The port number is the ninth argument of the enumerate function.
+    #The port number is the tenth argument of the enumerate function.
+    #The port number is the eleventh argument of the enumerate function.
+    #The port number is the twelfth argument of the enumerate function.
+    #The port number is the thirteenth argument of the enumerate function.
+    #The port number is the fourteenth argument of the enumerate function.
+    #The port number is the fifteenth argument of the enumerate function.
+    #The port number is the sixteenth argument of the enumerate function.
+    #The port number is the seventeenth argument of the enumerate function.
+    #The port number is the eighteenth argument of the enumerate function.
+    #The port number is the nineteenth argument of the enumerate function.
+    #The port number is the twenty-first argument of the enumerate function.
+    #The port number is the twenty-second argument of the enumerate function.
+    #The port number is the twenty-third argument of the enumerate function.
+    #The port number is the twenty-fourth argument of the enumerate function.
+    #The port number is the twenty-fifth argument of the enumerate function.
+    #The port number is the twenty-sixth argument of the enumerate function.
+    #The port number is the twenty-seventh argument of the enumerate function.
+    #The port number is the twenty-eighth argument of the enumerate function.
+    #The port number is the twenty-ninth argument of the enumerate function.
+    #The port number is the thirty-first argument of the enumerate function.
+    #The port number is the thirty-second argument of the enumerate function.
+    #The port number is the thirty-third argument of the enumerate function.
+    #The port number is the thirty-fourth argument of the enumerate function.
+    #The port number is the thirty-fifth argument of the enumerate function.
+    #The port number is the thirty-sixth argument of the enumerate function.
+    #The port number is the thirty-seventh argument of the enumerate function.
+    #The port number is the thirty-eighth argument of the enumerate function.
+    #The port number is the thirty-ninth argument of the enumerate function.
+    #The port number is the fourty-first argument of the enumerate function.
+    #The port number is the fourty-second argument of the enumerate function.
+    #The port number is the fourty-third argument of the enumerate function.
+    #The port number is the fourty-fourth argument of the enumerate function.
+    #The port number is the fourty-fifth argument of the enumerate function.
+    #The port number is the fourty-sixth argument of the enumerate function.
+    #The port number is the fourty-seventh argument of the enumerate function.
+    #The port number is the fourty-eighth argument of the enumerate function.
+    #The port number is the fourty-ninth argument of the enumerate function.
+    #The port number is the fifty-first argument of the enumerate function.
+    #The port number is the fifty-second argument of the enumerate function.
+    #The port number is the fifty-third argument of the enumerate function.
+    #The port number is the fifty-fourth argument of the enumerate function.
+    #The port number is the fifty-fifth argument of the enumerate function.
+    #The port number is the fifty-sixth argument of the enumerate function.
+    #The port number is the fifty-seventh argument of the enumerate function.
+    #The port number is the fifty-eighth argument of the enumerate function.
+    #The port number is the fifty-ninth argument of the enumerate function.
+    #The port number is the sixty-first argument of the enumerate function.
+    #The port number is the sixty-second argument of the enumerate function.
+    #The port number is the sixty-third argument of the enumerate function.
+    #The port number is the sixty-fourth argument of the enumerate function.
+    #The port number is the sixty-fifth argument of the enumerate function.
+    #The port number is the sixty-sixth argument of the enumerate function.
+    #The port number is the sixty-seventh argument of the enumerate function.
+    #The port number is the sixty-eighth argument of the enumerate function.
+    #The port number is the sixty-ninth argument of the enumerate function.
+    #The port number is the seventy-first argument of the enumerate function.
+    #The port number is the seventy-second argument of the enumerate function.
+    #The port number is the seventy-third argument of the enumerate function.
+    #The port number is the seventy-fourth argument of the enumerate function.
+    #The 
+

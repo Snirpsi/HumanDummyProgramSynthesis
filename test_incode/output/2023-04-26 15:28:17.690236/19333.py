@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that adds all ports or returns all ports. """    
+    
+    ports = []
+    
+    while True:
+        ports.append(input('Enter a port number: '))
+    
+    print('\n'.join(ports))
+    

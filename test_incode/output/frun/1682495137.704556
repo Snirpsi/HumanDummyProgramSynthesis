@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = list( Words() )
+    
+    
+    
+    """ A list that returns a list of words. """    
+    
+    
+    
+<|/ file |>

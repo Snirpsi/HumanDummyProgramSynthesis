@@ -1,0 +1,56 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that calculates all ports. """    
+    while True:
+        ports = find_ports()
+        for port in ports:
+            port_name = port['port_name']
+            port_type = port['port_type']
+            port_status = port['port_status']
+            port_speed = port['port_speed']
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'
+            port_status = port_status or 'Unknown'
+            port_speed = port_speed or 'Unknown'

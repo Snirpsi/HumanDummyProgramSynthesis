@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    
+    words = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' ]
+    """ A hash map that iterates words. """    
+    
+    words = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' ]
+    
+    wordHash = HashMap()
+    
+    for word in words:
+        wordHash[word] = wordHash.get(word, 0) + 1
+    
+    for word in wordHash:
+        print wordHash[word]
+<|/ file |>

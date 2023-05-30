@@ -1,0 +1,37 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    hashmap.add(1)
+    hashmap.add(2)
+    hashmap.add(3)
+    hashmap.add(4)
+    hashmap.add(5)
+    hashmap.add(6)
+    
+    print hashmap.get(1)
+    print hashmap.get(3)
+    print hashmap.get(4)
+    print hashmap.get(5)
+    print hashmap.get(6)
+    
+    
+    """ A hash map that adds a list of numbers. """    
+    
+    hashmap = HashMap()
+    hashmap.add(1)
+    hashmap.add(2)
+    hashmap.add(3)
+    hashmap.add(4)
+    hashmap.add(5)
+    hashmap.add(6)
+    
+    print hashmap.get(1)
+    print hashmap.get(3)
+    print hashmap.get(4)
+    print hashmap.get(5)
+    print hashmap.get(6)
+    
+    
+    
+    
+<|/ file |>

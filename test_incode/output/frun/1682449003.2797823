@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A programm that prints a list of numbers. """    
+    numbers = [1,2,3,4,5]
+    
+    numbers_as_string = ', '.join(map(str, numbers))
+    
+    print(numbers_as_string)
+<|/ file |>

@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    fruits = Fruits()
+    """ A array that stores fruits. """    
+    fruits.fruits = ['apple', 'banana', 'cherry']
+    fruits.fruits.sort()
+    print(fruits.fruits)
+<|/ file |>

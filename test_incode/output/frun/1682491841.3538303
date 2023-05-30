@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    ports = ports_iter()
+    """ A function that iterates a port. """    
+    ports.next()
+<|/ file |>

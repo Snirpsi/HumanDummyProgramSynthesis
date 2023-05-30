@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    
+    words = ['foo', 'bar', 'baz']
+    
+    word_counts = Counter(words)
+    
+    for word, count in word_counts.iteritems():
+        print word, count
+    
+    
+    
+    
+    """ A hash map that enumerates a list of words. """    
+    
+    word_counts = Counter(words)
+    
+    for word, count in word_counts.iteritems():
+        print word, count
+<|/ file |>

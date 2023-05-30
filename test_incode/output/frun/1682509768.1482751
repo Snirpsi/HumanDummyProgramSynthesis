@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = ['hello', 'world']
+    
+    words.extend(['python', 'is', 'a', 'cool', 'program'])
+    
+    words.extend(['python', 'is', 'a', 'cool', 'program', 'too'])
+    
+    words.extend(['python', 'is', 'a', 'cool', 'program', 'too', 'too'])
+    
+    words.extend(['python', 'is', 'a', 'cool', 'program', 'too', 'too', 'too'])
+    
+    words.extend(['python', 'is', 'a', 'cool', 'program', 'too', 'too', 'too', 'too'])
+    
+    words.extend(['python', 'is', 'a', 'cool', 'program', 'too', 'too', '
+<|/ file |>

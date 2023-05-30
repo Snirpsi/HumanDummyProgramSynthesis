@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    fruits.remove_all()
+    """ A array that removes fruits. """    
+    
+    
+<|/ file |>

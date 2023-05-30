@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that multiplyes all ports. """    
+    ports = range(1,65535)
+    ports2 = [port*2 for port in ports]
+    ports3 = ports2 + [port*3 for port in ports]
+    ports4 = ports2 + [port*4 for port in ports]
+    ports5 = ports2 + [port*5 for port in ports]
+    ports6 = ports2 + [port*6 for port in ports]
+    ports7 = ports2 + [port*7 for port in ports]
+    ports8 = ports2 + [port*8 for port in ports]
+    ports9 = ports2 + [port*9 for port in ports]
+    ports10 = ports2 + [port*10 for port in ports]
+    ports11 = ports2 + [port*11 for port in ports]
+    ports12 = ports2 + [port*12 for port in ports]
+    ports13 = ports2 + [port*13 for port in ports]
+    ports14 = ports2 + [port*14 for port in ports]
+    ports15 = ports2 + [port*15 for port in ports]
+    ports16 = ports2 + [port*16 for port in ports]
+    ports17 = ports2 + [port*17 for port in ports]
+    ports18 = ports2 + [port*18 for port in ports]
+    ports19 = ports2 + [port*19 for port in ports]
+    ports20 = ports2 + [port*20 for port in ports]
+    ports21 = ports2 + [port*21 for port in ports]
+    ports22 = ports2 + [port*22 for port in ports]
+    ports23 = ports2 + [port*23 for port in ports]
+    ports24 = ports2 + [port*24 for port in ports]
+    ports25 = ports2 + [port*25 for port in ports]
+    ports26 = ports2 + [port*26 for port in ports]
+    ports27 = ports2 + [port*27 for port in ports]
+    ports28 = ports2 + [port*28 for port in ports]
+    ports29 = ports2 + [port*29 for port in ports]
+    ports30 = ports2 + [port*30 for port in 

@@ -1,0 +1,43 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = [ int(i) for i in sys.argv[1:] ]
+    
+    arr = [ str(x) for x in arr ]
+    
+    arr = [ x for x in arr if x ]
+    
+    arr = [ x for x in arr if x != '0' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in 
+    """ A array that prints a list of numbers. """    
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+    arr = [ x for x in arr if x != 'nan' ]
+    
+<|/ file |>

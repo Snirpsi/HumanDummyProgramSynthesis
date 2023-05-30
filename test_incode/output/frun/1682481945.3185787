@@ -1,0 +1,30 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    port = int(sys.argv[1])
+    """ A array that converts a port. """    
+    
+    ports = [int(i) for i in sys.argv[2:]]
+    
+    ports = [port if port > 0 else 65535 for port in ports]
+    
+    ports = tuple(ports)
+    
+    ports = tuple(map(int, ports))
+    
+    ports = tuple(map(str, ports))
+    
+    ports = tuple(map(str, ports))
+    
+    ports = tuple(map(str, ports))
+    
+    ports = tuple(map(str, ports))
+    
+    ports = tuple(map(str, ports))
+    
+    ports = tuple(map(str, ports))
+    
+    ports = tuple(map(str, ports))
+
+<|/ file |>

@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A array that calculates words. """    
+    words = []
+    
+    for word in words:
+        words.append(word)
+    
+    return words
+<|/ file |>

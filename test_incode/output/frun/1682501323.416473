@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that adds a list of words. """    
+    
+    words = words.split()
+    
+    words.extend(sys.argv[2:])
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    sys.stdout.write(' '.join(words))
+<|/ file |>

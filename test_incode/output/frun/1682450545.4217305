@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    """ A function that adds words. """    
+    words = raw_input('Enter words: ')
+    words = [word.strip() for word in words.split()]
+    words = ' '.join(words)
+    words = words.replace(' ', '_')
+    words = words.replace(',', '_')
+    words = words.replace(':', '_')
+    words = words.replace('!', '_')
+    words = words.replace('?', '_')
+    words = words.replace('!', '_')
+    words = words.replace('?', '_')
+    words = words.replace('!', '_')
+    words = words.replace('?', '_')
+    words = words.replace('!', '_')
+    words = words.replace('?', '_')
+    words = words.replace('!', '_')
+    words = words.replace('?', '_')
+<|/ file |>

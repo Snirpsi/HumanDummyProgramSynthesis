@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = ['hello', 'world', 'python', 'is', 'cool']
+    
+    remove_words(words)
+    """ A list that removes a list of words. """    
+    
+    
+<|/ file |>

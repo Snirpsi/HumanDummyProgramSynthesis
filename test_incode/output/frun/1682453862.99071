@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    """ A list that calculates a list of words. """    
+    words = []
+    
+    for word in wordlist:
+        words.append(word)
+    
+    return words
+<|/ file |>

@@ -1,0 +1,71 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+
+    """ A array that adds a list of words. """    
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    words = list(set(word
+<|/ file |>

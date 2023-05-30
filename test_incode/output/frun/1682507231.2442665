@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    import sys
+    ports = PortArray()
+    ports.ports = [Port('127.0.0.1', 8080)]
+    ports.run()
+    """ A array that stores a port. """    
+<|/ file |>

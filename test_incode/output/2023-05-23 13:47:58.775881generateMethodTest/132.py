@@ -1,0 +1,61 @@
+#!/usr/bin/python3
+url = "http://snirps.ddns.net"
+if __name__ == '__main__':
+    #A program that converts a http request.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print it out.
+    #The program is designed to convert a http request to a string and print 

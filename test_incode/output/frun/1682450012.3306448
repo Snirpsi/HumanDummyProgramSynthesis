@@ -1,0 +1,30 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = [word for word in words]
+    
+    words.sort()
+    
+    word_count = len(words)
+    
+    word_average = word_count / len(words)
+    
+    word_average = word_average.split()
+    
+    word_average.sort()
+    
+    word_average = word_average.split()
+    
+    word_average.sort()
+    
+    word_average = word_average.split()
+    
+    word_average.sort()
+    
+    word_average = word_average.split()
+    
+    word_average.sort()
+    
+    word_average = word_average.split()
+    
+    word_average
+<|/ file |>

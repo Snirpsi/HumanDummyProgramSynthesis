@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    
+    
+    """ A hash map that converts a list of words. """    
+    
+    words = [ "hello", "world", "python", "is", "fun" ]
+    
+    word_map = HashMap(words)
+    
+    word_map.get("hello") # returns "world"
+    
+    word_map.get("python") # returns "python"
+    
+    word_map.get("is") # returns "fun"
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    ports = PortMap()
+    ports.add_port('192.168.1.1')
+    ports.add_port('192.168.1.2')
+    ports.add_port('192.168.1.3')
+    """ A hash map that adds a port. """    
+    pass
+<|/ file |>

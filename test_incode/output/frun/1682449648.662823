@@ -1,0 +1,36 @@
+if __name__ == '__main__': 
+    """ A programm that iterates a port. """    
+    port = int(sys.argv[1])
+    
+    ports = range(port)
+    
+    for port in ports:
+        
+        port = str(port)
+        
+        ports = range(port)
+        
+        for port in ports:
+            
+            port = str(port)
+            
+            ports = range(port)
+            
+            for port in ports:
+                
+                port = str(port)
+                
+                ports = range(port)
+                
+                for port in ports:
+                    
+                    port = str(port)
+                    
+                    ports = range(port)
+                    
+                    for port in ports:
+                        
+                        port = str(port)
+                        
+                        ports = range(
+<|/ file |>

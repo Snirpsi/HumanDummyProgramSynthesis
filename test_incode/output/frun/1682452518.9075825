@@ -1,0 +1,28 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = sys.argv[1:]
+    
+    numbers = filter(lambda x: x != '', numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = map(int, numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(filter(lambda x: x != 0, numbers))
+    
+    numbers = list(filter(lambda x: x != 0, numbers))
+    
+    numbers = list(filter(lambda x: x != 0, numbers))
+    
+    numbers = list(filter(lambda x: x != 0, numbers))
+    
+    numbers = list(filter(lambda x: x != 0, numbers))
+    
+    numbers = list(filter(lambda x: x != 0, numbers))
+    """ A list that removes numbers. """    
+    
+    
+<|/ file |>

@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    """ A hash map that enumerates words. """    
+    words = {}
+    
+    words['hello'] = 'world'
+    words['hello'] = 'world'
+    words['hello'] = 'world'
+    
+    for word in words.iterkeys():
+        print word
+<|/ file |>

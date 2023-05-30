@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A hash map that enumerates a list of words. """    
+    
+    words = [ 'foo', 'bar', 'baz' ]
+    
+    for word in words:
+        print word
+<|/ file |>

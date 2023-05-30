@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that opens a list of words. """    
+    wordlist = open('words.txt')
+    wordlist = wordlist.readlines()
+    wordlist.close()
+    wordlist = list(set(wordlist))
+    wordlist.sort()
+    wordlist = ' '.join(wordlist)
+    print(wordlist)
+<|/ file |>

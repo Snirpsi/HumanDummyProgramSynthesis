@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    numbers = enumerate( sys.argv[1:] )
+    
+    for number, name in numbers:
+        print number, name
+        
+    
+    """ A programm that enumerates numbers. """    
+<|/ file |>

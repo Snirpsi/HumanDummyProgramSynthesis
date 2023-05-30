@@ -1,0 +1,26 @@
+if __name__ == '__main__': 
+    words = []
+    """ A function that stores words. """    
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    words.append(raw_input())
+    
+<|/ file |>

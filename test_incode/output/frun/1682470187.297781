@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A function that converts words. """    
+    words = sys.argv[1:]
+    words = words.split()
+    words = map(str.upper, words)
+    words = " ".join(words)
+    sys.stdout.write(words)
+<|/ file |>

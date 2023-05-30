@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    numbers = list( sys.argv[1:] )
+    
+    for number in numbers:
+        
+        number = int( number )
+        
+        numbers.append( number )
+    
+    numbers.sort()
+    
+    print( numbers )
+    
+    """ A list that adds numbers. """    
+<|/ file |>

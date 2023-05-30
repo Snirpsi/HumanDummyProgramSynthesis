@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that calculates a port. """    
+    ports = [int(i) for i in raw_input().split()]
+    ports.sort()
+    print ports
+<|/ file |>

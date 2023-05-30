@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that calculates a list of words. """    
+    
+    words = ['hello', 'world', 'python', 'is', 'great']
+    
+    words = list(set(words))
+    
+    print(words)
+<|/ file |>

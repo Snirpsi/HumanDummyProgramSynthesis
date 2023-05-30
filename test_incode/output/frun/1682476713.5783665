@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words()
+    """ A function that opens words. """    
+    
+    
+<|/ file |>

@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    """ A list that converts a list of words. """    
+    words = ['word1', 'word2', 'word3']
+    
+    wordlist = list(words)
+    
+    print(wordlist)
+<|/ file |>

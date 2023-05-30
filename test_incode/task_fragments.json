@@ -1,0 +1,210 @@
+{
+  "start": [
+    {
+      "text": "A",
+      "code-fragments":
+      [
+        {
+          "code":"#!/usr/bin/python3",
+          "priority": 0
+        }
+      ]
+    }
+  ],
+  "subject": [
+   {
+      "text": "program",
+      "code-fragments":
+      [
+        {
+          "code":"if __name__ == '__main__':",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "text": "function",
+      "code-fragments": [
+        {
+          "code":"if __name__ == '__main__':",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "text": "minimal webserver",
+      "code-fragments": [
+        {
+          "code":"if __name__ == '__main__':",
+          "priority": 10
+        }
+      ]
+    },
+    {
+      "text": "endless loop",
+      "code-fragments": [
+        {
+          "code":"if __name__ == '__main__':",
+          "priority": 10
+        }
+      ]
+    }
+  ],
+  "binder":[
+    {
+      "text": "that",
+      "code-fragments": []
+    }
+  ],
+  "verb":[
+    {
+      "text": "stores",
+      "code-fragments": []
+    },
+     {
+      "text": "calculates",
+      "code-fragments": []
+    },
+     {
+      "text": "returns",
+      "code-fragments": []
+    },
+     {
+      "text": "enumerates",
+      "code-fragments": []
+    },
+    {
+      "text": "iterates over",
+      "code-fragments": []
+    },
+    {
+      "text": "adds",
+      "code-fragments": []
+    },
+    {
+      "text": "removes",
+      "code-fragments": []
+    },
+    {
+      "text": "requests",
+      "code-fragments": []
+    },
+    {
+      "text": "converts",
+      "code-fragments": []
+    },
+    {
+      "text": "prints",
+      "code-fragments": []
+    },
+    {
+      "text": "opens",
+      "code-fragments": []
+    },
+    {
+      "text": "opens",
+      "code-fragments": []
+    }
+  ],
+  "object": [
+    {
+      "text": "numbers",
+      "code-fragments": [
+        {
+          "code":"numbers = [1,2,3]",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "text": "words",
+      "code-fragments": [
+        {
+          "code":"words = [\"hello\",\"world\",\"!\"]",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "text": "fruits",
+      "code-fragments": [
+        {
+          "code":"fruirs = [\"apple\",\"banana\",\"orange\"]",
+          "priority": 2
+        }
+
+      ]
+    },
+    {
+      "text": "a list of words",
+      "code-fragments": [
+        {
+          "code":"words = [\"hello\",\"world\",\"!\"]",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "text": "a list of numbers",
+      "code-fragments": [
+        {
+          "code" : "numbers = [1,2,3,4,9]",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "text": "a port",
+      "code-fragments": [
+        {
+          "code": "port = 8080",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "text": "ports",
+      "code-fragments": [
+        {
+          "code":"ports = [666,8080,80,443,22,3]",
+          "priority": 2
+        }
+       ]
+    },
+    {
+      "text": "all ports",
+      "code-fragments": [
+        {
+          "code":"ports = range(0,65535)",
+          "priority": 2
+        }
+      ]
+    },
+    {
+      "text": "user input",
+      "code-fragments": []
+    },
+    {
+      "text": "a http request",
+      "code-fragments": [
+        {
+          "code":"url = \"http://snirps.ddns.net\"",
+          "priority": 2
+        }
+      ]
+    }
+  ],
+  "conjunction": [
+    {
+      "text": "and",
+      "priority": 0,
+      "code-fragments": []
+    },
+    {
+      "text": "or",
+      "priority": 0,
+      "code-fragments": []
+    }
+  ]
+
+}

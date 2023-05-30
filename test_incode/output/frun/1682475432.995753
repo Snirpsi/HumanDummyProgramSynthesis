@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A function that adds words. """    
+    words = []
+    while True:
+        word = raw_input('Enter a word: ')
+        if word == '': break
+        words.append(word)
+    return words
+<|/ file |>

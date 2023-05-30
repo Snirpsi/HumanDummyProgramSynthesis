@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    
+    """ A programm that stores a list of numbers. """    
+    
+    numbers = []
+    
+    numbers.append(1)
+    numbers.append(2)
+    numbers.append(3)
+    
+    print(numbers)
+<|/ file |>

@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = ['foo', 'bar', 'baz']
+    
+    words_by_hash = HashMap(words)
+    """ A hash map that iterates a list of words. """    
+    
+    words_by_hash.iterate_words()
+    
+    
+<|/ file |>

@@ -1,0 +1,35 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = range(1,10)
+    
+    numbers.extend(range(2,20))
+    
+    numbers.extend([3,4])
+    
+    numbers.extend([5,6])
+    
+    numbers.extend([7,8])
+    
+    numbers.extend([9,10])
+    
+    numbers.extend([11,12])
+    
+    numbers.extend([13,14])
+    
+    numbers.extend([15,16])
+    
+    numbers.extend([17,18])
+    
+    numbers.extend([19,20])
+    
+    numbers.extend([21,22])
+    
+    numbers.extend([23,24])
+    
+    numbers.extend([25,26])
+    
+    """ A list that adds numbers. """    
+    
+    
+<|/ file |>

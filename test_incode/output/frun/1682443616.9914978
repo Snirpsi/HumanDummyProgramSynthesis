@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    fruits = FruitList() 
+    """ A list that returns fruits. """    
+    fruits.fruits.append('apple')
+    fruits.fruits.append('orange')
+    fruits.fruits.append('banana')
+    fruits.fruits.append('grape')
+    fruits.fruits.append('watermelon')
+    fruits.fruits.append('pineapple')
+    fruits.fruits.append('mango')
+    fruits.fruits.append('cherry')
+    fruits.fruits.append('strawberry')
+    fruits.fruits.append('pear')
+    fruits.fruits.append('kiwi')
+    fruits.fruits.append('banana')
+    fruits.fruits.append('grape')
+    fruits.fruits.append('watermelon')
+
+<|/ file |>

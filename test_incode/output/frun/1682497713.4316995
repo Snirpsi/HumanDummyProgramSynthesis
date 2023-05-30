@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    wordlist = remove_words('The quick brown fox jumps over the lazy dog')
+    """ A list that removes words. """    
+    
+    
+<|/ file |>

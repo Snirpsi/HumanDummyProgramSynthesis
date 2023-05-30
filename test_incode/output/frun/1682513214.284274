@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that adds words. """    
+    import sys
+    words = [word.strip() for word in sys.argv[1:]]
+    words += ['']
+    words = list(set(words))
+    words.sort()
+    for word in words:
+        sys.stdout.write(word + '\n')
+<|/ file |>

@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A list that converts words. """    
+    return list(word_list)
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words = 'hello world'.split()
+    """ A hash map that iterates words. """    
+    for word in words:
+        print word
+<|/ file |>

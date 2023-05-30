@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+words = ["hello","world","!"]
+if __name__ == '__main__':
+    #A function that adds a list of words.
+    #The function will return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the words in it.
+    #The function will also return a list with all the word
+

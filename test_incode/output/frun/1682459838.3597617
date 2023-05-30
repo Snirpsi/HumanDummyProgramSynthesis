@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    """ A list that calculates words. """    
+    words = ['hello', 'world', 'python', 'is', 'cool']
+    
+    for word in words:
+        print word
+<|/ file |>

@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that opens words. """    
+    
+    words = [line.strip() for line in open('words.txt')]
+    
+    words = [word for word in words if word]
+    
+    words = [word for word in words if len(word) > 1]
+    
+    words = [word for word in words if len(word) > 2]
+    
+    words = [word for word in words if len(word) > 3]
+    
+    words = [word for word in words if len(word) > 4]
+    
+    words = [word for word in words if len(word) > 5]
+    
+    words = [word for word in words if len(word) > 6]
+    
+    words = [word for word in words if len(
+<|/ file |>

@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A programm that adds a port. """    
+    ports = add_ports(ports)
+<|/ file |>

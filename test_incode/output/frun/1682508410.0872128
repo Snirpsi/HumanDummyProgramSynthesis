@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = ['hello', 'world', 'python', 'is', 'cool']
+    """ A hash map that converts words. """    
+    
+    h = HashMap(words)
+    
+    print h
+<|/ file |>

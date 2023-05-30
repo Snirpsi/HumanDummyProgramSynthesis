@@ -1,0 +1,77 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    arr = []
+    
+    for i in range(10):
+        arr.append(i)
+    
+    arr2 = []
+    
+    for i in range(10):
+        arr2.append(i)
+    
+    arr3 = []
+    
+    for i in range(10):
+        arr3.append(i)
+    
+    arr4 = []
+    
+    for i in range(10):
+        arr4.append(i)
+    
+    arr5 = []
+    
+    for i in range(10):
+        arr5.append(i)
+    
+    arr6 = []
+    
+    for i in range(10):
+        arr6.append(i)
+    
+    arr7 = []
+    
+    for i in range(10):
+        arr7.append(
+    """ A array that returns numbers. """    
+    
+    arr = []
+    
+    for i in range(10):
+        arr.append(i)
+    
+    arr2 = []
+    
+    for i in range(10):
+        arr2.append(i)
+    
+    arr3 = []
+    
+    for i in range(10):
+        arr3.append(i)
+    
+    arr4 = []
+    
+    for i in range(10):
+        arr4.append(i)
+    
+    arr5 = []
+    
+    for i in range(10):
+        arr5.append(i)
+    
+    arr6 = []
+    
+    for i in range(10):
+        arr6.append(i)
+    
+    arr7 = []
+    
+    for i in range(10):
+        arr7.append(i)
+    
+    
+<|/ file |>

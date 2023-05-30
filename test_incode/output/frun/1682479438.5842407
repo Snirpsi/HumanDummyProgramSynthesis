@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    wordlist = Array('wordlist')
+    """ A array that returns a list of words. """    
+    
+    wordlist.append('word')
+    wordlist.append('word')
+    wordlist.append('word')
+    
+    print wordlist
+<|/ file |>

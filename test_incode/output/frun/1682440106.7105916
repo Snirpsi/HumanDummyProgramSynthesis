@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    removeWords(sys.argv[1])
+    """ A programm that removes words. """    
+<|/ file |>

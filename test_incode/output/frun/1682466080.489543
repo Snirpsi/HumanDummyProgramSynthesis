@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A array that iterates fruits. """    
+    
+    for fruit in fruits: 
+        print fruit 
+        
+<|/ file |>

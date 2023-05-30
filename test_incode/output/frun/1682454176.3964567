@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    words = [ 'hello', 'world' ]
+    """ A programm that adds words. """    
+    
+    words += [ str( random.randint( 1, 100 ) ) for i in range( random.randint( 1, 100 ) ) ]
+    
+    for word in words:
+        print word
+<|/ file |>

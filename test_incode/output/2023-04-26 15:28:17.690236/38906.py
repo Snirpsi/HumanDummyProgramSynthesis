@@ -1,0 +1,63 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that calculates words or enumerates all ports. """    
+    from flask import Flask, request
+    from flask_cors import CORS
+    from flask_sqlalchemy import SQLAlchemy
+    from flask_marshmallow import Marshmallow
+    from flask_login import LoginManager, login_user, logout_user, current_user
+    from flask_mail import Mail
+    from flask_mail import Message
+    from flask_mail import Attachment
+    from flask_mail import SMTP
+    from flask_mail import MailError
+    from flask_mail import SMTPAuthenticationError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTPRecipientsRefused
+    from flask_mail import SMTPDataError
+    from flask_mail import SMTPConnectError
+    from flask_mail import SMTPHeloError
+    from flask_mail import SMTPAuthenticationFailed
+    from flask_mail import SMTP

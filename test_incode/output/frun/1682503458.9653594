@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = []
+    """ A array that opens words. """    
+    
+    for line in sys.stdin:
+        words.append(line.strip())
+    
+    words.sort()
+    
+    for word in words:
+        print word
+<|/ file |>

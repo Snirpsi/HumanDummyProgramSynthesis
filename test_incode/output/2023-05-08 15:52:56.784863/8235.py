@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+fruirs = ["apple","banana","orange"]
+if __name__ == '__main__':
+    #A function that calculates fruits.
+    fruits = calculate_fruits(fruirs)
+    #A function that prints the fruits found.
+    print_fruits(fruits)
+    #A function that prints the fruits found.
+    print(calculate_fruits(fruirs))
+

@@ -1,0 +1,44 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that multiplyes a list of numbers or adds a port. """    
+    ports = range(1,10)
+    ports_sum = sum(ports)
+    ports_multi = ports * 2
+    ports_add = ports + [ports_sum]
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = ports_multi + ports_add
+    ports_multi = port

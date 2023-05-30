@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that adds words. """    
+    
+    words.append('hello')
+    words.append('world')
+    
+    words.sort()
+    
+    print words
+<|/ file |>

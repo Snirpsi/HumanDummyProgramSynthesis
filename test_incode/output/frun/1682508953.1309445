@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A hash map that enumerates a list of words. """    
+    
+    words = [w.lower() for w in words]
+    
+    word_counts = collections.Counter(words)
+    
+    for word, count in word_counts.iteritems():
+        print word, count
+<|/ file |>

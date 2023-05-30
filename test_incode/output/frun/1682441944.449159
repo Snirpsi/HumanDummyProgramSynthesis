@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    """ A function that converts words. """    
+    words = raw_input('Enter a word: ')
+    words = words.split()
+    words = map(str.lower, words)
+    words = filter(None, words)
+    words = map(str.title, words)
+    words = map(str.strip, words)
+    words = map(str.maketrans, words, string.maketrans('', '', string.punctuation))
+    words = map(str.title, words)
+    words = filter(None, words)
+    words = map(str.strip, words)
+    words = map(str.maketrans, words, string.maketrans('', '', string.punctuation))
+    words = map(str.title, words)
+    words = filter(None, words)
+    words = map(str.strip, words)
+    words = map(str.make
+<|/ file |>

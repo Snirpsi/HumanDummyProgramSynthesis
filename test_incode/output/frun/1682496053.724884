@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A hash map that enumerates a port. """    
+    ports = collections.OrderedDict()
+    ports['tcp'] = ('tcp', 80)
+    ports['udp'] = ('udp', 1234)
+    return ports
+<|/ file |>

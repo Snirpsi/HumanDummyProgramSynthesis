@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    """ A array that prints a list of numbers. """    
+    import sys
+    
+    arr = []
+    for arg in sys.argv[1:]:
+        arr.append(int(arg))
+    
+    for num in arr:
+        print num
+<|/ file |>

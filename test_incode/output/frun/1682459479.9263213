@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    """ A list that calculates numbers. """    
+    numbers = [1,2,3,4,5]
+    
+    
+    
+<|/ file |>

@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    portCalculator()
+    """ A programm that calculates a port. """    
+<|/ file |>

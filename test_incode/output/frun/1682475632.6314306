@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    
+    """ A hash map that enumerates a list of words. """    
+    
+    words = ['cat', 'dog', 'bird', 'mouse']
+    
+    word_counts = Counter(words)
+    
+    for word, count in word_counts.iteritems():
+        print word, count
+<|/ file |>

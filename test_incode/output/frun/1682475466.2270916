@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    import sys
+    wordlist = WordList()
+    """ A array that calculates a list of words. """    
+    wordlist.add(sys.argv[1])
+    wordlist.add(sys.argv[2])
+    wordlist.add(sys.argv[3])
+    wordlist.add(sys.argv[4])
+    wordlist.add(sys.argv[5])
+    wordlist.add(sys.argv[6])
+    wordlist.add(sys.argv[7])
+    wordlist.add(sys.argv[8])
+    wordlist.add(sys.argv[9])
+    wordlist.add(sys.argv[10])
+    wordlist.add(sys.argv[11])
+    wordlist.add(sys.argv[12])
+    wordlist.add(sys.argv[13])
+    wordlist.add(sys.argv[14])
+    wordlist.add(sys.argv[15])
+    wordlist.add(sys.argv[16
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    ports = listPorts()
+    """ A list that iterates a port. """    
+    
+    
+<|/ file |>

@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A array that opens a list of words. """    
+    words = []
+    
+    words.append( raw_input('Enter a word: ').strip() )
+    
+    words = words[:]
+    
+    return words
+<|/ file |>

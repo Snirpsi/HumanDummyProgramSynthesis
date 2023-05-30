@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    wordlist = WordList()
+    """ A array that stores a list of words. """    
+    wordlist.words = ['word1', 'word2', 'word3']
+    wordlist.words.sort()
+    print wordlist.words
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = HashMap()
+    ports.print_ports()
+    """ A hash map that prints a port. """    
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that enumerates numbers. """    
+    numbers = range(1,10)
+    for number in numbers:
+        print number
+<|/ file |>

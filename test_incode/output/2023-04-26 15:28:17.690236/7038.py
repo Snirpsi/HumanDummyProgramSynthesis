@@ -1,0 +1,55 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that opens words or calculates a list of words. """    
+    
+    words = []
+    
+    words.append(('word1', 'word1'))
+    words.append(('word2', 'word2'))
+    words.append(('word3', 'word3'))
+    words.append(('word4', 'word4'))
+    words.append(('word5', 'word5'))
+    words.append(('word6', 'word6'))
+    words.append(('word7', 'word7'))
+    words.append(('word8', 'word8'))
+    words.append(('word9', 'word9'))
+    
+    words.append(('word10', 'word10'))
+    words.append(('word11', 'word11'))
+    words.append(('word12', 'word12'))
+    words.append(('word13', 'word13'))
+    words.append(('word14', 'word14'))
+    words.append(('word15', 'word15'))
+    words.append(('word16', 'word16'))
+    words.append(('word17', 'word17'))
+    words.append(('word18', 'word18'))
+    words.append(('word19', 'word19'))
+    words.append(('word20', 'word20'))
+    
+    words.append(('word21', 'word21'))
+    words.append(('word22', 'word22'))
+    words.append(('word23', 'word23'))
+    words.append(('word24', 'word24'))
+    words.append(('word25', 'word25'))
+    words.append(('word26', 'word26'))
+    words.append(('word27', 'word27'))
+    words.append(('word28', 'word28'))
+    words.append(('word29', 'word29'))
+    words.append(('word30', 'word30'))
+    
+    words.append(('word31', 'word31'))
+    words.append(('word32', 'word32'))
+    words.append(('word33', 'word33'))
+    words.append(('word34', 'word34'))
+    words.append(('word35', 'word35'))
+    words.append(('word36', 'word36'))
+    words.append(('word37', 'word37'))
+    words.append(('word38', 'word38'))
+    words.append(('word39', 'word39'))
+    words.append(('word40', 'word40'))
+    words.append(('word41', 'word41'))
+    words.append(('word42', 'word42'))
+    words.append(('word43', 'word43'))
+    words.append(('word44', 'word44'))
+    words.append(('word45', 'word45'))
+    words.append(('word46', 'word

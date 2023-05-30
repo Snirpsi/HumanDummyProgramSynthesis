@@ -1,0 +1,79 @@
+#!/usr/bin/python3
+numbers = [1,2,3,4,9]
+if __name__ == '__main__':
+    #A endless loop that returns a list of numbers.
+    #The list will continue to grow as long as you keep adding numbers to it.
+    #The list will stop growing when you reach the number 10.
+    #The list will stop growing when you reach the number 20.
+    #The list will stop growing when you reach the number 30.
+    #The list will stop growing when you reach the number 40.
+    #The list will stop growing when you reach the number 50.
+    #The list will stop growing when you reach the number 60.
+    #The list will stop growing when you reach the number 70.
+    #The list will stop growing when you reach the number 80.
+    #The list will stop growing when you reach the number 90.
+    #The list will stop growing when you reach the number 100.
+    #The list will stop growing when you reach the number 110.
+    #The list will stop growing when you reach the number 120.
+    #The list will stop growing when you reach the number 130.
+    #The list will stop growing when you reach the number 140.
+    #The list will stop growing when you reach the number 150.
+    #The list will stop growing when you reach the number 160.
+    #The list will stop growing when you reach the number 170.
+    #The list will stop growing when you reach the number 180.
+    #The list will stop growing when you reach the number 190.
+    #The list will stop growing when you reach the number 200.
+    #The list will stop growing when you reach the number 210.
+    #The list will stop growing when you reach the number 220.
+    #The list will stop growing when you reach the number 230.
+    #The list will stop growing when you reach the number 240.
+    #The list will stop growing when you reach the number 250.
+    #The list will stop growing when you reach the number 260.
+    #The list will stop growing when you reach the number 270.
+    #The list will stop growing when you reach the number 280.
+    #The list will stop growing when you reach the number 290.
+    #The list will stop growing when you reach the number 300.
+    #The list will stop growing when you reach the number 310.
+    #The list will stop growing when you reach the number 320.
+    #The list will stop growing when you reach the number 330.
+    #The list will stop growing when you reach the number 340.
+    #The list will stop growing when you reach the number 350.
+    #The list will stop growing when you reach the number 360.
+    #The list will stop growing when you reach the number 370.
+    #The list will stop growing when you reach the number 380.
+    #The list will stop growing when you reach the number 390.
+    #The list will stop growing when you reach the number 400.
+    #The list will stop growing when you reach the number 410.
+    #The list will stop growing when you reach the number 420.
+    #The list will stop growing when you reach the number 430.
+    #The list will stop growing when you reach the number 440.
+    #The list will stop growing when you reach the number 450.
+    #The list will stop growing when you reach the number 460.
+    #The list will stop growing when you reach the number 470.
+    #The list will stop growing when you reach the number 480.
+    #The list will stop growing when you reach the number 490.
+    #The list will stop growing when you reach the number 500.
+    #The list will stop growing when you reach the number 510.
+    #The list will stop growing when you reach the number 520.
+    #The list will stop growing when you reach the number 530.
+    #The list will stop growing when you reach the number 540.
+    #The list will stop growing when you reach the number 550.
+    #The list will stop growing when you reach the number 560.
+    #The list will stop growing when you reach the number 570.
+    #The list will stop growing when you reach the number 580.
+    #The list will stop growing when you reach the number 590.
+    #The list will stop growing when you reach the number 600.
+    #The list will stop growing when you reach the number 610.
+    #The list will stop growing when you reach the number 620.
+    #The list will stop growing when you reach the number 630.
+    #The list will stop growing when you reach the number 640.
+    #The list will stop growing when you reach the number 650.
+    #The list will stop growing when you reach the number 660.
+    #The list will stop growing when you reach the number 670.
+    #The list will stop growing when you reach the number 680.
+    #The list will stop growing when you reach the number 690.
+    #The list will stop growing when you reach the number 700.
+    #The list will stop growing when you reach the number 710.
+    #The list will stop growing when you reach the number 720.
+    #The list 
+

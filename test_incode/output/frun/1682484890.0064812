@@ -1,0 +1,32 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    arr.append(1)
+    arr.append(2)
+    arr.append(3)
+    arr.append(4)
+    
+    arr2 = Array()
+    arr2.append(1)
+    arr2.append(2)
+    arr2.append(3)
+    arr2.append(4)
+    
+    arr3 = Array()
+    arr3.append(1)
+    arr3.append(2)
+    arr3.append(3)
+    arr3.append(4)
+    
+    arr4 = Array()
+    arr4.append(1)
+    arr4.append(2)
+    arr4.append(3)
+    arr4.append(4)
+    
+    """ A array that stores a list of numbers. """    
+    
+    
+    
+<|/ file |>

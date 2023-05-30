@@ -1,0 +1,157 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that enumerates a list of numbers or removes words. """    
+    
+    words = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    
+    i = 0
+    
+    while True:
+        
+        word = words[i]
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        words.remove(word)
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if word == 'q':
+            break
+        
+        i += 1
+        
+        if i % 10 == 0:
+            print(word)
+        
+        if 

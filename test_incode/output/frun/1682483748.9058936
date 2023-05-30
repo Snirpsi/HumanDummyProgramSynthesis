@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = [1,2,3,4,5,6,7,8,9]
+    """ A array that enumerates numbers. """    
+    
+    for num in array:
+        print num
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A list that stores fruits. """    
+    fruits.fruits = ['apple', 'banana', 'cherry']
+    
+    fruits.print_fruits()
+<|/ file |>

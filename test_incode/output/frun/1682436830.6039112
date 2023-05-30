@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = sys.argv[1:]
+    
+    remove_numbers(numbers)
+    """ A list that removes a list of numbers. """    
+<|/ file |>

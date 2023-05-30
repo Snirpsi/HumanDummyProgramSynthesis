@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    import sys
+    """ A programm that enumerates a port. """    
+    
+    port = int(sys.argv[1])
+    
+    enumerate_port(port)
+<|/ file |>

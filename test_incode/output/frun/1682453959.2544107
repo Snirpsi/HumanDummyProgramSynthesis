@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    wordlist = WordList()
+    """ A list that stores a list of words. """    
+    wordlist.append('hello')
+    wordlist.append('world')
+    wordlist.append('!')
+<|/ file |>

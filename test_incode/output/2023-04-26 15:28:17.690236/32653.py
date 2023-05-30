@@ -1,0 +1,143 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that enumerates a list of numbers. """    
+    
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    
+    while True:
+        
+        number = numbers.pop(0)
+        
+        print("The number is", number)
+        
+        if number == 10:
+            break
+        
+        print("The number is", number)
+        
+        if number == 9:
+            break
+        
+        print("The number is", number)
+        
+        if number == 8:
+            break
+        
+        print("The number is", number)
+        
+        if number == 7:
+            break
+        
+        print("The number is", number)
+        
+        if number == 6:
+            break
+        
+        print("The number is", number)
+        
+        if number == 5:
+            break
+        
+        print("The number is", number)
+        
+        if number == 4:
+            break
+        
+        print("The number is", number)
+        
+        if number == 3:
+            break
+        
+        print("The number is", number)
+        
+        if number == 2:
+            break
+        
+        print("The number is", number)
+        
+        if number == 1:
+            break
+        
+        print("The number is", number)
+        
+        if number == 0:
+            break
+        
+        print("The number is", number)
+        
+        if number == -1:
+            break
+        
+        print("The number is", number)
+        
+        if number == -2:
+            break
+        
+        print("The number is", number)
+        
+        if number == -3:
+            break
+        
+        print("The number is", number)
+        
+        if number == -4:
+            break
+        
+        print("The number is", number)
+        
+        if number == -5:
+            break
+        
+        print("The number is", number)
+        
+        if number == -6:
+            break
+        
+        print("The number is", number)
+        
+        if number == -7:
+            break
+        
+        print("The number is", number)
+        
+        if number == -8:
+            break
+        
+        print("The number is", number)
+        
+        if number == -9:
+            break
+        
+        print("The number is", number)
+        
+        if number == -10:
+            break
+        
+        print("The number is", number)
+        
+        if number == 11:
+            break
+        
+        print("The number is", number)
+        
+        if number == 12:
+            break
+        
+        print("The number is", number)
+        
+        if number == 13:
+            break
+        
+        print("The number is", number)
+        
+        if number == 14:
+            break
+        
+        print("The number is", number)
+        
+        if number == 15:
+            break
+        
+        print("The number is", number)
+        
+        if number == 

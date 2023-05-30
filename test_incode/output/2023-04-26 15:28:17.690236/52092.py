@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that iterates over a list of words and adds all ports. """    
+    words = ['word1', 'word2', 'word3']
+    ports = ['port1', 'port2', 'port3']
+    for word in words:
+        for port in ports:
+            print(word + 

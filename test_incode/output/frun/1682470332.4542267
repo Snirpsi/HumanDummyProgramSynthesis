@@ -1,0 +1,57 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    h = HashMap()
+    h.put('key', 10)
+    h.put('key', 20)
+    h.put('key', 30)
+    
+    print h.get('key')
+    
+    h.put('key', 40)
+    
+    print h.get('key')
+    
+    h.put('key', 50)
+    
+    print h.get('key')
+    
+    h.put('key', 60)
+    
+    print h.get('key')
+    
+    h.put('key', 70)
+    
+    print h.get('key')
+    
+    h.put('key', 80)
+    """ A hash map that returns numbers. """    
+    
+    h = HashMap()
+    h.put('key', 10)
+    h.put('key', 20)
+    h.put('key', 30)
+    
+    print h.get('key')
+    
+    h.put('key', 40)
+    
+    print h.get('key')
+    
+    h.put('key', 50)
+    
+    print h.get('key')
+    
+    h.put('key', 60)
+    
+    print h.get('key')
+    
+    h.put('key', 70)
+    
+    print h.get('key')
+    
+    h.put('key', 80)
+    
+    print h
+<|/ file |>

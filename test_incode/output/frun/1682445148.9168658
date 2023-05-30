@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = PortArray()
+    ports.add(Port('eth0'))
+    ports.add(Port('eth1'))
+    ports.add(Port('eth2'))
+    ports.add(Port('eth3'))
+    ports.add(Port('eth4'))
+    ports.add(Port('eth5'))
+    ports.add(Port('eth6'))
+    ports.add(Port('eth7'))
+    ports.add(Port('eth8'))
+    ports.add(Port('eth9'))
+    ports.add(Port('eth10'))
+    ports.add(Port('eth11'))
+    ports.add(Port('
+    """ A array that adds a port. """    
+    
+    
+<|/ file |>

@@ -1,0 +1,69 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'python', 'is', 'cool']
+    
+    word_counts = Counter(words)
+    
+    for word, count in word_counts.iteritems():
+        print word, count
+    
+    
+    
+    
+    """ A hash map that stores a list of words. """    
+    
+    word_counts = Counter(words)
+    
+    word_counts['hello'] = 2
+    
+    for word, count in word_counts.iteritems():
+        print word, count
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<|/ file |>

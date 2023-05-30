@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    
+    words = ['cat', 'dog', 'bird', 'cat']
+    
+    word_counts = Counter(words)
+    
+    for word, count in word_counts.items():
+        print word, count
+    
+    
+    
+    """ A hash map that stores words. """    
+    
+    words = ['cat', 'dog', 'bird', 'cat']
+    
+    word_counts = Counter(words)
+    
+    for word, count in word_counts.items():
+        print word, count
+    
+<|/ file |>

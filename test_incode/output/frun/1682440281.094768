@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    ports = PortMap()
+    """ A hash map that iterates a port. """    
+    ports.iterate()
+<|/ file |>

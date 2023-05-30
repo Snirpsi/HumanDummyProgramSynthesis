@@ -1,0 +1,32 @@
+if __name__ == '__main__': 
+    
+    
+    """ A hash map that converts a list of words. """    
+    
+    words = []
+    
+    for line in sys.stdin:
+        words.extend(line.split())
+    
+    words = set(words)
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = list(words)
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words.sort()
+    
+    words = [w for w in words if 
+<|/ file |>

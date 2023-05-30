@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that stores words. """    
+    hashmap.add("hello")
+    hashmap.add("world")
+    hashmap.add("python")
+    hashmap.add("java")
+    hashmap.add("c++")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c#")
+    hashmap.add("c
+<|/ file |>

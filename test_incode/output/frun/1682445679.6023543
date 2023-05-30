@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = ['word', 'words', 'words']
+    """ A list that removes words. """    
+    
+    words = [w for w in words if w not in words]
+    
+    print words
+<|/ file |>

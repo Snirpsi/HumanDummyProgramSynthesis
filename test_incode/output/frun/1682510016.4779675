@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    fruits = FruitList() 
+    """ A list that returns fruits. """    
+    fruits.fruits = ['apple', 'banana', 'cherry']
+    fruits.fruits.sort()
+    fruits.fruits.reverse()
+    fruits.fruits.insert(0, fruits.fruits.pop())
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruits.pop()
+    fruits.fruit
+<|/ file |>

@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    
+    
+    """ A hash map that converts a list of words. """    
+    
+    words = [ "word1", "word2", "word3" ]
+    
+    wordHash = HashMap()
+    
+    for word in words:
+        wordHash[word] = wordHash.get(word, 0) + 1
+    
+    print "Words mapped to their counts:"
+    
+    for word, count in wordHash.iteritems():
+        print "%s: %d" % (word, count)
+<|/ file |>

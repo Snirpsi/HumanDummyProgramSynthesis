@@ -1,0 +1,57 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    wordlist = sys.argv[1]
+    
+    wordlist = wordlist.split()
+    
+    wordlist = sorted(wordlist)
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(
+    """ A hash map that enumerates a list of words. """    
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(wordlist))
+    
+    wordlist = list(set(
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that converts fruits. """    
+    fruits = ['apple', 'banana', 'orange']
+    fruits = fruits.capitalize()
+    print(fruits)
+<|/ file |>

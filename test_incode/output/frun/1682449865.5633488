@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits(10)
+    """ A array that calculates fruits. """    
+    
+    fruits.calculate()
+    
+    
+    
+<|/ file |>

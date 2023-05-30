@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    numbers = list_numbers()
+    """ A function that returns a list of numbers. """    
+    return numbers
+<|/ file |>

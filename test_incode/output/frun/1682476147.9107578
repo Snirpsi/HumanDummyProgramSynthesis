@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that stores words. """    
+    words = []
+    
+    words.append(raw_input('Enter a word: '))
+    
+    words = ' '.join(words)
+    
+    print words
+<|/ file |>

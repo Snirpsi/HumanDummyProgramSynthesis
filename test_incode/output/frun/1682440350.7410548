@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that calculates a list of words. """    
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    hashmap.add(word) 
+    
+<|/ file |>

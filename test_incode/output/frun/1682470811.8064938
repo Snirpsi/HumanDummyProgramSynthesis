@@ -1,0 +1,32 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = []
+    """ A array that opens a list of numbers. """    
+    
+    array.append(1)
+    array.append(2)
+    array.append(3)
+    array.append(4)
+    array.append(5)
+    array.append(6)
+    array.append(7)
+    array.append(8)
+    array.append(9)
+    array.append(10)
+    array.append(11)
+    array.append(12)
+    array.append(13)
+    array.append(14)
+    array.append(15)
+    array.append(16)
+    array.append(17)
+    array.append(18)
+    array.append(19)
+    array.append(20)
+    array.append(21)
+    array.append(22)
+    array.append(23)
+    array.append(24)
+    array.append(
+<|/ file |>

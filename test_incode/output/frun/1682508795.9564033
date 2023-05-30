@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    ports = list( filter(lambda p: p.is_open(), ports) )
+    ports.remove( port )
+    port.close()
+    
+    
+    """ A list that removes a port. """    
+    ports.remove( port )
+<|/ file |>

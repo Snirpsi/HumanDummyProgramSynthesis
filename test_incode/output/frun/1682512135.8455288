@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    enumerateWords(['cat', 'dog', 'mouse'])
+    """ A function that enumerates a list of words. """    
+    for index, word in enumerate(words):
+        print index, word
+<|/ file |>

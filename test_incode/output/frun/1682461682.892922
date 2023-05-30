@@ -1,0 +1,25 @@
+if __name__ == '__main__': 
+    
+    """ A function that converts a list of words. """    
+    wordlist = list(raw_input().split())
+    wordlist.sort()
+    wordlist.insert(0,'')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('
+<|/ file |>

@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A list that prints a port. """    
+    ports = [x.split(':') for x in open('ports.txt').readlines()]
+    ports.sort()
+    for port in ports:
+        print port
+<|/ file |>

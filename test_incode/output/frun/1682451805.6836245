@@ -1,0 +1,25 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = [line.strip() for line in sys.stdin]
+    """ A array that converts words. """    
+    
+    words = words.split()
+    
+    words = [word for word in words if word.isalpha()]
+    
+    words = [word for word in words if len(word) > 1]
+    
+    words = [word for word in words if len(word) == 1]
+    
+    words = [word for word in words if len(word) > 1]
+    
+    words = [word for word in words if len(word) > 1]
+    
+    words = [word for word in words if len(word) > 1]
+    
+    words = [word for word in words if len(word) > 1]
+    
+    words = [word for word in words if len(word) > 1]
+
+<|/ file |>

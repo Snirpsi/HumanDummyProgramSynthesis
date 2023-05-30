@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that adds numbers. """    
+    hashmap['one'] = 1
+    hashmap['two'] = 2
+    hashmap['three'] = 3
+<|/ file |>

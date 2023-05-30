@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that opens fruits. """    
+    
+    httpd = HTTPServer(('localhost', 8000), FruitHandler)
+    httpd.serve_forever()
+
+<|/ file filename=fruits.py |>

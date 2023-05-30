@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A array that prints fruits. """    
+    fruits.print_fruits()
+<|/ file |>

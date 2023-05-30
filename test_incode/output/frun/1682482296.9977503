@@ -1,0 +1,69 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = sys.argv[1:]
+    
+    words = words.split(',')
+    
+    words = map(str.strip, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+
+    """ A array that adds words. """    
+    
+    words = map(str.strip, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(None, words)
+    
+    words = filter(
+<|/ file |>

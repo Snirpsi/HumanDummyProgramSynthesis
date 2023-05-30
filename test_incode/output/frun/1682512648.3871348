@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A hash map that prints a list of words. """    
+    words = [w for w in words if w]
+    words.sort()
+    for word in words:
+        print word
+<|/ file |>

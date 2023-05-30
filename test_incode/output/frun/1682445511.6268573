@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A array that converts a list of numbers. """    
+    return array(map(int, args))
+<|/ file |>

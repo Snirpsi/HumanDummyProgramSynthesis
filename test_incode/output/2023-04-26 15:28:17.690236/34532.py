@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that adds all ports and adds words. """    
+    ports = Ports()
+    ports.add_ports()
+    ports.add_words()
+    ports.print_ports()
+    ports.print_words()
+    ports.print_ports_words()
+    ports.print_ports_words_ports()
+    ports.print_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports()
+    ports.print_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports()
+    ports.print_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words_ports_words()
+    ports.print_ports_words_ports_words_ports_words_ports_words_ports_

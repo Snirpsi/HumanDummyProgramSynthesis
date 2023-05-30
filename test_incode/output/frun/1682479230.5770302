@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = []
+    """ A array that opens words. """    
+    
+    for word in sys.stdin:
+        words.append(word)
+    
+    words.sort()
+    
+    for word in words:
+        print word
+<|/ file |>

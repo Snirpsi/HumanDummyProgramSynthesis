@@ -1,0 +1,45 @@
+#!/usr/bin/python3
+fruirs = ["apple","banana","orange"]
+if __name__ == '__main__':
+    #A function that returns fruits.
+    #The function takes in two arguments: a string and an integer and returns a list of fruits from the list that match the string and are greater than or equal to the integer.
+    #The function also takes in two arguments: a string and an integer and returns a list of fruits from the list that match the string and are less than or equal to the integer.
+    fruits = list(fruirs)
+    fruits_greater_than = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_2 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_2 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_3 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_3 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_4 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_4 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_5 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_5 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_6 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_6 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_7 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_7 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_8 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_8 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_9 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_9 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_10 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_10 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_11 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_11 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_12 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_12 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_13 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_13 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_14 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_14 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_15 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_15 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_than_equal_list_16 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_less_than_equal_list_16 = fruits[fruits.index("apple") > fruits.index("banana")]
+    fruits_greater_
+

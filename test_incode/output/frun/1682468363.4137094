@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = [1,2,3,4,5]
+    """ A array that adds a list of numbers. """    
+    
+    array.append(6)
+    
+    print array
+<|/ file |>

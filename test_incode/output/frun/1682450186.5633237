@@ -1,0 +1,31 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that calculates a list of words. """    
+    
+    words = [w.lower() for w in words]
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 2]
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 3]
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 4]
+    
+    words.sort()
+    
+    words = [w for w in words if len(w) > 5]
+    
+    words.sort()
+    
+    word
+<|/ file |>

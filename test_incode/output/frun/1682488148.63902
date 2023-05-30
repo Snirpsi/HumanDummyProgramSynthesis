@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    arr.add(1)
+    arr.add(2)
+    arr.add(3)
+    arr.add(4)
+    arr.add(5)
+    
+    arr.print()
+    """ A array that prints a list of numbers. """    
+<|/ file |>

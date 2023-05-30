@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    """ A programm that opens a list of numbers. """    
+    numbers = [int(i) for i in raw_input().split()]
+    
+    numbers_open = numbers.count(1)
+    
+    print 'The numbers are:'
+    
+    for i in numbers:
+        if i == numbers_open:
+            print '* %s' % i
+        else:
+            print '  %s' % i
+            
+    print 'The numbers are open:'
+    
+    for i in numbers:
+        if i == numbers_open:
+            print '* %s' % i
+        else:
+            print '  %s' % i
+<|/ file |>

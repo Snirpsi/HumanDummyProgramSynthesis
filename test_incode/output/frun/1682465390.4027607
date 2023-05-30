@@ -1,0 +1,33 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    fruit.add("apple")
+    fruit.add("banana")
+    fruit.add("cherry")
+    fruit.add("orange")
+    fruit.add("mango")
+    fruit.add("grape")
+    fruit.add("pineapple")
+    fruit.add("strawberry")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("water
+    """ A hash map that removes fruits. """    
+    
+    fruit = Fruit()
+    fruit.add("apple")
+    fruit.add("banana")
+    fruit.add("cherry")
+    fruit.add("orange")
+    fruit.add("mango")
+    fruit.add("grape")
+    fruit.add("pineapple")
+    fruit.add("strawberry")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("water
+<|/ file |>

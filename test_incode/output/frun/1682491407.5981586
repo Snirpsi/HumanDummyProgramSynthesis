@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    import sys
+    wordlist = WordList()
+    """ A array that enumerates words. """    
+    wordlist.enumerate()
+<|/ file |>

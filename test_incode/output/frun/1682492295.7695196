@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A programm that adds words. """    
+    words = raw_input('Enter words: ')
+    words = words.split()
+    words.extend(words)
+    words.sort()
+    print '\n'.join(words)
+<|/ file |>

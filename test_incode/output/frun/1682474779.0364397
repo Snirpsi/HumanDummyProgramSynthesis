@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that converts a list of numbers. """    
+    import sys
+    
+    numbers = [int(n) for n in sys.argv[1:]]
+    
+    numbers_converted = [convert(n) for n in numbers]
+    
+    print('\n'.join(map(str, numbers_converted)))
+<|/ file |>

@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    words = [ 'the', 'cat', 'is', 'a', 'nice', 'day' ]
+    
+    hashmap = HashMap()
+    
+    for word in words:
+        hashmap.add(word)
+    
+    print(hashmap)
+    
+    
+    """ A hash map that adds words. """    
+<|/ file |>

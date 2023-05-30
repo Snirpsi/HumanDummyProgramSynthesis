@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world']
+    """ A array that stores a list of words. """    
+    
+    
+<|/ file |>

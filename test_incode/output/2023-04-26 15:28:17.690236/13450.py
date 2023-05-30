@@ -1,0 +1,87 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that converts a list of words and multiplyes all ports. """    
+    while True:
+        words = input("Enter a word: ")
+        ports = input("Enter a port: ")
+        ports = ports.split()
+        ports = [int(x) for x in ports]
+        ports = list(set(ports))
+        ports.sort()
+        ports = ports[:len(words)]
+        words = list(set(words))
+        words.sort()
+        words = words[:len(ports)]
+        ports = list(set(ports))
+        ports.sort()
+        ports = ports[:len(words)]
+        words = words + ports
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = words + words
+        words = word

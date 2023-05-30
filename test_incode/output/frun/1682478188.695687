@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words = list(words())
+    """ A hash map that enumerates words. """    
+    
+    
+<|/ file |>

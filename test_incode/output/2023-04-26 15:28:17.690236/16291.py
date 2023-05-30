@@ -1,0 +1,53 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that stores a list of words. """    
+    words = []
+    while True:
+        word = input('Enter a word: ')
+        if word == 'q':
+            break
+        else:
+            words.append(word)
+    print('You entered:', words)
+    print('The final word was:', words[-1])
+    print('The final word was:', words[-2])
+    print('The final word was:', words[-3])
+    print('The final word was:', words[-4])
+    print('The final word was:', words[-5])
+    print('The final word was:', words[-6])
+    print('The final word was:', words[-7])
+    print('The final word was:', words[-8])
+    print('The final word was:', words[-9])
+    print('The final word was:', words[-10])
+    print('The final word was:', words[-11])
+    print('The final word was:', words[-12])
+    print('The final word was:', words[-13])
+    print('The final word was:', words[-14])
+    print('The final word was:', words[-15])
+    print('The final word was:', words[-16])
+    print('The final word was:', words[-17])
+    print('The final word was:', words[-18])
+    print('The final word was:', words[-19])
+    print('The final word was:', words[-20])
+    print('The final word was:', words[-21])
+    print('The final word was:', words[-22])
+    print('The final word was:', words[-23])
+    print('The final word was:', words[-24])
+    print('The final word was:', words[-25])
+    print('The final word was:', words[-26])
+    print('The final word was:', words[-27])
+    print('The final word was:', words[-28])
+    print('The final word was:', words[-29])
+    print('The final word was:', words[-30])
+    print('The final word was:', words[-31])
+    print('The final word was:', words[-32])
+    print('The final word was:', words[-33])
+    print('The final word was:', words[-34])
+    print('The final word was:', words[-35])
+    print('The final word was:', words[-36])
+    print('The final word was:', words[-37])
+    print('The final word was:', words[-38])
+    print('The final word was:', words[-39])
+    print('The final word was:', words[-40])
+    print('The final word was:', words[-41])
+    print('The final word was:', words[-4

@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'python']
+    
+    word_hashmap = HashMap(words)
+    """ A hash map that iterates words. """    
+    
+    for word in words:
+        print word, word_hashmap.get(word)
+<|/ file |>

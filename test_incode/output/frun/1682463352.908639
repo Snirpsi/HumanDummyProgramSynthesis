@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = [word.lower() for word in words]
+    words = [word for word in words if word.isalpha()]
+    words = [word for word in words if len(word) > 1]
+    words = [word for word in words if len(word) <= 3]
+    words = [word for word in words if len(word) == 3]
+    words = [word for word in words if len(word) == 4]
+    words = [word for word in words if len(word) == 5]
+    words = [word for word in words if len(word) == 6]
+    words = [word for word in words if len(word) == 7]
+    words = [word for word in words if len(word) == 8]
+
+<|/ file |>

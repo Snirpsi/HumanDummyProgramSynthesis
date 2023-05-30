@@ -1,0 +1,75 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that calculates user input or prints a list of numbers. """    
+    
+    number = int(input("Enter a number: "))
+    
+    if number == 0: 
+        print("You entered a zero!")
+    elif number == 1: 
+        print("You entered a one!")
+    elif number == 2: 
+        print("You entered a two!")
+    elif number == 3: 
+        print("You entered a three!")
+    elif number == 4: 
+        print("You entered a four!")
+    elif number == 5: 
+        print("You entered a five!")
+    elif number == 6: 
+        print("You entered a six!")
+    elif number == 7: 
+        print("You entered a seven!")
+    elif number == 8: 
+        print("You entered a eight!")
+    elif number == 9: 
+        print("You entered a nine!")
+    elif number == 10: 
+        print("You entered a ten!")
+    elif number == 11: 
+        print("You entered a eleven!")
+    elif number == 12: 
+        print("You entered a twelve!")
+    elif number == 13: 
+        print("You entered a thirteen!")
+    elif number == 14: 
+        print("You entered a fourteen!")
+    elif number == 15: 
+        print("You entered a fifteen!")
+    elif number == 16: 
+        print("You entered a sixteen!")
+    elif number == 17: 
+        print("You entered a seventeen!")
+    elif number == 18: 
+        print("You entered a eighteen!")
+    elif number == 19: 
+        print("You entered a nineteen!")
+    elif number == 20: 
+        print("You entered a twenty!")
+    elif number == 21: 
+        print("You entered a twenty-one!")
+    elif number == 22: 
+        print("You entered a twenty-two!")
+    elif number == 23: 
+        print("You entered a twenty-three!")
+    elif number == 24: 
+        print("You entered a twenty-four!")
+    elif number == 25: 
+        print("You entered a twenty-five!")
+    elif number == 26: 
+        print("You entered a twenty-six!")
+    elif number == 27: 
+        print("You entered a twenty-seven!")
+    elif number == 28: 
+        print("You entered a twenty-eight!")
+    elif number == 29: 
+        print("You entered a twenty-nine!")
+    elif number == 30: 
+        print("You entered a thirty!")
+    elif number == 31: 
+        print("You entered a thirty-one!")
+    elif number == 32: 
+        print("You entered a thirty-two!")
+    elif number == 33: 
+        print("You entered a thirty-three!")
+    elif 

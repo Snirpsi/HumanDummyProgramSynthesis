@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    h = HashMap()
+    """ A hash map that returns numbers. """    
+    h.add(1)
+    h.add(2)
+    h.add(3)
+    h.add(4)
+    
+    print h
+<|/ file |>

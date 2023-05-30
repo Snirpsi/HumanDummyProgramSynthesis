@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = PortArray()
+    ports.calculate()
+    
+    
+    
+    """ A array that calculates a port. """    
+<|/ file |>

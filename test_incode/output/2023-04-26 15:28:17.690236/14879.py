@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that calculates a list of numbers. """    
+    while True:
+        number = input('Enter a number: ')
+        number = int(number)
+        numbers.append(number)
+        print('The list of numbers is', numbers)
+        print('The sum of all the numbers in the list is', sum(numbers))
+        print('The average of the numbers in the list is', sum(numbers) / len(numbers))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((sum(numbers)) / len(numbers)))
+        print('The difference between the average and the sum of all the numbers in the list is', abs((

@@ -1,0 +1,33 @@
+if __name__ == '__main__': 
+    
+    words = ['apple', 'banana', 'orange', 'pear']
+    
+    words_to_remove = set(words)
+    """ A hash map that removes a list of words. """    
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = set(words)
+    
+    words_to_remove = 
+<|/ file |>

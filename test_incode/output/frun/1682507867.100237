@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that returns words. """    
+    
+    words = words.split()
+    
+    words = [word.lower() for word in words]
+    
+    words = [word for word in words if word.isalpha()]
+    
+    return words
+<|/ file |>

@@ -1,0 +1,65 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that converts fruits and returns user input. """    
+    fruits = input("Enter your favorite fruits: ")
+    
+    if fruits == "apple":
+        print("Oh, that's a fruit!")
+    elif fruits == "banana":
+        print("Oh, that's a fruit!")
+    elif fruits == "cherry":
+        print("Oh, that's a fruit!")
+    elif fruits == "orange":
+        print("Oh, that's a fruit!")
+    elif fruits == "pineapple":
+        print("Oh, that's a fruit!")
+    elif fruits == "strawberry":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("Oh, that's a fruit!")
+    elif fruits == "watermelon":
+        print("O

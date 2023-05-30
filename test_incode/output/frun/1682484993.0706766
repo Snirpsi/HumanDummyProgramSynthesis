@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    """ A hash map that converts fruits. """    
+    fruits = { 
+        'apple' : 'orange', 
+        'banana' : 'pear', 
+        'cherry' : 'pineapple', 
+        'orange' : 'apple', 
+        'pear' : 'banana', 
+        'pineapple' : 'cherry'
+    }
+    
+    fruits['apple'] = 'orange'
+    fruits['banana'] = 'pear'
+    fruits['cherry'] = 'pineapple'
+    fruits['orange'] = 'apple'
+    fruits['pear'] = 'banana'
+    fruits['pineapple'] = 'cherry'
+    
+    print(fruits)
+<|/ file |>

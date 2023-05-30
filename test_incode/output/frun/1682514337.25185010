@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    """ A programm that enumerates fruits. """    
+    print("This is a main file." if get_command_line(cmd) else "")
+
+
+
+<|/ file |>

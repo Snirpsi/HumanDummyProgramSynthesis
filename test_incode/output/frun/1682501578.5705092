@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    ports = list( get_ports() )
+    ports.sort()
+    
+    
+    
+    
+    """ A list that returns a port. """    
+    return ports
+<|/ file |>

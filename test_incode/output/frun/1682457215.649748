@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A hash map that calculates a list of numbers. """    
+    numbers = range(1,11)
+    numbers_set = set(numbers)
+    numbers_hash = {number: numbers_set.count(number) for number in numbers}
+    return numbers_hash
+<|/ file |>

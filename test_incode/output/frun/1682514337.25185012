@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    """ A minimal webserver that stores all ports and stores a list of numbers. """    import sys     # The web programmatial framework    
+
+    start_http = StartToUse(
+        "80",  # Lists the HTTP request Ports in the current port of 80 for HTTP Listens. - Default is all available.     start_http.start_socket( sys.argv[2] or None, start_http.ListInPort)    #Port Number where Server is to run. The current server has 8 ports Listing. Passe 0.0.0 or 0.0.0.0 if no use server start.   start-server.StartServ(listens=[],listoint=2,start=False,threa=False,block_in=False,thread_timeout=5)#HTTP server is used StartFor, PassInListing is an Intiator with the desired ports in listens and the desired IPs.- Only ports where http Server star.- threa=True, start=true StartServe  PassThreso=100ms will set blocking=1 that blocks an entire while loop.   Three ports must given are available: "Listing 1" & ports "80" to "HTTP(S)" can then call the Server class which has a start() #Start listening (ports), calls it with the Port. the Server class is "Class", so you can use to call Classes/Methods by using class. You can put some attributes after an Attribute name. (for eg. Attribute1.Name, here we use the Name of the Name before .)       PassStop(thread=False, stop=True,join=True),  or pass this in as parameter when you run,                pythonServer.startHttps(8080,"127.0.0.1:4001:https:8001::8080").      EndOfThread  =ListOrStart    BlockIn=2 Stop Threading, pass=3ms Use StartServer Class"   ) -End   
+
+
+    passThis=1
+<|/ file |>

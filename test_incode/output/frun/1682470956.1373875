@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    words = ['cat', 'dog', 'mouse']
+    
+    hash_map = HashMap(words)
+    """ A hash map that stores a list of words. """    
+    
+    hash_map.add('cat')
+    hash_map.add('dog')
+    hash_map.add('mouse')
+    
+    print hash_map
+<|/ file |>

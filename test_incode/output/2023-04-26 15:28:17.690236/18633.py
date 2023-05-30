@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that adds all ports and removes all ports. """    
+    ports = Ports()
+    ports.remove_all_ports()
+    ports.add_all_ports()
+    ports.print_ports()
+    ports.print_all_ports()
+    ports.print_all_ports_info()
+    ports.print_all_ports_info_by_type()
+    ports.print_all_ports_info_by_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name()
+    ports.print_all_ports_info_by_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name_and_type_and_name()
+    ports.

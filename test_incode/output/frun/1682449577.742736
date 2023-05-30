@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A hash map that converts a list of words. """    
+    words = [w.lower() for w in words]
+    words = [w for w in words if len(w) > 1]
+    return dict(zip(words, range(len(words))))
+<|/ file |>

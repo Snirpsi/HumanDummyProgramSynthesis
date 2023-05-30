@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = ['hello', 'world', 'python']
+    
+    words = add_words(words)
+    
+    words.sort()
+    
+    for word in words:
+        print word
+    """ A array that adds words. """    
+<|/ file |>

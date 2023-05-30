@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that removes numbers. """    
+    array = [int(x) for x in input().split()]
+    array.remove(int(input()))
+    print(array)
+<|/ file |>

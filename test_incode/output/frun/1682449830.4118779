@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that iterates words. """    
+    words = [word.lower() for word in open('words.txt')]
+    
+    for word in words:
+        print word
+<|/ file |>

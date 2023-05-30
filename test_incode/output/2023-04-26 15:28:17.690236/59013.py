@@ -1,0 +1,82 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that multiplyes user input or multiplyes numbers. """    
+    
+    multiplier = int(input("Enter a number: "))
+    
+    if multiplier == 1:
+        print("The product is 1")
+    elif multiplier == 2:
+        print("The product is 2")
+    elif multiplier == 3:
+        print("The product is 3")
+    elif multiplier == 4:
+        print("The product is 4")
+    elif multiplier == 5:
+        print("The product is 5")
+    elif multiplier == 6:
+        print("The product is 6")
+    elif multiplier == 7:
+        print("The product is 7")
+    elif multiplier == 8:
+        print("The product is 8")
+    elif multiplier == 9:
+        print("The product is 9")
+    elif multiplier == 10:
+        print("The product is 10")
+    elif multiplier == 11:
+        print("The product is 11")
+    elif multiplier == 12:
+        print("The product is 12")
+    elif multiplier == 13:
+        print("The product is 13")
+    elif multiplier == 14:
+        print("The product is 14")
+    elif multiplier == 15:
+        print("The product is 15")
+    elif multiplier == 16:
+        print("The product is 16")
+    elif multiplier == 17:
+        print("The product is 17")
+    elif multiplier == 18:
+        print("The product is 18")
+    elif multiplier == 19:
+        print("The product is 19")
+    elif multiplier == 20:
+        print("The product is 20")
+    elif multiplier == 21:
+        print("The product is 21")
+    elif multiplier == 22:
+        print("The product is 22")
+    elif multiplier == 23:
+        print("The product is 23")
+    elif multiplier == 24:
+        print("The product is 24")
+    elif multiplier == 25:
+        print("The product is 25")
+    elif multiplier == 26:
+        print("The product is 26")
+    elif multiplier == 27:
+        print("The product is 27")
+    elif multiplier == 28:
+        print("The product is 28")
+    elif multiplier == 29:
+        print("The product is 29")
+    elif multiplier == 30:
+        print("The product is 30")
+    elif multiplier == 31:
+        print("The product is 31")
+    elif multiplier == 32:
+        print("The product is 32")
+    elif multiplier == 33:
+        print("The product is 33")
+    elif multiplier == 34:
+        print("The product is 34")
+    elif multiplier == 35:
+        print("The product is 35")
+    elif multiplier == 36:
+        print("The product is 36")
+    elif multiplier == 37:
+        print("The product is 37")
+    elif multiplier == 38:
+        print("The product 

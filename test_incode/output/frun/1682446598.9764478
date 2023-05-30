@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    """ A hash map that prints fruits. """    
+    fruit.print_fruits()
+<|/ file |>

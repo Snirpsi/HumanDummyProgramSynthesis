@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    ports = PortList() 
+    """ A list that iterates a port. """    
+    ports.ports = [Port('COM3'), Port('COM4'), Port('COM5')]
+    ports.run()
+<|/ file |>

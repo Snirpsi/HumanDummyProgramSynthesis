@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    
+    words = filter(None, words)
+    
+    """ A array that adds words. """    
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    return words
+<|/ file |>

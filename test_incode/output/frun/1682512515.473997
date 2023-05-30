@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = open(sys.argv[1]).read().split()
+    """ A array that opens words. """    
+    
+    
+    
+<|/ file |>

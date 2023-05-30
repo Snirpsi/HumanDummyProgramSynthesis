@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = sys.argv[1:]
+    
+    for number in numbers:
+        number = int(number)
+        
+        if number > 0:
+            numbers.append(number)
+            
+    print numbers
+    
+    """ A list that converts numbers. """    
+<|/ file |>

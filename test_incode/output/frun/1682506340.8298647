@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    import sys
+    wordlist = sys.argv[1:]
+    """ A function that adds a list of words. """    
+    wordlist.sort()
+    wordlist.extend(['and', 'or', 'not', 'is', 'are', 'was', 'were', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', 'will', '
+<|/ file |>

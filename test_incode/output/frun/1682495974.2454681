@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    
+    
+    """ A function that calculates a list of numbers. """    
+    
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    
+    numbers_sum = sum(numbers)
+    
+    numbers_average = sum(numbers) / len(numbers)
+    
+    numbers_median = sorted(numbers)[len(numbers)//2]
+    
+    numbers_mode = sorted(numbers)[len(numbers)//2]
+    
+    numbers_mode = sorted(numbers)[len(numbers)//2]
+    
+    numbers_mode = sorted(numbers)[len(numbers)//2]
+    
+    numbers_mode = sorted(numbers)[len(numbers)//2]
+    
+    numbers_mode = sorted(numbers)[len(numbers)//2]
+    
+<|/ file |>

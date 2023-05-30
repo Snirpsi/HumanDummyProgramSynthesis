@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    import sys
+    ports = sys.argv[1:]
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    ports.remove('all')
+    """ A array that removes a port. """    
+    ports.remove('all')
+<|/ file |>

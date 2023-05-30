@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    words = ['word1', 'word2', 'word3']
+    """ A hash map that stores words. """    
+    
+    wordHash = HashMap(words)
+<|/ file |>

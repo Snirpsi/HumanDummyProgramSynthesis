@@ -1,0 +1,48 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = ['hello', 'world']
+    
+    words = words + ['world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello
+    """ A array that adds a list of words. """    
+    
+    words = ['hello', 'world']
+    
+    words = words + ['world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+    
+    words = words + ['hello', 'world']
+<|/ file |>

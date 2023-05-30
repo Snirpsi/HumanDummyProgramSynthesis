@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    
+    arr.remove([1,2,3])
+    
+    print arr
+    """ A array that removes a list of numbers. """    
+<|/ file |>

@@ -1,0 +1,30 @@
+if __name__ == '__main__': 
+    
+    """ A programm that stores a list of numbers. """    
+    numbers = range(10)
+    numbers.sort()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.reverse()
+    numbers.
+<|/ file |>

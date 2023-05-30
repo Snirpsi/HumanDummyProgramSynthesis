@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A hash map that enumerates a list of numbers. """    
+    numbers = [1,2,3,4,5]
+    numbers_hash = {i:j for i,j in zip(numbers,range(len(numbers)))}
+    
+    
+    
+    
+<|/ file |>

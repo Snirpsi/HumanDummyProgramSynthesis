@@ -1,0 +1,63 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that multiplyes fruits or prints user input. """    
+    while True:
+        fruit = input("Enter a fruit: ")
+        if fruit == "apple":
+            print("You entered an apple")
+        elif fruit == "banana":
+            print("You entered a banana")
+        elif fruit == "cherry":
+            print("You entered a cherry")
+        elif fruit == "grape":
+            print("You entered a grape")
+        elif fruit == "orange":
+            print("You entered an orange")
+        elif fruit == "pineapple":
+            print("You entered a pineapple")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You entered a watermelon")
+        elif fruit == "watermelon":
+            print("You 

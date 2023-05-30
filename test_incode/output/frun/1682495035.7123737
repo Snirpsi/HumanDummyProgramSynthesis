@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    """ A list that converts a list of words. """    
+    words = [w.lower() for w in words]
+    return words
+<|/ file |>

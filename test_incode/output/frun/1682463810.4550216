@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    """ A function that converts a port. """    
+    port = int(sys.argv[1])
+    
+    ports = [str(port)]
+    
+    ports = ports + get_ports(port)
+    
+    ports = ports + get_ports(port + 1)
+    
+    ports = ports + get_ports(port + 2)
+    
+    ports = ports + get_ports(port + 3)
+    
+    ports = ports + get_ports(port + 4)
+    
+    ports = ports + get_ports(port + 5)
+    
+    ports = ports + get_ports(port + 6)
+    
+    ports = ports + get_ports(port + 7)
+    
+    
+<|/ file |>

@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    """ A programm that removes a list of numbers. """    
+    import sys
+    
+    numbers = sys.argv[1:]
+    
+    for number in numbers:
+        remove_number(number)
+        
+if __name__ == '__main__':
+    main()
+<|/ file |>

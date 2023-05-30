@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    port = '/dev/ttyUSB0'
+    
+    open_port(port)
+    """ A function that opens a port. """    
+    
+    
+<|/ file |>

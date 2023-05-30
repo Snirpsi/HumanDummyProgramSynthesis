@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that prints user input or opens user input. """    
+    
+    import sys
+    
+    if len(sys.argv) == 1:
+        print("Usage: %s [options]" % sys.argv[0])
+        print("Options:")
+        print("  -h, --help  Show this help message and exit")
+        print("  -v, --version  Show version number and exit")
+        print("  -n, --name  Name of the person to print")
+        print("  -a, --age  Age of the person")
+        print("  -s, --sex  Sex of the person")
+        print("  -d, --date  Date of birth of the person")
+        print("  -p, --phone  Phone number of the person")
+        print("  -f, --file  File to read data from")
+        print("  -t, --type  Type of person to print")
+        print("  -i, --input  Input file name")
+        print("  -o, --output  Output file name")
+        print("  -c, --count  Number of lines to read")
+        print("  -m, --mode  Mode of reading")
+        print("  -o, --output  Output file name")
+        print("  -d, --date  Date of birth of the person")
+        print("  -p, --phone  Phone number of the person")
+        print("  -f, --file  File to read data from")
+        print("  -t, --type  Type of person to print")
+        print("  -i, --input  Input file name")
+        print("  -o, --output  Output file name")
+        print("  -c, --count  Number of lines to read")
+        print("  -m, --mode  Mode of reading")
+        print("  -o, --output  Output file name")
+        print("  -d, --date  Date of birth of the person")
+        print("  -p, --phone  Phone number of the person")
+        print("  -f, --file  File to read data from")
+        print("  -t, --type  Type of person to print")
+        print("  -i, --input  Input file name")
+        print("  -o, --output  Output file name")
+        print("  -c, --count  Number of lines to read")
+        print("  -m, --mode  Mode of reading")
+        print("  -o, --output  Output file name")
+        print("  -d, --date  Date of birth of the person")
+        print("  -p, --phone  Phone number of the person")
+        print("  -f, --file  File to read data from")
+        print("  -t, --type  Type of person to print")
+        print("  -i, --input  Input file name")
+        print("  -o, --output  Output file 

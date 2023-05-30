@@ -1,0 +1,38 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = sys.argv[1:]
+    
+    words = [w.strip() for w in words]
+    
+    words = ' '.join(words)
+    
+    words = words.split()
+    
+    words = words.replace(' ', '')
+    
+    words = words.replace(',', '')
+    
+    words = words.replace(':', '')
+    
+    words = words.replace('?', '')
+    
+    words = words.replace('!', '')
+    
+    words = words.replace(':', '')
+    
+    words = words.replace('!', '')
+    
+    words = words.replace('?', '')
+    
+    words = words.replace('!', '')
+    
+    words = words.replace(':', '')
+
+    """ A array that stores a list of words. """    
+    
+    words = words[:]
+    
+    return words
+<|/ file |>

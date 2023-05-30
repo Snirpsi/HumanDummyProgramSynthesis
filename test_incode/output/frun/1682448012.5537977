@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A programm that iterates numbers. """    
+    import sys
+    
+    numbers = map(int, sys.stdin.readlines())
+    
+    for number in numbers:
+        print number
+<|/ file |>

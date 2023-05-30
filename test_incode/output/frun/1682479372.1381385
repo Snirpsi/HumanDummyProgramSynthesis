@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    fruits = list(fruits)
+    """ A list that converts fruits. """    
+    
+    
+<|/ file |>

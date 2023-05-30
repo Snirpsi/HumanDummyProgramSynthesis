@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that removes a list of words. """    
+    
+    words = words.split()
+    
+    removed = []
+    
+    for word in words:
+        if word not in removed:
+            removed.append(word)
+            
+    return " ".join(removed)
+<|/ file |>

@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world']
+    
+    h = HashMap(words)
+    """ A hash map that prints a list of words. """    
+    
+    h.print_list()
+<|/ file |>

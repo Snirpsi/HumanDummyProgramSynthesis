@@ -1,0 +1,66 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that adds numbers or multiplyes a list of words. """    
+    import sys
+    
+    if len(sys.argv) < 2:
+        print("Usage: %s <words>" % sys.argv[0])
+        sys.exit()
+    
+    words = sys.argv[1:]
+    
+    words = [word.strip() for word in words]
+    
+    words = [word for word in words if word]
+    
+    words = [word for word in words if word.isalpha()]
+    
+    words = [word for word in words if word.isdigit()]
+    
+    words = [word for word in words if word not in ['and', 'or']]
+    
+    words = [word for word in words if word.isalnum()]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '?']]
+    
+    words = [word for word in words if word not in ['.', '?']]
+    
+    words = [word for word in words if word not in ['!', '

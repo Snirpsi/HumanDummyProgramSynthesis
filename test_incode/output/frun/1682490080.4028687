@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    ports = PortArray()
+    """ A array that converts a port. """    
+    ports.ports = [Port('COM3', 115200)]
+    ports.run()
+<|/ file |>

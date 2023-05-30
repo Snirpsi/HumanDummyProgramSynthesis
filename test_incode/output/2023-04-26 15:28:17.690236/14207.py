@@ -1,0 +1,83 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that returns numbers or enumerates words. """    
+    import sys
+    import os
+    import socket
+    import time
+    from http.server import BaseHTTPRequestHandler, HTTPServer
+    from urllib.parse import urlparse
+    from enum import Enum
+
+    HOST = 'localhost'
+    PORT = 8000
+
+    class Word(Enum):
+        apple = 'apple'
+        orange = 'orange'
+        pear = 'pear'
+        grape = 'grape'
+        cherry = 'cherry'
+        kiwi = 'kiwi'
+        lion = 'lion'
+        tiger = 'tiger'
+        cat = 'cat'
+        dog = 'dog'
+        mouse = 'mouse'
+        rabbit = 'rabbit'
+        duck = 'duck'
+        monkey = 'monkey'
+        bear = 'bear'
+        panda = 'panda'
+        monkey = 'monkey'
+        cat = 'cat'
+        dog = 'dog'
+        mouse = 'mouse'
+        rabbit = 'rabbit'
+        duck = 'duck'
+        monkey = 'monkey'
+        bear = 'bear'
+        panda = 'panda'
+        monkey = 'monkey'
+        cat = 'cat'
+        dog = 'dog'
+        mouse = 'mouse'
+        rabbit = 'rabbit'
+        duck = 'duck'
+        monkey = 'monkey'
+        bear = 'bear'
+        panda = 'panda'
+        monkey = 'monkey'
+        cat = 'cat'
+        dog = 'dog'
+        mouse = 'mouse'
+        rabbit = 'rabbit'
+        duck = 'duck'
+        monkey = 'monkey'
+        bear = 'bear'
+        panda = 'panda'
+        monkey = 'monkey'
+        cat = 'cat'
+        dog = 'dog'
+        mouse = 'mouse'
+        rabbit = 'rabbit'
+        duck = 'duck'
+        monkey = 'monkey'
+        bear = 'bear'
+        panda = 'panda'
+        monkey = 'monkey'
+        cat = 'cat'
+        dog = 'dog'
+        mouse = 'mouse'
+        rabbit = 'rabbit'
+        duck = 'duck'
+        monkey = 'monkey'
+        bear = 'bear'
+        panda = 'panda'
+        monkey = 'monkey'
+        cat = 'cat'
+        dog = 'dog'
+        mouse = 'mouse'
+        rabbit = 'rabbit'
+        duck = 'duck'
+        monkey = 'monkey

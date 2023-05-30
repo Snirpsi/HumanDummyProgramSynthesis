@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = [sys.argv[i] for i in xrange(1, len(sys.argv))]
+    """ A array that converts words. """    
+    
+    
+    
+<|/ file |>

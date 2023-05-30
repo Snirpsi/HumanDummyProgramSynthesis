@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that enumerates numbers. """    
+    numbers = list(range(1,101))
+    numbers.sort()
+    print(numbers)
+<|/ file |>

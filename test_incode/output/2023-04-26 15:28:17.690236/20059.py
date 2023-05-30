@@ -1,0 +1,52 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that multiplyes a list of words. """    
+    import sys
+    sys.path.append('.')
+    from wordlist import wordlist
+    from wordlist import wordlist_to_list
+    from wordlist import list_to_wordlist
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_to_wordlist_from_list
+    from wordlist import list_

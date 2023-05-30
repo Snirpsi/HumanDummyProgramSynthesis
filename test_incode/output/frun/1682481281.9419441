@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = ['hello', 'world', '!']
+    """ A array that converts words. """    
+    
+    array = []
+    
+    for word in words:
+        array.append(word)
+    
+    print(array)
+<|/ file |>

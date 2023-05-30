@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = ['word', 'words', 'word', 'words']
+    
+    word = 'word'
+    
+    words = words[words.index(word)]
+    
+    print(words)
+<|/ file |>

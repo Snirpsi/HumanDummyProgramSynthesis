@@ -1,0 +1,29 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    """ A array that converts fruits. """    
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.makeFruit()
+    
+    fruit.make
+<|/ file |>

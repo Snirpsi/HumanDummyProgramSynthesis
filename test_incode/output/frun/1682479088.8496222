@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    
+    words = [ 'hello', 'world', 'how', 'are', 'you', 'today' ]
+    
+    hashmap = HashMap(words)
+    """ A hash map that stores words. """    
+    
+    hashmap.add('hello')
+    hashmap.add('world')
+    hashmap.add('how')
+    hashmap.add('are')
+    hashmap.add('you')
+    hashmap.add('today')
+    
+    print(hashmap.get('hello'))
+    print(hashmap.get('world'))
+    print(hashmap.get('how'))
+    print(hashmap.get('are'))
+    print(hashmap.get('you'))
+    print(hashmap.get('today'))
+<|/ file |>

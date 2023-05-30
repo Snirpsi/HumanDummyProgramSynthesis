@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that adds words. """    
+    words = [word.strip() for word in sys.stdin.readlines()]
+    words.extend(sys.argv[1:])
+    words.sort()
+    sys.stdout.write('\n'.join(words))
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    """ A programm that enumerates fruits. """    
+    fruit.enumerate()
+<|/ file |>

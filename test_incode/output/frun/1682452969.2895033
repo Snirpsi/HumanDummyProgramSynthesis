@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = ['word1', 'word2', 'word3']
+    
+    word_map = HashMap(words)
+    """ A hash map that stores a list of words. """    
+    
+    word_map.add('word4')
+    
+    print word_map.get('word4')
+<|/ file |>

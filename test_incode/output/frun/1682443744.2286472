@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A function that adds numbers. """    
+    numbers = range(1,11)
+    numbers.extend([x+1 for x in numbers])
+    return numbers
+<|/ file |>

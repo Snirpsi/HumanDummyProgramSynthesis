@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    """ A function that opens a list of words. """    
+    words = []
+    
+    for word in words:
+        word = word.strip()
+        
+        if word:
+            words.append(word)
+            
+    return words
+<|/ file |>

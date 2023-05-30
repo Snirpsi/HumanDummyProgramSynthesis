@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    wordlist = wordlist_generator()
+    """ A function that calculates a list of words. """    
+    wordlist = []
+    for word in wordlist_generator():
+        wordlist.append(word)
+    return wordlist
+<|/ file |>

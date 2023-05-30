@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = ListCalculator()
+    """ A list that calculates numbers. """    
+    numbers.calculate()
+    
+    
+<|/ file |>

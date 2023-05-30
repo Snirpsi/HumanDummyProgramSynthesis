@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    """ A programm that adds words. """    
+    words = ['hello', 'world']
+    words.extend(['python', 'is', 'great'])
+    words.extend(['python', 'is', 'great', 'to', 'do'])
+    words.extend(['python', 'is', 'great', 'to', 'do', 'this'])
+    words.extend(['python', 'is', 'great', 'to', 'do', 'this', 'is'])
+    words.extend(['python', 'is', 'great', 'to', 'do', 'this', 'is', 'great'])
+    words.extend(['python', 'is', 'great', 'to', 'do', 'this', 'is', 'great', 'to'])
+    words.extend(['python', 'is', 'great', 'to', 'do
+<|/ file |>

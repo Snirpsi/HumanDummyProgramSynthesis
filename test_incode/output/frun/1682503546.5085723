@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    import sys
+    """ A programm that enumerates a list of words. """    
+    words = ['a', 'b', 'c', 'd', 'e']
+    for index, word in enumerate(words):
+        print '%3d: %s' % (index, word)
+<|/ file |>

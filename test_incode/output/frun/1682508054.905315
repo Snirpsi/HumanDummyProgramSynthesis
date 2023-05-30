@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    enumerateWords()
+    """ A function that enumerates a list of words. """    
+    
+    
+<|/ file |>

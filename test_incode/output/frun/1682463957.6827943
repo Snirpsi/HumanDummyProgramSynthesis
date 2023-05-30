@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    
+    wordlist = WordList()
+    """ A hash map that stores a list of words. """    
+    wordlist.add( 'hello' )
+    wordlist.add( 'world' )
+    wordlist.add( 'python' )
+    wordlist.add( 'is' )
+    wordlist.add( 'a' )
+    wordlist.add( 'hash' )
+    wordlist.add( 'map' )
+    wordlist.add( 'list' )
+    wordlist.add( 'of' )
+    wordlist.add( 'words' )
+    wordlist.add( 'in' )
+    wordlist.add( 'python' )
+    wordlist.add( 'in' )
+    wordlist.add( 'a' )
+    wordlist.add( 'test' )
+    wordlist.add( 'for
+<|/ file |>

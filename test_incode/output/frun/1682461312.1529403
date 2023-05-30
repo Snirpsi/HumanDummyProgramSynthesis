@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = [w for w in sys.argv[1:] if w.strip()]
+    
+    remove_words(words)
+    """ A array that removes words. """    
+<|/ file |>

@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    import sys
+    words = []
+    for line in sys.stdin:
+        words.append(line.strip())
+    words.sort()
+    """ A array that stores words. """    
+    words = [w.strip() for w in words]
+    words.sort()
+    return words
+<|/ file |>

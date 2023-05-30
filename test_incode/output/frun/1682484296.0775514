@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    port = int(sys.argv[1])
+    """ A array that iterates a port. """    
+    ports = []
+    for i in range(port):
+        ports.append(i)
+    
+    ports.sort()
+    
+    for port in ports:
+        print port
+<|/ file |>

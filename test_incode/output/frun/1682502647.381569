@@ -1,0 +1,60 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = sys.argv[1]
+    
+    ports = ports.split(',')
+    
+    ports = map(int, ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    """ A array that iterates a port. """    
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+    ports = list(ports)
+    
+    ports = itertools.cycle(ports)
+    
+
+<|/ file |>

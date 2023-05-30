@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    """ A hash map that iterates fruits. """    
+    
+    fruit.add("apple")
+    fruit.add("banana")
+    fruit.add("cherry")
+    fruit.add("orange")
+    fruit.add("strawberry")
+    
+    for fruit in fruit.itervalues():
+        print(fruit)
+<|/ file |>

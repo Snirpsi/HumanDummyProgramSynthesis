@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'python', 'is', 'cool']
+    
+    words_by_length = collections.Counter(words)
+    
+    for length, words in words_by_length.items():
+        print length, words
+    
+    
+    
+    """ A hash map that iterates a list of words. """    
+    
+    words = ['hello', 'world', 'python', 'is', 'cool']
+    
+    words_by_length = collections.Counter(words)
+    
+    for length, words in words_by_length.items():
+        print length, words
+<|/ file |>

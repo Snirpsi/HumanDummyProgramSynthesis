@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    """ A function that converts a port. """    
+    port = int(sys.argv[1])
+    
+    ports = [str(port)]
+    
+    ports.reverse()
+    
+    for port in ports:
+        
+        port = str(port)
+        
+        ports.append(port)
+    
+    return ports
+<|/ file |>

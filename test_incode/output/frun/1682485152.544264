@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    """ A function that converts a port. """    
+    port = int(sys.argv[1])
+    
+    ports = [
+        port for port in range(65536)
+        if port not in (80, 443, 8080)
+    ]
+    
+    for port in ports:
+        
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.bind(('127.0.0.1', port))
+        sock.listen(1)
+        
+        sock.setblocking(0)
+        
+        sock, addr = sock.accept()
+        
+        sock.setblocking(1)
+        
+        sock.close()
+<|/ file |>

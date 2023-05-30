@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A hash map that calculates a list of words. """    
+    words = []
+    
+    for word in words:
+        words.append(word)
+        
+    return words
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    """ A list that enumerates a list of words. """    
+    for word, index in enumerate( words ):
+        print word, index
+<|/ file |>

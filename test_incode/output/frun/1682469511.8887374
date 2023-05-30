@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A array that enumerates a port. """    
+    ports = range(1,65535)
+    ports.reverse()
+    for port in ports:
+        print port
+<|/ file |>

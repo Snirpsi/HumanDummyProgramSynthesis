@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A function that converts words. """    
+    
+    import sys
+    
+    words = [word.strip() for word in sys.argv[1:]]
+    
+    convert(words)
+<|/ file |>

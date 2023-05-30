@@ -1,0 +1,37 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    fruit.add("apple")
+    fruit.add("orange")
+    fruit.add("banana")
+    fruit.add("pear")
+    fruit.add("grape")
+    
+    fruit.printFruits()
+    
+    
+    
+    
+    """ A hash map that converts fruits. """    
+    
+    fruits = {}
+    
+    def addFruit(fruit):
+        """ Add a fruit to the hash map. """
+        fruits[fruit] = True
+    
+    def addFruits(fruits):
+        """ Add a list of fruits to the hash map. """
+        for fruit in fruits:
+            addFruit(fruit)
+    
+    def addFruits(fruits):
+        """ Add a list of fruits to the hash map. """
+        for fruit in fruits:
+            addFruits(fruit)
+    
+    def addFruits(fruits):
+        """ Add a list of fruits to the hash map. """
+        for fruit in fruits:
+            add
+<|/ file |>

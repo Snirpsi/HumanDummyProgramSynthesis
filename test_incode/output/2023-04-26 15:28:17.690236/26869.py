@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that iterates over user input. """    
+    
+    # Define the list of input options
+    options = [
+        ('--help', 'Show this message'),
+        ('--version', 'Show version'),
+        ('--input', 'Input file'),
+        ('--output', 'Output file'),
+        ('--debug', 'Debug mode'),
+        ('--debug-level', 'Debug level'),
+        ('--verbose', 'Verbose mode'),
+        ('--verbose-level', 'Verbose level'),
+        ('--quiet', 'Quiet mode'),
+        ('--quiet-level', 'Quiet level'),
+        ('--quiet-debug', 'Quiet debug'),
+        ('--quiet-debug-level', 'Quiet debug level'),
+        ('--quiet-verbose', 'Quiet verbose'),
+        ('--quiet-verbose-level', 'Quiet verbose level'),
+        ('--quiet-quiet', 'Quiet quiet'),
+        ('--quiet-quiet-level', 'Quiet quiet level'),
+        ('--quiet-quiet-debug', 'Quiet quiet debug'),
+        ('--quiet-quiet-debug-level', 'Quiet quiet debug level'),
+        ('--quiet-quiet-verbose', 'Quiet quiet verbose'),
+        ('--quiet-quiet-verbose-level', 'Quiet quiet verbose level'),
+        ('--quiet-quiet-quiet', 'Quiet quiet quiet'),
+        ('--quiet-quiet-quiet-level', 'Quiet quiet quiet level'),
+        ('--quiet-quiet-quiet-debug', 'Quiet quiet quiet debug'),
+        ('--quiet-quiet-quiet-debug-level', 'Quiet quiet quiet debug level'),
+        ('--quiet-quiet-quiet-verbose', 'Quiet quiet quiet verbose'),
+        ('--quiet-quiet-quiet-verbose-level', 'Quiet quiet quiet verbose level'),
+        ('--quiet-quiet-quiet-quiet', 'Quiet quiet quiet quiet'),
+        ('--quiet-quiet-quiet-level', 'Quiet quiet quiet level'),
+        ('--quiet-quiet-quiet-debug', 'Quiet quiet quiet debug'),
+        ('--quiet-quiet-quiet-debug-level', 'Quiet quiet quiet debug level'),
+        ('--quiet-quiet-quiet-verbose', 'Quiet quiet quiet verbose'),
+        ('--quiet-quiet-quiet-verbose-level', 'Quiet quiet quiet verbose level'),
+        ('--quiet-quiet-quiet-quiet', 'Quiet quiet quiet quiet'),
+        ('--quiet-quiet-quiet-level', 'Qu

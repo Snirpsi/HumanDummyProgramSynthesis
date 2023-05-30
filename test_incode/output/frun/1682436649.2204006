@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    numbers = list( range( 1, 101) )
+    """ A list that stores numbers. """    
+    
+    
+    
+<|/ file |>

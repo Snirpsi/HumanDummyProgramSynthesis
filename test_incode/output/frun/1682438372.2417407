@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A programm that calculates a port. """    
+    port = int(input('Enter a port number: '))
+    
+    calculate(port)
+<|/ file |>

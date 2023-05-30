@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = []
+    """ A array that adds words. """    
+    
+    for word in sys.argv[1:]:
+        words.append(word)
+    
+    words = " ".join(words)
+    
+    print words
+<|/ file |>

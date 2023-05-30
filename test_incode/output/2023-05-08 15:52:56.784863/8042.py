@@ -1,0 +1,74 @@
+#!/usr/bin/python3
+words = ["hello","world","!"]
+if __name__ == '__main__':
+    #A program that opens a list of words.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program then asks the user to enter a word and prints it.
+    #The program 
+

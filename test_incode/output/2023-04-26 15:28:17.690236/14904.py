@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that multiplyes all ports. """    
+    ports = [
+        Port('COM1', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM2', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM3', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM4', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM5', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM6', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM7', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM8', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM9', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM10', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM11', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM12', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM13', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM14', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM15', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM16', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM17', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM18', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM19', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM20', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM21', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM22', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM23', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM24', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM25', baudrate=9600, data_bits=8, stop_bits=1),
+        Port('COM26', baudrate=96

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    fruits = open_array('fruits.dat')
+    """ A array that opens fruits. """    
+    
+    
+<|/ file |>

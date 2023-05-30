@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = PortArray()
+    
+    for port in ports:
+    """ A array that iterates a port. """    
+    
+    ports.iterate()
+<|/ file |>

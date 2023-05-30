@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    """ A programm that adds words. """    
+    words = [word for word in words]
+    words.sort()
+    words = [word for word in words if word.isalpha()]
+    words.sort()
+    words = [word for word in words if word not in stopwords]
+    words.sort()
+    words = [word for word in words if word not in punctuation]
+    words.sort()
+    words = [word for word in words if word not in stopwords and word not in punctuation]
+    words.sort()
+    words = [word for word in words if word not in stopwords and word not in punctuation and len(word) > 2]
+    words.sort()
+    words = [word for word in words if word not in stopword
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    """ A function that converts words. """    
+    words = [w for w in words if w.isalpha()]
+    return " ".join(words)
+<|/ file |>

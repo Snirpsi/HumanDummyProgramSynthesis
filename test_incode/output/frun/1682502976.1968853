@@ -1,0 +1,25 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A hash map that opens fruits. """    
+    
+    fruits.open()
+    
+    fruits.open_apple()
+    
+    fruits.open_orange()
+    
+    fruits.open_pear()
+    
+    fruits.open_strawberry()
+    
+    fruits.open_cherry()
+    
+    fruits.open_strawberry_and_cherry()
+    
+    fruits.open_strawberry_and_cherry_and_apple()
+    
+    fruits.open_strawberry_and_cherry_and_apple_and_orange()
+    
+    fruits.open_strawberry_and_cherry_and_apple_
+<|/ file |>

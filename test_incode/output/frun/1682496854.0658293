@@ -1,0 +1,47 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    hashmap = HashMap()
+    
+    hashmap.add(1)
+    hashmap.add(2)
+    hashmap.add(3)
+    hashmap.add(4)
+    
+    hashmap.print_hashmap()
+    
+    hashmap.print_hashmap_numbers()
+    
+    hashmap.print_hashmap_numbers_reversed()
+    
+    hashmap.print_hashmap_numbers_reversed_reversed()
+    
+    hashmap.print_hashmap_numbers_reversed_reversed_reversed()
+    
+    hashmap.print_hashmap_numbers_reversed_reversed_reversed_reversed()
+    
+
+    """ A hash map that enumerates numbers. """    
+    
+    hashmap = HashMap()
+    
+    hashmap.add(1)
+    hashmap.add(2)
+    hashmap.add(3)
+    hashmap.add(4)
+    
+    hashmap.print_hashmap()
+    
+    hashmap.print_hashmap_numbers()
+    
+    hashmap.print_hashmap_numbers_reversed()
+    
+    hashmap.print_hashmap_numbers_reversed_reversed()
+    
+    hashmap.print_hashmap_numbers_reversed_reversed_reversed()
+    
+    hashmap.print_hashmap_numbers_reversed_reversed_reversed_reversed()
+    
+    hashmap.print_hash
+<|/ file |>

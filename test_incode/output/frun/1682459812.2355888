@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    fruit = Fruit()
+    """ A array that converts fruits. """    
+    fruits = [Fruit(1), Fruit(2), Fruit(3), Fruit(4), Fruit(5), Fruit(6), Fruit(7), Fruit(8), Fruit(9)]
+    
+    fruits.reverse()
+    
+    for fruit in fruits:
+        print fruit
+<|/ file |>

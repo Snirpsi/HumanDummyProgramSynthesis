@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    #A function that enumerates user input.
+    #The user input will be a string
+    #The function will return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The function will also return the string with each letter capitalized
+    #The 
+

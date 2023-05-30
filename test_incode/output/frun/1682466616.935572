@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that enumerates numbers. """    
+    
+    import sys
+    
+    numbers = range(int(sys.argv[1]), int(sys.argv[2]) + 1)
+    
+    for number in numbers:
+        print number
+<|/ file |>

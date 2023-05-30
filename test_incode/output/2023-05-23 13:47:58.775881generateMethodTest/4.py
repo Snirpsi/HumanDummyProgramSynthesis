@@ -1,0 +1,73 @@
+#!/usr/bin/python3
+port = 8080
+if __name__ == '__main__':
+    #A minimal webserver that stores a port.
+    #This webserver will accept connections from any IP and port on the local machine.
+    #The webserver will then serve the content of the directory /web
+    #The webserver will also serve the content of the directory /web2
+    #The webserver will also serve the content of the directory /web3
+    #The webserver will also serve the content of the directory /web4
+    #The webserver will also serve the content of the directory /web5
+    #The webserver will also serve the content of the directory /web6
+    #The webserver will also serve the content of the directory /web7
+    #The webserver will also serve the content of the directory /web8
+    #The webserver will also serve the content of the directory /web9
+    #The webserver will also serve the content of the directory /web10
+    #The webserver will also serve the content of the directory /web11
+    #The webserver will also serve the content of the directory /web12
+    #The webserver will also serve the content of the directory /web13
+    #The webserver will also serve the content of the directory /web14
+    #The webserver will also serve the content of the directory /web15
+    #The webserver will also serve the content of the directory /web16
+    #The webserver will also serve the content of the directory /web17
+    #The webserver will also serve the content of the directory /web18
+    #The webserver will also serve the content of the directory /web19
+    #The webserver will also serve the content of the directory /web20
+    #The webserver will also serve the content of the directory /web21
+    #The webserver will also serve the content of the directory /web22
+    #The webserver will also serve the content of the directory /web23
+    #The webserver will also serve the content of the directory /web24
+    #The webserver will also serve the content of the directory /web25
+    #The webserver will also serve the content of the directory /web26
+    #The webserver will also serve the content of the directory /web27
+    #The webserver will also serve the content of the directory /web28
+    #The webserver will also serve the content of the directory /web29
+    #The webserver will also serve the content of the directory /web30
+    #The webserver will also serve the content of the directory /web31
+    #The webserver will also serve the content of the directory /web32
+    #The webserver will also serve the content of the directory /web33
+    #The webserver will also serve the content of the directory /web34
+    #The webserver will also serve the content of the directory /web35
+    #The webserver will also serve the content of the directory /web36
+    #The webserver will also serve the content of the directory /web37
+    #The webserver will also serve the content of the directory /web38
+    #The webserver will also serve the content of the directory /web39
+    #The webserver will also serve the content of the directory /web40
+    #The webserver will also serve the content of the directory /web41
+    #The webserver will also serve the content of the directory /web42
+    #The webserver will also serve the content of the directory /web43
+    #The webserver will also serve the content of the directory /web44
+    #The webserver will also serve the content of the directory /web45
+    #The webserver will also serve the content of the directory /web46
+    #The webserver will also serve the content of the directory /web47
+    #The webserver will also serve the content of the directory /web48
+    #The webserver will also serve the content of the directory /web49
+    #The webserver will also serve the content of the directory /web50
+    #The webserver will also serve the content of the directory /web51
+    #The webserver will also serve the content of the directory /web52
+    #The webserver will also serve the content of the directory /web53
+    #The webserver will also serve the content of the directory /web54
+    #The webserver will also serve the content of the directory /web55
+    #The webserver will also serve the content of the directory /web56
+    #The webserver will also serve the content of the directory /web57
+    #The webserver will also serve the content of the directory /web58
+    #The webserver will also serve the content of the directory /web59
+    #The webserver will also serve the content of the directory /web60
+    #The webserver will also serve the content of the directory /web61
+    #The webserver will also serve the content of the directory /web62
+    #The webserver will also serve the content of the directory /web63
+    #The webserver will also serve the content of the directory /web64
+    #The webserver will also serve the content of the directory /web65
+    #The webserver will also serve the content of the directory /web66
+    #The webserver will also serve the content of the directory /web67
+    #The 

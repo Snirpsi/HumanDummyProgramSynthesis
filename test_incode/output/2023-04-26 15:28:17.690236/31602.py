@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that stores all ports or opens user input. """    
+    ports = Ports()
+    ports.open_ports()
+    ports.open_ports_user()
+    ports.open_ports_user_ports()
+    ports.open_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports()
+    ports.open_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports()
+    ports.open_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user()
+    ports.open_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_user_ports_

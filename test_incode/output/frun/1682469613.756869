@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    """ A function that calculates a list of numbers. """    
+    numbers = [int(n) for n in sys.stdin.readline().split()]
+    
+    numbers_sum = sum(numbers)
+    
+    print numbers_sum
+<|/ file |>

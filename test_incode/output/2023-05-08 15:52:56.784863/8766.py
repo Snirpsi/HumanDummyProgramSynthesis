@@ -1,0 +1,79 @@
+#!/usr/bin/python3
+fruirs = ["apple","banana","orange"]
+if __name__ == '__main__':
+    #A minimal webserver that removes fruits.
+    #It also prints out the number of fruits.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints out the number of times a fruit has been removed.
+    #It also prints out the number of times a fruit has been added.
+    #It also prints 
+

@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    """ A hash map that returns words. """    
+    hashmap.add("hello")
+    hashmap.add("world")
+    hashmap.add("goodbye")
+    
+    print hashmap.get("hello")
+    print hashmap.get("world")
+    print hashmap.get("goodbye")
+<|/ file |>

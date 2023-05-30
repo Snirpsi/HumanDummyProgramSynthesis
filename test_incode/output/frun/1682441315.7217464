@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    remove_numbers()
+    """ A function that removes numbers. """    
+    remove_numbers()
+<|/ file |>

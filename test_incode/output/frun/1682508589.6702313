@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    """ A array that opens numbers. """    
+    
+    arr.open()
+    
+    arr.write(1)
+    arr.write(2)
+    arr.write(3)
+    arr.write(4)
+    
+    arr.close()
+<|/ file |>

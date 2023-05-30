@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    fruits = FruitList()
+    """ A list that adds fruits. """    
+    fruits.add('apple')
+    fruits.add('banana')
+    fruits.add('orange')
+    fruits.add('pear')
+    fruits.add('grape')
+    fruits.add('watermelon')
+    fruits.add('kiwi')
+    fruits.add('strawberry')
+    fruits.add('lemon')
+    fruits.add('grapefruit')
+    fruits.add('peach')
+    fruits.add('pineapple')
+    fruits.add('peach')
+    fruits.add('pineapple')
+    fruits.add('pineapple')
+    fruits.add('
+<|/ file |>

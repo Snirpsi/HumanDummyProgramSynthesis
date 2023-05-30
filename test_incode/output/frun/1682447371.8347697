@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = []
+    
+    for line in sys.stdin:
+        words.append(line.strip())
+    
+    words = list(set(words))
+    
+    words.sort()
+    
+    hashmap = HashMap(words)
+    """ A hash map that converts a list of words. """    
+    
+    hashmap = {}
+    
+    for word in words:
+        hashmap[word] = word
+    
+    return hashmap
+<|/ file |>

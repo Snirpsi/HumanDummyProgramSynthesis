@@ -1,0 +1,67 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that converts fruits or calculates numbers. """    
+    while True:
+        fruit = input("Enter a fruit: ")
+        if fruit == "apple":
+            print("The fruit is apple!")
+        elif fruit == "banana":
+            print("The fruit is banana!")
+        elif fruit == "cherry":
+            print("The fruit is cherry!")
+        elif fruit == "orange":
+            print("The fruit is orange!")
+        elif fruit == "mango":
+            print("The fruit is mango!")
+        elif fruit == "pineapple":
+            print("The fruit is pineapple!")
+        elif fruit == "strawberry":
+            print("The fruit is strawberry!")
+        elif fruit == "watermelon":
+            print("The fruit is watermelon!")
+        elif fruit == "banana":
+            print("The fruit is banana!")
+        elif fruit == "cherry":
+            print("The fruit is cherry!")
+        elif fruit == "orange":
+            print("The fruit is orange!")
+        elif fruit == "mango":
+            print("The fruit is mango!")
+        elif fruit == "pineapple":
+            print("The fruit is pineapple!")
+        elif fruit == "strawberry":
+            print("The fruit is strawberry!")
+        elif fruit == "watermelon":
+            print("The fruit is watermelon!")
+        elif fruit == "banana":
+            print("The fruit is banana!")
+        elif fruit == "cherry":
+            print("The fruit is cherry!")
+        elif fruit == "orange":
+            print("The fruit is orange!")
+        elif fruit == "mango":
+            print("The fruit is mango!")
+        elif fruit == "pineapple":
+            print("The fruit is pineapple!")
+        elif fruit == "strawberry":
+            print("The fruit is strawberry!")
+        elif fruit == "watermelon":
+            print("The fruit is watermelon!")
+        elif fruit == "banana":
+            print("The fruit is banana!")
+        elif fruit == "cherry":
+            print("The fruit is cherry!")
+        elif fruit == "orange":
+            print("The fruit is orange!")
+        elif fruit == "mango":
+            print("The fruit is mango!")
+        elif fruit == "pineapple":
+            print("The fruit is pineapple!")
+        elif fruit == "strawberry":
+            print("The fruit is strawberry!")
+        elif fruit == "watermelon":
+            print("The fruit is watermelon!")
+        elif fruit == "banana":
+            print("The fruit is banana!")
+        elif fruit == "cherry":
+            print("The fruit is cherry!")

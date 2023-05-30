@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A programm that opens numbers. """    
+    import sys
+    numbers = map(int, sys.stdin.readlines())
+    numbers.sort()
+    for number in numbers:
+        print(number)
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that calculates fruits. """    
+    fruits = range(10)
+    fruits.sort()
+    print(fruits)
+<|/ file |>

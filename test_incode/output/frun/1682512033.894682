@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    wordlist = WordList()
+    """ A list that stores a list of words. """    
+    wordlist.words = ['word1', 'word2', 'word3']
+    wordlist.words.append('word4')
+    wordlist.words.append('word5')
+    wordlist.words.append('word6')
+    wordlist.words.append('word7')
+    wordlist.words.append('word8')
+    wordlist.words.append('word9')
+    wordlist.words.append('word10')
+    wordlist.words.append('word11')
+    wordlist.words.append('word12')
+    wordlist.words.append('word13')
+    wordlist.words.append('word14')
+    wordlist.words.append('word15')
+    wordlist.words.append('word16
+<|/ file |>

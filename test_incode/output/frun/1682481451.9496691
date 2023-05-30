@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A function that converts fruits. """    
+    fruits = fruits.lower()
+    fruits = fruits.split()
+    fruits = [fruit.lower() for fruit in fruits]
+    fruits = [fruit for fruit in fruits if len(fruit) > 1]
+    return fruits
+<|/ file |>

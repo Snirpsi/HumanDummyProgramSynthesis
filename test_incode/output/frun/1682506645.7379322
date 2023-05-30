@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    import sys
+    ports = PortArray()
+    ports.port()
+    """ A array that returns a port. """    
+<|/ file |>

@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that adds fruits. """    
+    while True:
+        fruits.append(Fruit("Apple", "Banana", "Orange"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("Mango", "Grape", "Pear"))
+        fruits.append(Fruit("

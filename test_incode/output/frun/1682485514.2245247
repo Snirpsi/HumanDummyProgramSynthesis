@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A programm that prints a list of words. """    
+    words = wordlist('words.txt')
+    for word in words:
+        print word
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    ports = PortMap()
+    """ A hash map that converts a port. """    
+    ports.port2ip = {
+        ports.port2port[port]: ip
+        for port, ip in ports.port2ip.items()
+    }
+<|/ file |>

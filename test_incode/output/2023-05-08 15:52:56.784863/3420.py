@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+numbers = [1,2,3,4,9]
+if __name__ == '__main__':
+    #A minimal webserver that returns a list of numbers.
+    webserver = HTTPServer(("", 80), MyHandler)
+    webserver.serve_forever()
+

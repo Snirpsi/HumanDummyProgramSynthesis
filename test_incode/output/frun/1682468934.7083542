@@ -1,0 +1,28 @@
+if __name__ == '__main__': 
+    """ A programm that returns a list of numbers. """    
+    numbers = [1,2,3,4,5,6,7,8,9,10]
+    
+    numbers_sorted = sorted(numbers)
+    
+    numbers_sorted.reverse()
+    
+    numbers_sorted.append(11)
+    
+    numbers_sorted.append(12)
+    
+    numbers_sorted.append(13)
+    
+    numbers_sorted.append(14)
+    
+    numbers_sorted.append(15)
+    
+    numbers_sorted.append(16)
+    
+    numbers_sorted.append(17)
+    
+    numbers_sorted.append(18)
+    
+    numbers_sorted.append(19)
+    
+    
+<|/ file |>

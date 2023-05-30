@@ -1,0 +1,31 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = HashMap()
+    
+    words.put('word1', 1)
+    words.put('word2', 2)
+    words.put('word3', 3)
+    
+    words.put('word4', 4)
+    words.put('word5', 5)
+    words.put('word6', 6)
+    
+    words.put('word7', 7)
+    words.put('word8', 8)
+    words.put('word9', 9)
+    
+    words.put('word10', 10)
+    words.put('word11', 11)
+    words.put('word12', 12)
+    
+    """ A hash map that returns a list of words. """    
+    
+    words = []
+    
+    for word in words:
+        words.append(word)
+    
+    return words
+<|/ file |>

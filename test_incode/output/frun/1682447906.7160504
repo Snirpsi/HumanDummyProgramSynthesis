@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    """ A function that calculates a list of words. """    
+    words = []
+    
+    words.extend(words_in_sentence('''
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+        I love programming
+
+<|/ file |>

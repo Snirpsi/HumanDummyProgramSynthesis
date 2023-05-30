@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words = get_words()
+    """ A hash map that returns words. """    
+    
+    
+<|/ file |>

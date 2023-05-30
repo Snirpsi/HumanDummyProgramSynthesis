@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A hash map that calculates a port. """    
+    ports = {}
+    
+    ports['tcp'] = 8080
+    ports['udp'] = 8081
+    
+    return ports
+<|/ file |>

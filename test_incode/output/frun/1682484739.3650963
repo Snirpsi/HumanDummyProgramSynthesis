@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    enumerateWords(sys.argv[1])
+    """ A function that enumerates a list of words. """    
+<|/ file |>

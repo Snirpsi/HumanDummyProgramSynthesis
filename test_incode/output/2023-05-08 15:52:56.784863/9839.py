@@ -1,0 +1,91 @@
+#!/usr/bin/python3
+numbers = [1,2,3,4,9]
+if __name__ == '__main__':
+    #A function that enumerates a list of numbers.
+    #The function takes an optional argument that determines how many numbers to enumerate.
+    #The function returns a list of the numbers in the list.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The function also returns the number of times each number was found.
+    #The 
+

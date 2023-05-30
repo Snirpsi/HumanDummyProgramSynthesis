@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    """ A programm that adds numbers. """    
+    import sys
+    
+    numbers = map(int, sys.stdin.readline().split())
+    
+    numbers = map(lambda x: x + numbers[0], numbers)
+    
+    numbers = map(lambda x: x + numbers[1], numbers)
+    
+    numbers = map(lambda x: x + numbers[2], numbers)
+    
+    numbers = map(lambda x: x + numbers[3], numbers)
+    
+    numbers = map(lambda x: x + numbers[4], numbers)
+    
+    numbers = map(lambda x: x + numbers[5], numbers)
+    
+    numbers = map(lambda x: x + numbers[6], numbers)
+    
+    numbers = map(lambda x: x + numbers[7], numbers)
+<|/ file |>

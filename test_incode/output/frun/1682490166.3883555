@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    """ A hash map that iterates words. """    
+    
+    hashmap.add("hello")
+    hashmap.add("world")
+    
+    for word in hashmap.iterwords():
+        print word
+<|/ file |>

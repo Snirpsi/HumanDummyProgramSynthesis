@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    
+    words = ['foo', 'bar', 'baz']
+    
+    words_by_hash = {}
+    
+    for word in words:
+        words_by_hash[word] = words_by_hash.get(word, 0) + 1
+    
+    for word, count in words_by_hash.items():
+        print word, count
+    """ A hash map that iterates a list of words. """    
+    
+    
+<|/ file |>

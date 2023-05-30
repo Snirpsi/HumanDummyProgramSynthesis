@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    """ A array that prints words. """    
+    import sys
+    sys.stdout.write(" ".join(sys.argv[1:]))
+<|/ file |>

@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    arr += [1,2,3]
+    
+    print arr
+    """ A array that adds a list of numbers. """    
+<|/ file |>

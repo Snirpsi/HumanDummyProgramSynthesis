@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    
+    words = words.split(',')
+    """ A array that converts a list of words. """    
+    
+    words = list(set(words))
+    
+    return words
+<|/ file |>

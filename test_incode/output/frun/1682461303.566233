@@ -1,0 +1,27 @@
+if __name__ == '__main__': 
+    fruits = Fruits()
+    """ A array that stores fruits. """    
+    fruits.fruits = [
+        'apple',
+        'banana',
+        'cherry',
+        'grape',
+        'orange',
+        'pear',
+        'pineapple',
+        'plum',
+        'raspberry',
+        'strawberry',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+<|/ file |>

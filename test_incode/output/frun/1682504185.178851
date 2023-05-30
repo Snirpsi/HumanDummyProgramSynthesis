@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    numbers = range(10)
+    
+    
+    """ A list that returns numbers. """    
+    
+    
+    
+<|/ file |>

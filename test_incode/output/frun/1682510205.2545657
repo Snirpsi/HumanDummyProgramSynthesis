@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that opens a list of numbers. """    
+    numbers = map(int, raw_input().split())
+    numbers.sort()
+    for number in numbers:
+        print number
+<|/ file |>

@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = list( range( 1, sys.maxint + 1 ) )
+    
+    
+    """ A list that returns numbers. """    
+    
+    
+    
+<|/ file |>

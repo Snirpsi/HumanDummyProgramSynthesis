@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    
+    """ A hash map that converts a list of words. """    
+    
+    words = [ 'python', 'javascript', 'java', 'ruby', 'c' ]
+    
+    hashmap = HashMap()
+    
+    for word in words:
+        hashmap.put(word, word)
+    
+    print hashmap
+<|/ file |>

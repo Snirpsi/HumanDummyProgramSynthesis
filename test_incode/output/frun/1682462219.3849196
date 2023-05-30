@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    numbers = range(1,10)
+    """ A function that stores numbers. """    
+    numbers = range(1,10)
+    
+    
+<|/ file |>

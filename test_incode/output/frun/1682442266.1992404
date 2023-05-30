@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    """ A programm that calculates a list of numbers. """    
+    numbers = [int(n) for n in raw_input().split()]
+    
+    numbers_sum = 0
+    for n in numbers:
+        numbers_sum += n
+    
+    print 'The sum of the numbers is %d' % numbers_sum
+<|/ file |>

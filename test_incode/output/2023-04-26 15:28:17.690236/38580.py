@@ -1,0 +1,56 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that adds a list of words and multiplyes numbers. """    
+    wordlist = input("Enter a wordlist: ")
+    numberlist = input("Enter a numberlist: ")
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    wordlist = [x.lower() for x in wordlist]
+    wordlist = [x.capitalize() for x in wordlist]
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    numberlist = " ".join(str(x) for x in numberlist)
+    numberlist = numberlist.split()
+    numberlist = [int(x) for x in numberlist]
+    numberlist = [x*y for x,y in zip(numberlist,wordlist)]
+    number

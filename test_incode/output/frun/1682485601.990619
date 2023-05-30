@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    ports = list( get_ports() )
+    
+    
+    """ A list that returns a port. """    
+    return ports
+<|/ file |>

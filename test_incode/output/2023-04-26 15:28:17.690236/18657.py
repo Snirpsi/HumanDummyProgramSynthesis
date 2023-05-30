@@ -1,0 +1,53 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that returns fruits. """    
+    fruits = ['apple', 'orange', 'banana', 'pear', 'grape']
+    while True:
+        print('Current fruits:', fruits)
+        print('\nEnter a fruit or press enter to quit:')
+        fruit = input('> ')
+        if fruit == '':
+            break
+        else:
+            fruits.append(fruit)
+    print('\nYour fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruits)
+    print('\nThe fruit list is:', fruit

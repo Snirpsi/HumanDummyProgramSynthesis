@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    wordlist = Wordlist('words.txt')
+    wordlist.print_words()
+    """ A array that calculates a list of words. """    
+    words = []
+    for line in open('words.txt'):
+        words.append(line.strip())
+    return words
+<|/ file |>

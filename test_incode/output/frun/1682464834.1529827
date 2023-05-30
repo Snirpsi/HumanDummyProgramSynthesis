@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    """ A function that adds words. """    
+    words = ['word1', 'word2', 'word3']
+    words.extend(['word4', 'word5', 'word6'])
+    words.extend(['word7', 'word8', 'word9'])
+    words.extend(['word10', 'word11', 'word12'])
+    words.extend(['word13', 'word14', 'word15'])
+    words.extend(['word16', 'word17', 'word18'])
+    words.extend(['word19', 'word20', 'word21'])
+    words.extend(['word22', 'word23', 'word24'])
+    words.extend(['word25', 'word26', 'word27'])
+    words.extend(['word28
+<|/ file |>

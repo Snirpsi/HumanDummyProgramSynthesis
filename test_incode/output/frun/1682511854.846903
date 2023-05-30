@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    
+    """ A programm that converts a list of words. """    
+    words = [w for w in words]
+    words = [w.lower() for w in words]
+    words = [w.capitalize() for w in words]
+    words = [w.title() for w in words]
+    words = [w.upper() for w in words]
+    words = [w.capitalize() for w in words]
+    words = [w.title() for w in words]
+    words = [w.upper() for w in words]
+    words = [w.capitalize() for w in words]
+    words = [w.title() for w in words]
+    words = [w.upper() for w in words]
+    words = [w.capitalize() for w in words]
+    words = [w.title() for w in word
+<|/ file |>

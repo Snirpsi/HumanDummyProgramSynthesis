@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    remove_words( ['the', 'cat', 'is', 'a', 'cat'] )
+    """ A list that removes words. """    
+    
+    
+<|/ file |>

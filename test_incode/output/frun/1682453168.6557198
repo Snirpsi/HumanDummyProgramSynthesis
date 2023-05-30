@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    import sys
+    """ A list that enumerates numbers. """    
+    for num in xrange(1, sys.maxint+1): 
+        print num
+<|/ file |>

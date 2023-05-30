@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words = ['hello', 'world', 'goodbye']
+    """ A list that removes a list of words. """    
+    words = [word for word in words if word not in words]
+    print(words)
+<|/ file |>

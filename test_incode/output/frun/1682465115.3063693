@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A list that stores a list of words. """    
+    words = []
+<|/ file |>

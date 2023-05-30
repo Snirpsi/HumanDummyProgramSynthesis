@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'how', 'are', 'you', 'today']
+    """ A hash map that stores a list of words. """    
+    
+    wordMap = {}
+    
+    for word in words:
+        wordMap[word] = wordMap.get(word, []) + [word]
+    
+    for word in wordMap:
+        print word, len(wordMap[word])
+<|/ file |>

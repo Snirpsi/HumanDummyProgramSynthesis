@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    words = ['a', 'b', 'c', 'd', 'e']
+    
+    words_to_remove = ['a', 'e']
+    
+    words_to_remove_from_map = remove_from_map(words, words_to_remove)
+    
+    words_to_remove_from_map
+    
+    """ A hash map that removes a list of words. """    
+<|/ file |>

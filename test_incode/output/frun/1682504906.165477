@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that returns a list of words. """    
+    words = []
+    for word in word_list: 
+        words.append(word)
+    return words
+<|/ file |>

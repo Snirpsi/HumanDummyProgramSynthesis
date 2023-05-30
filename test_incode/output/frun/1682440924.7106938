@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A array that returns a list of numbers. """    
+    return range(10)
+<|/ file |>

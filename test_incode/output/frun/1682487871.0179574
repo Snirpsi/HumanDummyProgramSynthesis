@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A array that enumerates a list of numbers. """    
+    return enumerate(array)
+<|/ file |>

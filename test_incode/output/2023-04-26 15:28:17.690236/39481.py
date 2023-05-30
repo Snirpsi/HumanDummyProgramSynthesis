@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that opens words or enumerates all ports. """    
+    
+    ports = enumerate_ports()
+    
+    for port in ports:
+        print("Port {} is open".format(port))
+    
+    
+<|/ file ext=.py source=github |>

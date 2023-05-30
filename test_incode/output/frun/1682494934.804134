@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    """ A programm that opens a list of numbers. """    
+    numbers = range(1,10)
+    numbers_open = map(open,numbers)
+    numbers_open = map(list,numbers_open)
+    numbers_open = map(str,numbers_open)
+    numbers_open = map(unicode,numbers_open)
+    numbers_open = map(str,numbers_open)
+    numbers_open = map(unicode,numbers_open)
+    numbers_open = map(str,numbers_open)
+    numbers_open = map(unicode,numbers_open)
+    numbers_open = map(str,numbers_open)
+    numbers_open = map(unicode,numbers_
+<|/ file |>

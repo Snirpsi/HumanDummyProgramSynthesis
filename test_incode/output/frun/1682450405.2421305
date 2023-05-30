@@ -1,0 +1,67 @@
+if __name__ == '__main__': 
+    import sys
+    import numpy as np
+    
+    arr = np.array([1,2,3])
+    
+    arr2 = arr.tolist()
+    
+    arr3 = arr.tolist()
+    
+    arr4 = arr.tolist()
+    
+    arr5 = arr.tolist()
+    
+    arr6 = arr.tolist()
+    
+    arr7 = arr.tolist()
+    
+    arr8 = arr.tolist()
+    
+    arr9 = arr.tolist()
+    
+    arr10 = arr.tolist()
+    
+    arr11 = arr.tolist()
+    
+    arr12 = arr.tolist()
+    
+    arr13 = arr.tolist()
+    
+    arr14 = arr.tolist()
+    
+    arr15 = arr.
+    """ A array that returns a list of numbers. """    
+    
+    arr = np.array([1,2,3])
+    
+    arr2 = arr.tolist()
+    
+    arr3 = arr.tolist()
+    
+    arr4 = arr.tolist()
+    
+    arr5 = arr.tolist()
+    
+    arr6 = arr.tolist()
+    
+    arr7 = arr.tolist()
+    
+    arr8 = arr.tolist()
+    
+    arr9 = arr.tolist()
+    
+    arr10 = arr.tolist()
+    
+    arr11 = arr.tolist()
+    
+    arr12 = arr.tolist()
+    
+    arr13 = arr.tolist()
+    
+    arr14 = arr.tolist()
+    
+    arr15 = arr.tolist()
+    
+    arr
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    ports = PortMap()
+    """ A hash map that stores a port. """    
+    ports.port = '1234'
+    
+    print ports.port
+<|/ file |>

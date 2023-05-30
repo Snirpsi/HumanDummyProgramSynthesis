@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that removes fruits. """    
+    fruits = ['apple', 'banana', 'cherry']
+    while True:
+        fruits.remove('apple')
+        fruits.remove('banana')
+        fruits.remove('cherry')
+        print('Fruits: ', fruits)
+        print('')
+        

@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    words = set(sys.argv[1:])
+    """ A hash map that adds words. """    
+    words.update(sys.argv[1:])
+    words.update(sys.argv[2:])
+    words.update(sys.argv[3:])
+    words.update(sys.argv[4:])
+    words.update(sys.argv[5:])
+    words.update(sys.argv[6:])
+    words.update(sys.argv[7:])
+    words.update(sys.argv[8:])
+    words.update(sys.argv[9:])
+    words.update(sys.argv[10:])
+    words.update(sys.argv[11:])
+    words.update(sys.argv[12:])
+    words.update(sys.argv[13:])
+    words.update(sys.argv[14:])
+    words.update(sys.argv[15:])
+    words.update(sys.argv[16:])
+    words.update(sys.argv[17:])
+    words.update(
+<|/ file |>

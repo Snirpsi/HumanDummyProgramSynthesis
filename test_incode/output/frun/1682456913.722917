@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    ports = PortEnumerator()
+    ports.enumerate()
+    """ A array that enumerates a port. """    
+<|/ file |>

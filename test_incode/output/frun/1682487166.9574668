@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    arr.add(1)
+    arr.add(2)
+    arr.add(3)
+    arr.add(4)
+    
+    print arr
+    """ A array that converts a list of numbers. """    
+    
+    
+<|/ file |>

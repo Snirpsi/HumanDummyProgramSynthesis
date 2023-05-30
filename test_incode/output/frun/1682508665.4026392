@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that adds a list of numbers. """    
+    numbers = range(10)
+    numbers.append(numbers)
+    print(numbers)
+<|/ file |>

@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    """ A function that opens a list of words. """    
+    words = []
+    
+    words.append(input("Enter a word: "))
+    
+    words = words + get_words(words)
+    
+    print("\n".join(words))
+<|/ file |>

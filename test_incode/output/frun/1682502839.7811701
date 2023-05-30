@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    import sys
+    """ A programm that returns numbers. """    
+    numbers = range(1,10)
+    
+    for number in numbers:
+        print number
+<|/ file |>

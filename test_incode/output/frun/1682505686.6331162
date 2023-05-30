@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    """ A array that opens numbers. """    
+    
+    array = []
+    
+    for arg in sys.argv[1:]:
+        array.append(int(arg))
+    
+    array = array(array)
+    
+    print array
+<|/ file |>

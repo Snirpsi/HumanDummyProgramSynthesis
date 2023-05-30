@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    port = int(sys.argv[1])
+    """ A array that converts a port. """    
+    
+    ports = [int(i) for i in sys.argv[2:]]
+    
+    ports_str = ','.join(str(i) for i in ports)
+    
+    print ports_str
+<|/ file |>

@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that adds a list of numbers. """    
+    import sys
+    
+    numbers = [int(i) for i in sys.argv[1:]]
+    
+    numbers += numbers
+    
+    print numbers
+<|/ file |>

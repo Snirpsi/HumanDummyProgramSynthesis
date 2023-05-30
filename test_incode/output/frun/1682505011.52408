@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that enumerates words. """    
+    hashmap.add("hello")
+    hashmap.add("world")
+    hashmap.add("goodbye")
+    hashmap.add("world")
+    hashmap.add("goodbye")
+    hashmap.add("world")
+    hashmap.add("goodbye")
+    hashmap.add("world")
+    hashmap.add("goodbye")
+    hashmap.add("world")
+    hashmap.add("goodbye")
+    hashmap.add("world")
+    hashmap.add("goodbye")
+    hashmap.add("world")
+    hashmap.
+<|/ file |>

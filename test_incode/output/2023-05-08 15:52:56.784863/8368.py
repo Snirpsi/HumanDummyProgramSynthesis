@@ -1,0 +1,91 @@
+#!/usr/bin/python3
+fruirs = ["apple","banana","orange"]
+if __name__ == '__main__':
+    #A function that converts fruits.
+    #The function takes two arguments: a string and a number
+    #The function returns the string with the number converted to a fruit.
+    #The function should return None if the number is not converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should return an empty list if the number is converted.
+    #The function should return an empty dictionary if the number is converted.
+    #The function should return an empty string if the number is converted.
+    #The function should 
+

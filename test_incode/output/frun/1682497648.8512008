@@ -1,0 +1,32 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = []
+    """ A array that converts numbers. """    
+    
+    arr.append(int(sys.argv[1]))
+    
+    arr.append(int(sys.argv[2]))
+    
+    arr.append(int(sys.argv[3]))
+    
+    arr.append(int(sys.argv[4]))
+    
+    arr.append(int(sys.argv[5]))
+    
+    arr.append(int(sys.argv[6]))
+    
+    arr.append(int(sys.argv[7]))
+    
+    arr.append(int(sys.argv[8]))
+    
+    arr.append(int(sys.argv[9]))
+    
+    arr.append(int(sys.argv[10]))
+    
+    arr.append(int(sys.argv[11]))
+    
+    arr.append(int(sys.argv[12]))
+    
+    arr.append(int(sys.argv[
+<|/ file |>

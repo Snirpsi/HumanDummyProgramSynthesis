@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world']
+    
+    hash_map = HashMap(words)
+    """ A hash map that adds a list of words. """    
+    
+    hash_map.add('hello')
+    hash_map.add('world')
+    
+    print hash_map
+<|/ file |>

@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = []
+    words = words + get_words(sys.argv[1])
+    
+    
+    
+    
+    
+    
+    
+<|/ file |>

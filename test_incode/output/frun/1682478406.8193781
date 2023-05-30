@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that removes fruits. """    
+    fruits = ['apple', 'banana', 'cherry']
+    fruits.remove('cherry')
+    print(fruits)
+<|/ file |>

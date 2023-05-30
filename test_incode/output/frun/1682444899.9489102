@@ -1,0 +1,26 @@
+if __name__ == '__main__': 
+    """ A array that calculates fruits. """    
+    fruits = [
+        'apple',
+        'banana',
+        'orange',
+        'pear',
+        'pineapple',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon',
+        'watermelon
+<|/ file |>

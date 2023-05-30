@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    import numpy as np
+    
+    arr = np.arange(10)
+    """ A array that opens numbers. """    
+    
+    
+<|/ file |>

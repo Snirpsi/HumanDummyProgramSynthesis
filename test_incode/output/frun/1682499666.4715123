@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    addLists(['1', '2', '3'])
+    """ A function that adds a list of numbers. """    
+    addLists(['1', '2', '3'])
+<|/ file |>

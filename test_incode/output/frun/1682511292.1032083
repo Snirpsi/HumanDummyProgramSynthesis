@@ -1,0 +1,26 @@
+if __name__ == '__main__': 
+    """ A list that prints a port. """    
+    ports = list( map( int, raw_input().split() ) )
+    for port in ports:
+        ports.insert( port, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+    
+    ports.insert( 0, 0 )
+<|/ file |>

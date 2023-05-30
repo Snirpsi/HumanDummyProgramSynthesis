@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that prints a list of words. """    
+    import sys
+    
+    if len(sys.argv) > 1:
+        words = sys.argv[1:]
+    else:
+        words = ['hello', 'world', 'python', 'is', 'fun']
+    
+    words.sort()
+    
+    for word in words:
+        print('%s %s' % (word, 

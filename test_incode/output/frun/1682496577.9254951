@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A list that prints a port. """    
+    ports = [int(p) for p in sys.argv[1:]]
+    ports.sort()
+    for p in ports:
+        print p
+<|/ file |>

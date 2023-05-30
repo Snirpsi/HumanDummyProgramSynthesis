@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that iterates a list of words. """    
+    words = []
+    for word in words:
+        print word
+<|/ file |>

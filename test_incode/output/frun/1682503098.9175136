@@ -1,0 +1,25 @@
+if __name__ == '__main__': 
+    """ A programm that adds a list of words. """    
+    import sys
+    wordlist = sys.argv[1:]
+    wordlist.sort()
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+    wordlist.append('')
+<|/ file |>

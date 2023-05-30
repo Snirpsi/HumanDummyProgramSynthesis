@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    words = list( Words() )
+    
+if __name__ == '__main__': 
+    import sys
+    words = list( Words() )
+    
+if __name__ == '__main__': 
+    """ A list that returns a list of words. """    
+    words = list( Words() )
+<|/ file |>

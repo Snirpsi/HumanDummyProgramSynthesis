@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    
+    """ A programm that removes a list of words. """    
+    
+    remove_words("The quick brown fox jumps over the lazy dog")
+<|/ file |>

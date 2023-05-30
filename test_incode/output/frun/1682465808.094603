@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'python']
+    """ A array that adds a list of words. """    
+    
+    words.extend(['python', 'java'])
+    
+    
+    
+    
+    
+<|/ file |>

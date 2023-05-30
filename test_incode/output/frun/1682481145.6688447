@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = Ports()
+    """ A array that adds a port. """    
+    ports.addPort(sys.argv[1])
+<|/ file |>

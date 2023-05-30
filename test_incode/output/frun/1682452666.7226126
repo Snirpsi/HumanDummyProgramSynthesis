@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that prints a port. """    
+    ports = [p for p in ports if p is not None]
+    for p in ports:
+        print p
+<|/ file |>

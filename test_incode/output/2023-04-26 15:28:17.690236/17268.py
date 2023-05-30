@@ -1,0 +1,74 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that opens a port or enumerates fruits. """    
+    
+    from flask import Flask, render_template, request
+    from flask_restful import Resource, Api
+    from flask_cors import CORS
+    from flask_sqlalchemy import SQLAlchemy
+    from flask_login import LoginManager, UserMixin, login_user, logout_user
+    from flask_marshmallow import Marshmallow
+    from flask_socketio import SocketIO
+    from flask_socketio import emit
+    from flask_socketio import SocketIOError
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace
+    from flask_socketio import emit
+    from flask_socketio import Namespace

@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    hashmap = HashMap()
+    """ A hash map that enumerates numbers. """    
+    
+    hashmap.add(1)
+    hashmap.add(2)
+    hashmap.add(3)
+    
+    for num in hashmap:
+        print num
+<|/ file |>

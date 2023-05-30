@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    """ A programm that adds a list of words. """    
+    words = sys.argv[1:]
+    words.extend(sys.argv[2:])
+    
+    words = list(filter(None, words))
+    
+    words.sort()
+    
+    for word in words:
+        print word
+    
+<|/ file |>

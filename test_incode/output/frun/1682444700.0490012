@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    
+    """ A programm that converts a list of words. """    
+    import sys
+    wordlist = sys.argv[1:]
+    wordlist = wordlist[0]
+    wordlist = wordlist.split()
+    wordlist = ' '.join(wordlist)
+    wordlist = wordlist.strip()
+    wordlist = wordlist.lower()
+    wordlist = wordlist.split()
+    wordlist = ' '.join(wordlist)
+    wordlist = wordlist.strip()
+    wordlist = wordlist.lower()
+    wordlist = wordlist.split()
+    wordlist = ' '.join(wordlist)
+    wordlist = wordlist.strip()
+    wordlist = wordlist.lower()
+    wordlist = wordlist.split()
+    wordlist = ' '.join(wordlist)
+    wordlist = wordlist.strip()
+    wordlist = wordlist.lower()
+<|/ file |>

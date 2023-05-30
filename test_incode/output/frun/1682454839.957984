@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    wordlist = WordList()
+    """ A list that enumerates a list of words. """    
+    for word in wordlist: 
+        print word
+<|/ file |>

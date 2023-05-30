@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    
+    wordlist = WordList()
+    """ A hash map that adds a list of words. """    
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', 'world'])
+    wordlist.add(['hello', '
+<|/ file |>

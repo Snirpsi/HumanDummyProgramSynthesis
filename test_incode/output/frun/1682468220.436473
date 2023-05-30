@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    
+    wordlist = WordList('words.txt')
+    
+    wordlist.print_words()
+    
+    
+    
+    
+    
+    """ A hash map that calculates a list of words. """    
+    
+    
+    
+<|/ file |>

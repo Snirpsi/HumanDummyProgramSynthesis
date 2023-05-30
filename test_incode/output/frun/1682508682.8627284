@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    fruit = Fruit('apple')
+    """ A hash map that converts fruits. """    
+    fruit.apple = 'banana'
+    fruit.orange = 'apple'
+    fruit.pear = 'orange'
+    fruit.grape = 'pear'
+    fruit.grapefruit = 'grape'
+    fruit.grapefruitfruit = 'grapefruit'
+    fruit.grapefruitfruit = 'grapefruit'
+    fruit.grapefruit = 'grapefruit'
+    fruit.grapefruit = 'grapefruit'
+    fruit.grapefruit = 'grapefruit'
+    fruit.grapefruit = 'grapefruit'
+    fruit.grapefruit = 'gra
+<|/ file |>

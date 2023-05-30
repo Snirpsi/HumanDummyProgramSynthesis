@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that converts fruits. """    
+    fruits = ['apple', 'orange', 'pear', 'banana', 'grape']
+    fruits_array = np.array(fruits)
+    print(fruits_array)
+<|/ file |>

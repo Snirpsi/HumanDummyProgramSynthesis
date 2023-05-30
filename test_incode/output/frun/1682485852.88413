@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    """ A programm that stores fruits. """    
+    fruit = Fruit()
+    fruit.add("apple")
+    fruit.add("banana")
+    fruit.add("cherry")
+    fruit.add("grape")
+    fruit.add("orange")
+    fruit.add("pineapple")
+    fruit.add("strawberry")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("watermelon")
+    fruit.add("waterme
+<|/ file |>

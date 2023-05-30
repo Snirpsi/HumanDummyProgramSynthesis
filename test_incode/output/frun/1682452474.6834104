@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    wordlist = WordList()
+    """ A hash map that opens a list of words. """    
+    wordlist.open()
+    
+    wordlist.add( 'word1' )
+    wordlist.add( 'word2' )
+    wordlist.add( 'word3' )
+    
+    wordlist.close()
+<|/ file |>

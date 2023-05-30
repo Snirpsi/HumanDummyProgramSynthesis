@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    wordlist = wordlist
+    """ A function that calculates a list of words. """    
+    wordlist = wordlist
+    return wordlist
+<|/ file |>

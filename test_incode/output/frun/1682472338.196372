@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = ['word1', 'word2', 'word3']
+    
+    wordlist = list(enumerate(words))
+    
+    for index, word in wordlist:
+        print index, word
+        
+    sys.exit()
+    """ A list that enumerates a list of words. """    
+<|/ file |>

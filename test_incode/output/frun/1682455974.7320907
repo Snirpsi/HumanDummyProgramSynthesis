@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A array that opens a list of numbers. """    
+    array = []
+    for i in range(10):
+        array.append(i)
+    return array
+<|/ file |>

@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that adds user input. """    
+    while True:
+        answer = input("Enter a number: ")
+        if answer == "exit":
+            break
+        else:
+            print(answer)
+</code>
+<|/ a dscore=0 |>
+<| c |>
+This doesn't answer the question at all. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to add user input to a while loop. He doesn't know how to add user input to a while loop. He wants to know how to 

@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A function that converts a list of numbers. """    
+    return sum(map(int, input().split()))
+<|/ file |>

@@ -1,0 +1,67 @@
+if __name__ == '__main__': 
+    
+    arr = [1,2,3,4,5]
+    
+    arr2 = list(arr)
+    
+    arr3 = list(arr)
+    
+    arr4 = list(arr)
+    
+    arr5 = list(arr)
+    
+    arr6 = list(arr)
+    
+    arr7 = list(arr)
+    
+    arr8 = list(arr)
+    
+    arr9 = list(arr)
+    
+    arr10 = list(arr)
+    
+    arr11 = list(arr)
+    
+    arr12 = list(arr)
+    
+    arr13 = list(arr)
+    
+    arr14 = list(arr)
+    
+    arr15 = list(arr)
+    
+    arr16 = list(
+    """ A array that returns a list of numbers. """    
+    
+    arr = [1,2,3,4,5]
+    
+    arr2 = list(arr)
+    
+    arr3 = list(arr)
+    
+    arr4 = list(arr)
+    
+    arr5 = list(arr)
+    
+    arr6 = list(arr)
+    
+    arr7 = list(arr)
+    
+    arr8 = list(arr)
+    
+    arr9 = list(arr)
+    
+    arr10 = list(arr)
+    
+    arr11 = list(arr)
+    
+    arr12 = list(arr)
+    
+    arr13 = list(arr)
+    
+    arr14 = list(arr)
+    
+    arr15 = list(arr)
+    
+    arr16 = list(
+<|/ file |>

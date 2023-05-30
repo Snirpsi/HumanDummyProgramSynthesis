@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    ports = Ports()
+    """ A list that stores a port. """    
+    ports.ports.append(Port('COM3', 115200))
+    ports.ports.append(Port('COM4', 115200))
+    ports.ports.append(Port('COM5', 115200))
+    ports.ports.append(Port('COM6', 115200))
+    ports.ports.append(Port('COM7', 115200))
+    ports.ports.append(Port('COM8', 115200))
+    ports.ports.append(Port('COM9', 115200))
+    ports.ports.append(Port('COM10', 115200))
+    ports.ports.append(Port('COM11', 115200))
+    port
+<|/ file |>

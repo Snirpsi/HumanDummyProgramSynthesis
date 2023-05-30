@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that converts a list of words. """    
+    import sys
+    words = []
+    for line in sys.stdin:
+        line = line.strip()
+        words.append(line)
+    
+    words.sort()
+    
+    i = 0
+    while i < len(words):
+        word = words[i]
+        
+        if word[0] == '#':
+            i += 1
+            continue
+        
+        if word[0] == '-':
+            words[i] = '-' + word[1:]
+            i += 1
+            continue
+        
+        words[i] = word.replace('-', '')
+        i += 1
+    
+    sys.stdout.write(" ".join(words))
+    

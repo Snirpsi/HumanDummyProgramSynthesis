@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    fruits = FruitArray()
+    """ A array that adds fruits. """    
+    fruits.add('apple')
+    fruits.add('banana')
+    fruits.add('cherry')
+    
+    print(fruits)
+<|/ file |>

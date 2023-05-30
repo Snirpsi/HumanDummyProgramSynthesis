@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    """ A function that stores a list of words. """    
+    words = []
+    words.append(raw_input('Enter a word: '))
+    words.append(raw_input('Enter another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('Enter yet another word: '))
+    words.append(raw_input('
+<|/ file |>

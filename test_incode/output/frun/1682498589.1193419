@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    import sys
+    ports = sys.argv[1:]
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    ports.remove('8080')
+    """ A list that removes a port. """    
+    ports.remove('8080')
+<|/ file |>

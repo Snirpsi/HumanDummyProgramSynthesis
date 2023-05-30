@@ -1,0 +1,26 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    port = int(sys.argv[1])
+    
+    ports = PortArray()
+    ports.ports[port] = Port()
+    
+    ports.ports[port].set_port(sys.argv[2])
+    
+    ports.ports[port].set_port(sys.argv[3])
+    
+    ports.ports[port].set_port(sys.argv[4])
+    
+    ports.ports[port].set_port(sys.argv[5])
+    
+    ports.ports[port].set_port(sys.argv[6])
+    
+    ports.ports[port].set_port(sys.argv[7])
+    
+    ports.ports[port
+    """ A array that converts a port. """    
+    
+    
+<|/ file |>

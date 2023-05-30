@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    wordlist = sys.argv[1:]
+    """ A array that enumerates a list of words. """    
+    
+    for word in wordlist:
+        print word
+<|/ file |>

@@ -1,0 +1,65 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    numbers = sys.argv[1:]
+    
+    numbers = map(int, numbers)
+    
+    numbers = map(str, numbers)
+    
+    numbers = map(float, numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = map(str, numbers)
+    
+    numbers = map(int, numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = map(float, numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(number
+    """ A list that converts a list of numbers. """    
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+    
+    numbers = list(numbers)
+<|/ file |>

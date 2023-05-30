@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A function that iterates words. """    
+    words = word_tokenize(text)
+    for word in words:
+        print word
+<|/ file |>

@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    ports = PortMap()
+    ports.ports = [Port('tcp', 1234, 5678)]
+    ports.ports[0].ip = '127.0.0.1'
+    ports.ports[0].port = 1234
+    ports.ports[0].protocol = 'tcp'
+    ports.ports[0].host = '127.0.0.1'
+    ports.ports[0].user = 'root'
+    ports.ports[0].password = 'root'
+    ports.ports[0].save()
+    """ A hash map that converts a port. """    
+    
+    
+<|/ file |>

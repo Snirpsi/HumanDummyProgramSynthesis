@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = HashMap()
+    ports.put('127.0.0.1', 8080)
+    ports.put('127.0.0.1', 8000)
+    ports.put('127.0.0.1', 8001)
+    ports.put('127.0.0.1', 8002)
+    ports.put('127.0.0.1', 8003)
+    ports.put('127.0.0.1', 8004)
+    ports.put('127.0.0.1', 8005)
+    ports.put('127.0.0.1', 8006)
+    ports.put('127.0.0.1', 8007)
+    ports.put('127.0.0.1', 8008)
+    ports.put('127.0.0.1', 8009)
+    ports.
+    """ A hash map that prints a port. """    
+    
+    ports.printPort()
+<|/ file |>

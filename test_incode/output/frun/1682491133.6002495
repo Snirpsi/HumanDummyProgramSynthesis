@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A programm that removes a list of numbers. """    
+    numbers = [int(i) for i in raw_input().split()]
+    numbers.remove(0)
+    print numbers
+<|/ file |>

@@ -1,0 +1,32 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    """ A hash map that calculates a list of numbers. """    
+    
+    hashmap.add(1)
+    hashmap.add(2)
+    hashmap.add(3)
+    
+    hashmap.get(1)
+    hashmap.get(2)
+    hashmap.get(3)
+    
+    hashmap.remove(3)
+    hashmap.remove(4)
+    
+    hashmap.get(1)
+    hashmap.get(2)
+    hashmap.get(3)
+    
+    hashmap.remove(4)
+    hashmap.remove(3)
+    
+    hashmap.get(1)
+    hashmap.get(2)
+    hashmap.get(3)
+    
+    hashmap.remove(3)
+    hashmap.remove(4)
+    
+    hashmap.
+<|/ file |>

@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = [w for w in words if len(w) > 1]
+    
+    
+    
+    
+    
+<|/ file |>

@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    wordlist = WordList()
+    """ A list that iterates a list of words. """    
+    
+    for word in wordlist: 
+        print word
+<|/ file |>

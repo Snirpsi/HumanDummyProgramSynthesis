@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    """ A array that calculates numbers. """    
+    
+    arr.add(1)
+    arr.add(2)
+    arr.add(3)
+    
+    print arr
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    """ A array that opens fruits. """    
+    fruit.open()
+<|/ file |>

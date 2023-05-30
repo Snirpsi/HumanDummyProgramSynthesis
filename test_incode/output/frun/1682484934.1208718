@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    remove_words('hello world')
+    """ A function that removes a list of words. """    
+    remove_words('hello world')
+<|/ file |>

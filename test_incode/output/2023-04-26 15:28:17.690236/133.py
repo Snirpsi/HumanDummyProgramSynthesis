@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that multiplyes a port. """    
+    
+    import sys
+    
+    if len(sys.argv) < 2:
+        print("Usage: %s <port>" % sys.argv[0])
+        sys.exit()
+    
+    port = int(sys.argv[1])
+    
+    multiplier = 1
+    
+    while True:
+        multiplier = multiplier * port
+        
+        print("Multiplier is: %s" % multiplier)
+        
+        time.sleep(1)
+        

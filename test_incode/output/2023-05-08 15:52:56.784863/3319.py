@@ -1,0 +1,79 @@
+#!/usr/bin/python3
+numbers = [1,2,3,4,9]
+if __name__ == '__main__':
+    #A minimal webserver that iterates over a list of numbers.
+    #It will respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It will also respond with a list of numbers, one per line.
+    #It 
+

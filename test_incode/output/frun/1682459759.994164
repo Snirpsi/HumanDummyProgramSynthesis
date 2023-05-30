@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    """ A list that converts a list of words. """    
+    words = list( map( str.strip, sys.argv[1:] ) )
+    
+    
+    
+<|/ file |>

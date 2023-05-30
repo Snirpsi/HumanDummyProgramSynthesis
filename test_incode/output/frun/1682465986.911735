@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    numbers = range(10)
+    
+    storeNumbers(numbers)
+    """ A function that stores a list of numbers. """    
+    
+    
+<|/ file |>

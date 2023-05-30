@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that converts a list of words and removes numbers. """    
+    
+    import sys
+    
+    if len(sys.argv) < 2:
+        print("Usage: %s words.txt" % sys.argv[0])
+        sys.exit()
+    
+    words = []
+    for line in sys.stdin:
+        words.extend(line.split())
+    
+    words = [w.replace(' ','').replace('\n','').replace('\r','').replace('\t','').replace(',','').replace('-','').replace('.','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',','').replace(',

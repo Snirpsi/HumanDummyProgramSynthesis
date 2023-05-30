@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that returns a list of numbers or removes a list of words. """    
+    
+    import sys
+    
+    if len(sys.argv) < 2:
+        print("Usage: python3 remove-words-from-list-of-words-or-numbers-or-remove-numbers-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-remove-words-from-list-of-words-or-numbers-or-

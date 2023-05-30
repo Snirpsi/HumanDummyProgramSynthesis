@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    
+    words = [w.strip() for w in words]
+    
+    words = ' '.join(words)
+    
+    """ A array that stores words. """    
+    
+    
+<|/ file |>

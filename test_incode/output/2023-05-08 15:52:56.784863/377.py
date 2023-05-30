@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+fruirs = ["apple","banana","orange"]
+if __name__ == '__main__':
+    #A program that requests fruits.
+    #It then prints them out in alphabetical order.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they chose out.
+    #It then asks the user for their favorite fruit.
+    #It then prints out the fruit they 
+

@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    
+    
+    """ A hash map that enumerates a list of words. """    
+    
+    words = ['cat', 'dog', 'mouse', 'cat', 'dog', 'mouse']
+    
+    words_by_count = {}
+    
+    for word in words:
+        words_by_count[word] = words_by_count.get(word, 0) + 1
+    
+    for word, count in words_by_count.items():
+        print word, count
+<|/ file |>

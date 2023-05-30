@@ -1,0 +1,51 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'python']
+    
+    words_by_count = collections.Counter(words)
+    
+    words_by_count.most_common()
+    
+    words_by_count.most_common(1)
+    
+    words_by_count.most_common(10)
+    
+    words_by_count.most_common(20)
+    
+    words_by_count.most_common(100)
+    
+    words_by_count.most_common(1000)
+    
+    words_by_count.most_common(10000)
+    
+    words_by_count.most_common(100000)
+    
+    words_by_count.most_common(1000000)
+    
+    words_by_
+    """ A hash map that enumerates a list of words. """    
+    
+    words_by_count = collections.Counter(words)
+    
+    words_by_count.most_common()
+    
+    words_by_count.most_common(1)
+    
+    words_by_count.most_common(10)
+    
+    words_by_count.most_common(20)
+    
+    words_by_count.most_common(100)
+    
+    words_by_count.most_common(1000)
+    
+    words_by_count.most_common(10000)
+    
+    words_by_count.most_common(100000)
+    
+    words_by_count.most_common(1000000)
+    
+    words_by_count.most_common(100000)
+    
+    words_by_
+<|/ file |>

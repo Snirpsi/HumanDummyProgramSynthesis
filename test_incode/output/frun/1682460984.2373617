@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    
+    words = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    """ A hash map that stores a list of words. """    
+    
+    words = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    
+    wordHash = HashMap(words)
+    
+    wordHash.put('a', 'b')
+    wordHash.put('b', 'c')
+    wordHash.put('c', 'd')
+    wordHash.put('d', 'e')
+    wordHash.put('e', 'f')
+    wordHash.put('f', 'g')
+    wordHash.put('g', 'h')
+    wordHash.put('h', 'i
+<|/ file |>

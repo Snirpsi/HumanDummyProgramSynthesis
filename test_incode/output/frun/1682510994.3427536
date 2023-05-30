@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    words = ['word1', 'word2', 'word3']
+    """ A hash map that opens a list of words. """    
+    
+    words = list(set(words))
+    
+    word_counts = Counter(words)
+    
+    word_counts_sorted = sorted(word_counts.items(), key=operator.itemgetter(1), reverse=True)
+    
+    for word, count in word_counts_sorted:
+        print word, count
+<|/ file |>

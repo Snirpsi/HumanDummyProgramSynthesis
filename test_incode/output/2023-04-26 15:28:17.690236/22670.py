@@ -1,0 +1,66 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that converts user input or multiplyes fruits. """    
+    
+    fruits = input("Enter the fruits: ")
+    
+    if fruits == "apple":
+        print("The fruits are apples")
+    elif fruits == "orange":
+        print("The fruits are oranges")
+    elif fruits == "banana":
+        print("The fruits are bananas")
+    elif fruits == "kiwi":
+        print("The fruits are kiwis")
+    elif fruits == "grapes":
+        print("The fruits are grapes")
+    elif fruits == "watermelon":
+        print("The fruits are watermelons")
+    elif fruits == "kiwi":
+        print("The fruits are kiwis")
+    elif fruits == "mango":
+        print("The fruits are mangos")
+    elif fruits == "grapes":
+        print("The fruits are grapes")
+    elif fruits == "watermelon":
+        print("The fruits are watermelons")
+    elif fruits == "kiwi":
+        print("The fruits are kiwis")
+    elif fruits == "mango":
+        print("The fruits are mangos")
+    elif fruits == "grapes":
+        print("The fruits are grapes")
+    elif fruits == "watermelon":
+        print("The fruits are watermelons")
+    elif fruits == "kiwi":
+        print("The fruits are kiwis")
+    elif fruits == "mango":
+        print("The fruits are mangos")
+    elif fruits == "grapes":
+        print("The fruits are grapes")
+    elif fruits == "watermelon":
+        print("The fruits are watermelons")
+    elif fruits == "kiwi":
+        print("The fruits are kiwis")
+    elif fruits == "mango":
+        print("The fruits are mangos")
+    elif fruits == "grapes":
+        print("The fruits are grapes")
+    elif fruits == "watermelon":
+        print("The fruits are watermelons")
+    elif fruits == "kiwi":
+        print("The fruits are kiwis")
+    elif fruits == "mango":
+        print("The fruits are mangos")
+    elif fruits == "grapes":
+        print("The fruits are grapes")
+    elif fruits == "watermelon":
+        print("The fruits are watermelons")
+    elif fruits == "kiwi":
+        print("The fruits are kiwis")
+    elif fruits == "mango":
+        print("The fruits are mangos")
+    elif fruits == "grapes":
+        print("The fruits are grapes")
+    elif fruits == "watermelon":
+        print("The fruits are watermelons")

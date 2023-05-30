@@ -1,0 +1,58 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that returns a port or adds fruits. """    
+    while True:
+        port = int(input("Enter a port number: "))
+        if port < 0 or port > 65535:
+            print("Port number must be between 0 and 65535.")
+        else:
+            break
+    
+    fruits = ["apple", "banana", "cherry"]
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruits.append(input("Enter a fruit: "))
+    fruit

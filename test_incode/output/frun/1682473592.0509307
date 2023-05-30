@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = [w for w in words if len(w) > 2]
+    words.sort()
+    for word in words:
+        print word
+<|/ file |>

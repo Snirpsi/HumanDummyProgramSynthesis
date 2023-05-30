@@ -1,0 +1,41 @@
+if __name__ == '__main__': 
+    
+    numbers = [1,2,3,4,5]
+    """ A list that adds a list of numbers. """    
+    
+    numbers.extend([6,7,8,9,10])
+    
+    numbers.sort()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse
+<|/ file |>

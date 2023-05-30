@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    ports = list( map( int, sys.argv[1:] ) )
+    """ A list that converts a port. """    
+    ports.sort()
+    return ports
+<|/ file |>

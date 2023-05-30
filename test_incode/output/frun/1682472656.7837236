@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    fruits = add_fruits(10)
+    """ A function that adds fruits. """    
+    
+    
+<|/ file |>

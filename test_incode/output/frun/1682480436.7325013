@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    hashmap.add("hello")
+    hashmap.add("world")
+    hashmap.add("world")
+    hashmap.add("hello")
+    
+    for word in hashmap.words():
+        print word
+    
+    """ A hash map that returns a list of words. """    
+    
+    hashmap = HashMap()
+    hashmap.add("hello")
+    hashmap.add("world")
+    hashmap.add("world")
+    hashmap.add("hello")
+    
+    for word in hashmap.words():
+        print word
+<|/ file |>

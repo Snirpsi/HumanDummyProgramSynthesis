@@ -1,0 +1,73 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that opens words or calculates fruits. """    
+    while True:
+        word = input("Enter a word: ")
+        if word == "quit":
+            break
+        elif word == "apple":
+            print("The word is apple.")
+        elif word == "banana":
+            print("The word is banana.")
+        elif word == "cherry":
+            print("The word is cherry.")
+        elif word == "orange":
+            print("The word is orange.")
+        elif word == "mango":
+            print("The word is mango.")
+        elif word == "kiwi":
+            print("The word is kiwi.")
+        elif word == "grape":
+            print("The word is grape.")
+        elif word == "pineapple":
+            print("The word is pineapple.")
+        elif word == "peach":
+            print("The word is peach.")
+        elif word == "kiwi":
+            print("The word is kiwi.")
+        elif word == "mango":
+            print("The word is mango.")
+        elif word == "orange":
+            print("The word is orange.")
+        elif word == "cherry":
+            print("The word is cherry.")
+        elif word == "grape":
+            print("The word is grape.")
+        elif word == "pineapple":
+            print("The word is pineapple.")
+        elif word == "peach":
+            print("The word is peach.")
+        elif word == "kiwi":
+            print("The word is kiwi.")
+        elif word == "mango":
+            print("The word is mango.")
+        elif word == "orange":
+            print("The word is orange.")
+        elif word == "cherry":
+            print("The word is cherry.")
+        elif word == "grape":
+            print("The word is grape.")
+        elif word == "pineapple":
+            print("The word is pineapple.")
+        elif word == "peach":
+            print("The word is peach.")
+        elif word == "kiwi":
+            print("The word is kiwi.")
+        elif word == "mango":
+            print("The word is mango.")
+        elif word == "orange":
+            print("The word is orange.")
+        elif word == "cherry":
+            print("The word is cherry.")
+        elif word == "grape":
+            print("The word is grape.")
+        elif word == "pineapple":
+            print("The word is pineapple.")
+        elif word == "peach":
+            print("The word is peach.")
+        elif word == "kiwi":
+            print("The word is kiwi.")
+        elif word == "mango":
+            print("The word is mango.")
+        elif word == "orange":
+            print("The word 

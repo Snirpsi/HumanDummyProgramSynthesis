@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that opens words. """    
+    words = []
+    words.append(open('words.txt'))
+    return words
+<|/ file |>

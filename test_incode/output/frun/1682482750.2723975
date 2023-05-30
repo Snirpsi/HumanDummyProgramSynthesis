@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    ports = HashMap()
+    """ A hash map that returns a port. """    
+    ports.put('8080', '8080')
+    
+    
+<|/ file |>

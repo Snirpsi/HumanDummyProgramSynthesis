@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A programm that stores fruits. """    
+    fruits.store()
+<|/ file |>

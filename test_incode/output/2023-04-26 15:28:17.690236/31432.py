@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that opens a list of numbers or enumerates a list of numbers. """    
+    
+    import sys
+    
+    if len(sys.argv) == 1:
+        print("Usage: %s <numbers>" % sys.argv[0])
+        sys.exit()
+    
+    numbers = sys.argv[1:]
+    
+    for number in numbers:
+        print(number)
+    

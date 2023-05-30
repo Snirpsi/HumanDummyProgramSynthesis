@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A array that stores fruits. """    
+    
+    fruits.print_fruits()
+<|/ file |>

@@ -1,0 +1,73 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that converts fruits or calculates words. """    
+    
+    import sys
+    
+    if len(sys.argv) > 1:
+        fruit = sys.argv[1]
+    else:
+        fruit = 'apple'
+    
+    fruits = {
+        'apple': 'apple',
+        'banana': 'banana',
+        'orange': 'orange',
+        'pear': 'pear',
+        'mango': 'mango',
+        'grape': 'grape',
+        'pineapple': 'pineapple',
+        'watermelon': 'watermelon',
+        'lemon': 'lemon',
+        'lime': 'lime',
+        'watermelon': 'watermelon',
+        'orange': 'orange',
+        'pear': 'pear',
+        'mango': 'mango',
+        'grape': 'grape',
+        'pineapple': 'pineapple',
+        'watermelon': 'watermelon',
+        'lemon': 'lemon',
+        'lime': 'lime',
+        'watermelon': 'watermelon',
+        'orange': 'orange',
+        'pear': 'pear',
+        'mango': 'mango',
+        'grape': 'grape',
+        'pineapple': 'pineapple',
+        'watermelon': 'watermelon',
+        'lemon': 'lemon',
+        'lime': 'lime',
+        'watermelon': 'watermelon',
+        'orange': 'orange',
+        'pear': 'pear',
+        'mango': 'mango',
+        'grape': 'grape',
+        'pineapple': 'pineapple',
+        'watermelon': 'watermelon',
+        'lemon': 'lemon',
+        'lime': 'lime',
+        'watermelon': 'watermelon',
+        'orange': 'orange',
+        'pear': 'pear',
+        'mango': 'mango',
+        'grape': 'grape',
+        'pineapple': 'pineapple',
+        'watermelon': 'watermelon',
+        'lemon': 'lemon',
+        'lime': 'lime',
+        'watermelon': 'watermelon',
+        'orange': 'orange',
+        'pear': 'pear',
+        'mango': 'mango',
+        'grape': 'grape',
+        'pineapple': 'pineapple',
+        'watermelon': 'watermelon',
+        'lemon': 'lemon',
+        'lime': 'lime',
+        'watermelon': 'watermelon',
+        'orange': 'orange',
+        'pear': 'pear',
+        'mango': 'mango',
+        'grape': 'grape',
+        'pineapple': 'pine

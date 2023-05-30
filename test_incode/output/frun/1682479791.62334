@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A array that calculates a list of numbers. """    
+    
+    array = [1,2,3,4,5]
+    
+    array_sum = sum(array)
+    
+    print "The sum of all the numbers is {0}".format(array_sum)
+<|/ file |>

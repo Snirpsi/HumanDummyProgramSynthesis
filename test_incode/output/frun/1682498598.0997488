@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A list that prints a list of numbers. """    
+    print numbers
+<|/ file |>

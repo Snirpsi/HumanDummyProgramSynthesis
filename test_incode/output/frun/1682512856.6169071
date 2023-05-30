@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    ports = ports_generator()
+    ports_iterator = ports.__iter__()
+    """ A function that iterates a port. """    
+    
+    
+<|/ file |>

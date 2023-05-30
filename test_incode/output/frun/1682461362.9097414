@@ -1,0 +1,30 @@
+if __name__ == '__main__': 
+    """ A function that stores words. """    
+    words = []
+    
+    words = words.join(sys.argv[1:])
+    
+    words = list(filter(None, words.split(',')))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+    words = list(filter(None, words))
+    
+
+<|/ file |>

@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+fruirs = ["apple","banana","orange"]
+if __name__ == '__main__':
+    #A minimal webserver that calculates fruits.
+    #It will listen on port 8080 and will display fruit names.
+    #It will also display a message when a new fruit is added.
+    #It will also display a message when an fruit is removed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when an fruit is changed.
+    #It will also display a message when 
+

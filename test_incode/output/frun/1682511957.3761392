@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that prints numbers. """    
+    import sys
+    
+    for x in xrange(int(sys.argv[1])):
+        print x
+<|/ file |>

@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A list that converts a list of words. """    
+    return list(filter(None, words))
+<|/ file |>

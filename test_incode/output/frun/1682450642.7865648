@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = list( map( int, sys.stdin.readline().split() ) )
+    """ A list that calculates numbers. """    
+    
+    numbers.sort()
+    
+    for number in numbers:
+        print number
+<|/ file |>

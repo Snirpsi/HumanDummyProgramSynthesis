@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    words = [ 'the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy' ]
+    """ A hash map that stores words. """    
+    
+    wordHash = HashMap()
+    
+    for word in words:
+        wordHash[word] = wordHash.get(word, 0) + 1
+    
+    for word in wordHash:
+        print word, wordHash[word]
+<|/ file |>

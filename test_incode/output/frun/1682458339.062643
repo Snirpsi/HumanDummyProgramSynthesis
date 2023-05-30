@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = list( map( int, sys.stdin.readline().split() ) )
+    
+    numbers_sum = sum( numbers )
+    
+    numbers_average = sum( numbers) / ( len( numbers ) )
+    
+    numbers_median = sorted( numbers, key = lambda number: number % 2 )[-1]
+    
+    numbers_mode = sorted( numbers, key = lambda number: number % 2 )[0]
+    
+    """ A list that calculates a list of numbers. """    
+    
+    
+<|/ file |>

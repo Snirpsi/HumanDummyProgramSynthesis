@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A array that returns fruits. """    
+    return ["apple", "banana", "cherry"]
+<|/ file |>

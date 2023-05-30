@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A function that converts fruits. """    
+    fruits = fruits_converter(sys.argv[1])
+    
+    
+    
+    
+<|/ file |>

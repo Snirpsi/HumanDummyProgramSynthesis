@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    
+    h = HashMap()
+    """ A hash map that adds a list of numbers. """    
+    h.set(1, [1, 2, 3])
+    h.set(2, [4, 5, 6])
+    h.set(3, [7, 8, 9])
+    
+    print h.get(2)
+    print h.get(3)
+    print h.get(4)
+    print h.get(5)
+    print h.get(6)
+    
+    h.clear()
+    
+    print h.get(2)
+    print h.get(3)
+    print h.get(4)
+    print h.get(5)
+    print h.get(6)
+<|/ file |>

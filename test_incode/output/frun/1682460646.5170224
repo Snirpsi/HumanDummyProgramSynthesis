@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    
+    wordMap = {}
+    """ A hash map that stores words. """    
+    
+    wordMap['word1'] = 'word1'
+    wordMap['word2'] = 'word2'
+    wordMap['word3'] = 'word3'
+    
+    wordMap['word4'] = 'word4'
+    wordMap['word5'] = 'word5'
+    wordMap['word6'] = 'word6'
+    
+    wordMap['word7'] = 'word7'
+    wordMap['word8'] = 'word8'
+    wordMap['word9'] = 'word9'
+    
+    wordMap['word10'] = 'word10'
+    wordMap['word11'] = 'word11'
+    word
+<|/ file |>

@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    """ A hash map that opens a list of numbers. """    
+    numbers = range(1,10)
+    hashmap = HashMap(numbers)
+    hashmap.add(5)
+    hashmap.add(6)
+    hashmap.add(7)
+    hashmap.add(8)
+    hashmap.add(9)
+    hashmap.add(10)
+    hashmap.add(11)
+    hashmap.add(12)
+    hashmap.add(13)
+    hashmap.add(14)
+    hashmap.add(15)
+    hashmap.add(16)
+    hashmap.add(17)
+    hashmap.add(18)
+    hashmap.add(19)
+    hashmap.add(20)
+    hashmap.add(21)
+    hashmap.add(22)
+    hash
+<|/ file |>

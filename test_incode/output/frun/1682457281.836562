@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that converts a list of words. """    
+    
+    words = [w.strip() for w in words]
+    
+    words = [w for w in words if w]
+    
+    return words
+<|/ file |>

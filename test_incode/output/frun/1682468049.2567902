@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    """ A hash map that calculates fruits. """    
+    fruits = HashMap()
+    fruits['apple'] = 'banana'
+    fruits['orange'] = 'apple'
+    fruits['pear'] = 'orange'
+    fruits['grape'] = 'pear'
+    fruits['mango'] = 'grape'
+    fruits['banana'] = 'mango'
+    fruits['cherry'] = 'banana'
+    fruits['pineapple'] = 'cherry'
+    fruits['orange'] = 'pineapple'
+    fruits['banana'] = 'orange'
+    fruits['cherry'] = 'banana'
+    fruits['pineapple'] = 'cherry'
+    fruits['orange'] = 'pineapple'
+<|/ file |>

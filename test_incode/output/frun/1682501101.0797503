@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    fruit = Fruit("apple")
+    fruit.add("banana")
+    fruit.add("cherry")
+    fruit.add("orange")
+    fruit.add("strawberry")
+    fruit.add("watermelon")
+    fruit.add("peach")
+    fruit.add("grape")
+    fruit.add("mango")
+    fruit.add("grapefruit")
+    fruit.add("oranges")
+    fruit.add("bananas")
+    fruit.add("peaches")
+    fruit.add("strawber
+    """ A hash map that converts fruits. """    
+    fruits = {}
+    
+    for fruit in Fruit:
+        fruits[fruit] = fruit.name
+    
+    for fruit in fruits:
+        print fruit, fruits[fruit]
+<|/ file |>

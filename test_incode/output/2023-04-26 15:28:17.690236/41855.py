@@ -1,0 +1,78 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that stores all ports and adds words. """    
+    while True:
+        ports = input("Enter a port number: ")
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports[::-1]
+        ports = list(map(str, ports))
+        ports = ports.split()
+        ports = " ".join(ports)
+        ports = ports.strip()
+        ports = port

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    list1 = [1,2,3,4,5]
+    list2 = []
+    """ A list that adds a list of numbers. """    
+    list2.append(list1)
+    print list2
+<|/ file |>

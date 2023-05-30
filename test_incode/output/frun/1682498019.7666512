@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A list that opens numbers. """    
+    numbers = range(1,10)
+<|/ file |>

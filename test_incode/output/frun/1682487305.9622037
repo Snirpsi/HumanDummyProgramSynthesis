@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+
+    """ A list that iterates a list of words. """    
+    
+    words = ['hello', 'world']
+    
+    for word in words:
+        print word
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    wordlist = remove_list('wordlist.txt')
+    """ A list that removes a list of words. """    
+    
+    
+<|/ file |>

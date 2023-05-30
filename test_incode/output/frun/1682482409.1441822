@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A function that stores a list of words. """    
+    words = []
+    
+    words.append(raw_input('Enter a word: '))
+    
+    words = words + words
+    
+    return words
+<|/ file |>

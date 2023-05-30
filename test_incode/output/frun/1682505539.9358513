@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    words = ['hello', 'world', 'python']
+    """ A hash map that iterates words. """    
+    
+    for word in words:
+        print word
+<|/ file |>

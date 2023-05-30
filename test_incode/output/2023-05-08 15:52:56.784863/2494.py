@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+numbers = [1,2,3,4,9]
+if __name__ == '__main__':
+    #A function that prints a list of numbers.
+    print(numbers)
+    #A function that prints a list with spaces between each number.
+    print(numbers)
+    #A function that prints a list with commas between each number.
+    print(numbers)
+    #A function that prints a list with spaces and commas between each number.
+    print(numbers)
+

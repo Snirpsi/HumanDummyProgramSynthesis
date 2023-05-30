@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    fruits_converter()
+    """ A programm that converts fruits. """    
+<|/ file |>

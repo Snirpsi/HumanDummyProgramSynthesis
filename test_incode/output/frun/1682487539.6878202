@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    wordlist = Wordlist('words.txt')
+    """ A hash map that enumerates words. """    
+    for word in wordlist: 
+        print word
+<|/ file |>

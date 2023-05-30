@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    hashmap.add("hello")
+    hashmap.add("world")
+    hashmap.remove("hello")
+    hashmap.remove("world")
+    
+    
+    """ A hash map that removes a list of words. """    
+<|/ file |>

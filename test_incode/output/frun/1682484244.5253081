@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    """ A function that adds words. """    
+    words = raw_input('Enter words: ')
+    words = words.split()
+    words = map(str.strip, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(None, words)
+    words = filter(
+<|/ file |>

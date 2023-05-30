@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+words = ["hello","world","!"]
+if __name__ == '__main__':
+    #A minimal webserver that converts a list of words.
+    #The server will respond with a list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of words in JSON format.
+    #The client will then convert this JSON list into a list of words.
+    #The client will then respond with the list of word
+

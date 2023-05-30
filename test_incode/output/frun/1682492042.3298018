@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that stores fruits. """    
+    fruits = ['apple', 'banana', 'cherry']
+    
+    
+<|/ file |>

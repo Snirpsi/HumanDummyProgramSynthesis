@@ -1,0 +1,85 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    arr = Array()
+    
+    arr[0] = 10
+    arr[1] = 20
+    arr[2] = 30
+    
+    print arr
+    
+    print arr[0]
+    print arr[1]
+    print arr[2]
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    """ A array that returns numbers. """    
+    
+    arr = Array()
+    
+    arr[0] = 10
+    arr[1] = 20
+    arr[2] = 30
+    
+    print arr
+    
+    print arr[0]
+    print arr[1]
+    print arr[2]
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    print arr.max()
+    
+    print arr.min()
+    
+    print arr.sum()
+    
+    print arr.max()
+
+<|/ file |>

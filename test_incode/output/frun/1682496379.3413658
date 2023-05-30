@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = sys.argv[1:]
+    """ A programm that stores a list of numbers. """    
+    
+    numbers = list(map(int, numbers))
+    
+    numbers.sort()
+    
+    print(numbers)
+<|/ file |>

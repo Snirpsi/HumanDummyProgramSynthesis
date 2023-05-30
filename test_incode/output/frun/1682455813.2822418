@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    """ A programm that converts a list of numbers. """    
+    
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    
+    numbers_converted = convert_numbers(numbers)
+    
+    print(numbers_converted)
+<|/ file |>

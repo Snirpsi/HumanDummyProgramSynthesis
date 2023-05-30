@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A programm that removes numbers. """    
+    
+    import sys
+    
+    number = int(sys.argv[1])
+    
+    remove_numbers(number)
+<|/ file |>

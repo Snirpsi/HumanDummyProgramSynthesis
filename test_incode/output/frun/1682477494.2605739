@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    ports = PortArray()
+    ports.add(Port('COM1'))
+    ports.add(Port('COM2'))
+    ports.add(Port('COM3'))
+    ports.add(Port('COM4'))
+    
+    ports.show()
+    """ A array that adds a port. """    
+<|/ file |>

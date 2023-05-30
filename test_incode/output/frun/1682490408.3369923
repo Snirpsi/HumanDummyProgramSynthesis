@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A array that converts numbers. """    
+    return np.array([1,2,3])
+<|/ file |>

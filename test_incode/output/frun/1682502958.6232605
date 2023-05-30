@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    fruits = fruits_generator()
+    """ A programm that returns fruits. """    
+    
+    
+<|/ file |>

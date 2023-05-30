@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    ports = list( get_ports() )
+    ports.sort()
+    
+    """ A list that iterates a port. """    
+    for port in ports:
+        print port
+<|/ file |>

@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    """ A hash map that prints fruits. """    
+    fruits = { 
+        'apple': 'orange', 
+        'banana': 'apple', 
+        'cherry': 'orange', 
+        'grape': 'orange', 
+        'orange': 'apple', 
+        'pear': 'orange', 
+        'pineapple': 'orange', 
+        'plum': 'orange', 
+        'plum': 'apple', 
+        'plum': 'orange', 
+        'plum': 'apple', 
+        'plum': 'orange', 
+        'plum': 'apple', 
+        'plum': 'orange', 
+        'plum': 'apple', 
+        'plum': 'orange', 
+        'plum': 'apple', 
+        'plum': 'orange', 
+<|/ file |>

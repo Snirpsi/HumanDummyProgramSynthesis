@@ -1,0 +1,79 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that opens user input. """    
+    while True:
+        choice = input("Enter your choice: ")
+        if choice == 'exit':
+            break
+        elif choice == '1':
+            print("You chose option 1")
+        elif choice == '2':
+            print("You chose option 2")
+        elif choice == '3':
+            print("You chose option 3")
+        elif choice == '4':
+            print("You chose option 4")
+        elif choice == '5':
+            print("You chose option 5")
+        elif choice == '6':
+            print("You chose option 6")
+        elif choice == '7':
+            print("You chose option 7")
+        elif choice == '8':
+            print("You chose option 8")
+        elif choice == '9':
+            print("You chose option 9")
+        elif choice == '10':
+            print("You chose option 10")
+        elif choice == '11':
+            print("You chose option 11")
+        elif choice == '12':
+            print("You chose option 12")
+        elif choice == '13':
+            print("You chose option 13")
+        elif choice == '14':
+            print("You chose option 14")
+        elif choice == '15':
+            print("You chose option 15")
+        elif choice == '16':
+            print("You chose option 16")
+        elif choice == '17':
+            print("You chose option 17")
+        elif choice == '18':
+            print("You chose option 18")
+        elif choice == '19':
+            print("You chose option 19")
+        elif choice == '20':
+            print("You chose option 20")
+        elif choice == '21':
+            print("You chose option 21")
+        elif choice == '22':
+            print("You chose option 22")
+        elif choice == '23':
+            print("You chose option 23")
+        elif choice == '24':
+            print("You chose option 24")
+        elif choice == '25':
+            print("You chose option 25")
+        elif choice == '26':
+            print("You chose option 26")
+        elif choice == '27':
+            print("You chose option 27")
+        elif choice == '28':
+            print("You chose option 28")
+        elif choice == '29':
+            print("You chose option 29")
+        elif choice == '30':
+            print("You chose option 30")
+        elif choice == '31':
+            print("You chose option 31")
+        elif choice == '32':
+            print("You chose option 32")
+        elif choice == '33':
+            print("You chose option 33")
+        elif choice == '34':
+            print("You chose option 34")
+        elif choice == '35':
+            print("You chose option 35")
+        elif choice == '36':
+            print("You 

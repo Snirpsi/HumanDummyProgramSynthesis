@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A programm that adds words. """    
+    words = [word for word in words.split()]
+    words.extend(["and", "or", "not", "is", "isn't", "was", "were", "but", "if", "or", "and", "or", "not", "is", "isn't", "was", "were", "but", "if"])
+    words.extend(["a", "an", "the", "and", "or", "not", "is", "isn't", "was", "were", "but", "if"])
+    words.extend(["a", "an", "the", "and", "or", "not", "is", "isn't", "was", "were", "but", "if"])
+    words.extend(["a", "an
+<|/ file |>

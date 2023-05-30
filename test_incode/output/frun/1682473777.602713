@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    """ A array that adds words. """    
+    words = ['hello', 'world']
+    words.extend(['goodbye', 'cruel'])
+    words.extend(['goodbye', 'cruel', 'hello'])
+    words.extend(['goodbye', 'cruel', 'hello', 'world'])
+    words.extend(['goodbye', 'cruel', 'hello', 'world', 'goodbye'])
+    words.extend(['goodbye', 'cruel', 'hello', 'world', 'goodbye', 'cruel'])
+    words.extend(['goodbye', 'cruel', 'hello', 'world', 'goodbye', 'cruel', 'hello', 'world'])
+    words.extend(['goodbye', 'cruel', 'hello', 'world', 'good
+<|/ file |>

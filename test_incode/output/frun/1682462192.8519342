@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = ['hello', 'world']
+    """ A array that prints a list of words. """    
+    
+    
+    
+<|/ file |>

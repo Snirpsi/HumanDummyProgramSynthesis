@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A programm that calculates a list of numbers. """    
+    numbers = [int(i) for i in raw_input().split()]
+    
+    numbers = [x*x for x in numbers]
+    
+    print numbers
+<|/ file |>

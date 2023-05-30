@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = HashMap()
+    ports.ports = range(65535)
+    
+    ports.ports.sort()
+    
+    for port in ports.ports:
+        print port
+        
+    
+    
+    
+    """ A hash map that enumerates a port. """    
+    
+    
+    
+<|/ file |>

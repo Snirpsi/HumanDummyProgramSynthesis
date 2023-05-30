@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    ports = list( openports() )
+    
+    
+    """ A list that opens a port. """    
+    
+    
+<|/ file |>

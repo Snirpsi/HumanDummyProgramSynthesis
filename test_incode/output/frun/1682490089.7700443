@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    fruits = Fruits()
+    """ A array that stores fruits. """    
+    fruits.fruits = ['apple', 'orange', 'pear', 'banana']
+    fruits.fruits.sort()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruits.fruits.reverse()
+    fruit
+<|/ file |>

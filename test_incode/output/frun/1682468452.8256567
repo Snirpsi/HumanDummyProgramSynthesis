@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that removes numbers. """    
+    hashmap.remove('1')
+    hashmap.remove('2')
+    hashmap.remove('3')
+    hashmap.remove('4')
+    hashmap.remove('5')
+    hashmap.remove('6')
+    hashmap.remove('7')
+    hashmap.remove('8')
+    hashmap.remove('9')
+    hashmap.remove('10')
+    hashmap.remove('11')
+    hashmap.remove('12')
+    hashmap.remove('13')
+    hashmap.remove('14')
+    hashmap.remove('15')
+    hashmap.remove('16')
+    hashmap.
+<|/ file |>

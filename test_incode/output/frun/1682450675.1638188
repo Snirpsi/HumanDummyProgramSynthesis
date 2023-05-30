@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    """ A array that opens a list of words. """    
+    words = []
+    
+    words.append(raw_input("Enter a word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input("Enter another word: "))
+    
+    words.append(raw_input
+<|/ file |>

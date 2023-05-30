@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that iterates over a list of words and stores words. """    
+    words = []
+    while True:
+        word = input("Enter a word: ")
+        if not word:
+            break
+        words.append(word)
+    print(" ".join(words))
+</code>
+<|/ a dscore=0 |>
+<| c |>
+This doesn't answer the question. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. OP wants to know how to store words in a list without using a while loop. Your answer doesn't do that. 

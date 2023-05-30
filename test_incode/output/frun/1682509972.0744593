@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    """ A hash map that removes a list of words. """    
+    hashmap.remove_list('word')
+<|/ file |>

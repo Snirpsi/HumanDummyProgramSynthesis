@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    
+    ports = PortMap()
+    ports.ports['http'] = 80
+    ports.ports['https'] = 443
+    
+    ports.ports['https'] = ports.ports['https'] + 10
+    
+    ports.ports['https'] = ports.ports['https'] + 10
+    
+    ports.ports['https'] = ports.ports['https'] + 10
+    
+    ports.ports['https'] = ports.ports['https'] + 10
+    
+    ports.ports['https'] = ports.ports['https'] + 10
+    
+    ports.ports['https'] = 
+    """ A hash map that stores a port. """    
+    
+    
+    
+<|/ file |>

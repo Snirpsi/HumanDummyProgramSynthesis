@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    words_to_remove = ['the', 'a', 'of', 'the', 'and', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the
+    """ A hash map that removes a list of words. """    
+    words_to_remove = ['the', 'a', 'of', 'the', 'and', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of', 'the', 'of
+<|/ file |>

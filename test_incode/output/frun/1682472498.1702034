@@ -1,0 +1,40 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = sys.argv[1:]
+    
+    numbers = filter(lambda x: x != '', numbers)
+    
+    numbers = list(numbers)
+    
+    numbers.sort()
+    
+    numbers = map(int, numbers)
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+    numbers.reverse()
+    
+
+    """ A list that removes numbers. """    
+    
+    
+<|/ file |>

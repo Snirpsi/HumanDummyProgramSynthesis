@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    import sys
+    port = int(sys.argv[1])
+    """ A list that removes a port. """    
+    ports.remove(port)
+<|/ file |>

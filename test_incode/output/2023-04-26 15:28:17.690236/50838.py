@@ -1,0 +1,52 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that adds user input and calculates all ports. """    
+    while True:
+        ports = input('Enter the ports separated by space: ')
+        ports = ports.split()
+        ports = list(map(int, ports))
+        ports.sort()
+        ports = ports + [ports[-1]]
+        ports = ports + [ports[0]]
+        ports = ports + [ports[1]]
+        ports = ports + [ports[2]]
+        ports = ports + [ports[3]]
+        ports = ports + [ports[4]]
+        ports = ports + [ports[5]]
+        ports = ports + [ports[6]]
+        ports = ports + [ports[7]]
+        ports = ports + [ports[8]]
+        ports = ports + [ports[9]]
+        ports = ports + [ports[10]]
+        ports = ports + [ports[11]]
+        ports = ports + [ports[12]]
+        ports = ports + [ports[13]]
+        ports = ports + [ports[14]]
+        ports = ports + [ports[15]]
+        ports = ports + [ports[16]]
+        ports = ports + [ports[17]]
+        ports = ports + [ports[18]]
+        ports = ports + [ports[19]]
+        ports = ports + [ports[20]]
+        ports = ports + [ports[21]]
+        ports = ports + [ports[22]]
+        ports = ports + [ports[23]]
+        ports = ports + [ports[24]]
+        ports = ports + [ports[25]]
+        ports = ports + [ports[26]]
+        ports = ports + [ports[27]]
+        ports = ports + [ports[28]]
+        ports = ports + [ports[29]]
+        ports = ports + [ports[30]]
+        ports = ports + [ports[31]]
+        ports = ports + [ports[32]]
+        ports = ports + [ports[33]]
+        ports = ports + [ports[34]]
+        ports = ports + [ports[35]]
+        ports = ports + [ports[36]]
+        ports = ports + [ports[37]]
+        ports = ports + [ports[38]]
+        ports = ports + [ports[39]]
+        ports = ports + [ports[40]]
+        ports = ports + [ports[41]]
+        ports = ports + 

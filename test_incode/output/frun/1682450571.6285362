@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    wordlist = WordList('words.txt')
+    wordlist.printWords()
+    """ A hash map that iterates a list of words. """    
+    words = {}
+    for line in wordlist:
+        words[line.strip()] = True
+    return words
+<|/ file |>

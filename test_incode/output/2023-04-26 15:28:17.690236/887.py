@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that prints words or calculates words. """    
+    
+    import sys
+    
+    if len(sys.argv) > 1:
+        word = sys.argv[1]
+        
+        if word == 'words':
+            words = ['word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word', 'words', 'word

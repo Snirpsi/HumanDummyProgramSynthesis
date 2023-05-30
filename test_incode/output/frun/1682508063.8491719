@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    """ A function that converts numbers. """    
+    import sys
+    
+    try: 
+        number = int(sys.argv[1])
+    except ValueError:
+        print("Usage: %s number" % sys.argv[0])
+        sys.exit()
+    
+    print(number)
+<|/ file |>

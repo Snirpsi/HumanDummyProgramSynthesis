@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    numbers = open_list()
+    """ A function that opens a list of numbers. """    
+    
+    
+<|/ file |>

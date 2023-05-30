@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    fruits = Fruits()
+    """ A list that stores fruits. """    
+    fruits.fruits.append('apple')
+    fruits.fruits.append('banana')
+    fruits.fruits.append('cherry')
+    fruits.fruits.append('grape')
+    fruits.fruits.append('orange')
+    fruits.fruits.append('pineapple')
+    fruits.fruits.append('strawberry')
+    fruits.fruits.append('watermelon')
+    fruits.fruits.append('watermelon')
+    fruits.fruits.append('watermelon')
+    fruits.fruits.append('watermelon')
+    fruits.fruits.append('watermelon')
+    fruits.fruits.append('watermelon')
+    fruits.fruits.append('
+<|/ file |>

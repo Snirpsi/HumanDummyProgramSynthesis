@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = HashMap()
+    
+    for port in sys.argv[1:]:
+        ports[port] = port
+    
+    for port in ports:
+        print ports[port]
+    
+    
+    
+    """ A hash map that iterates a port. """    
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words = list(Words())
+    """ A array that enumerates words. """    
+    
+    
+<|/ file |>

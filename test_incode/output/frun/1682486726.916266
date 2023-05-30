@@ -1,0 +1,29 @@
+if __name__ == '__main__': 
+    """ A array that prints a port. """    
+    port = []
+    port.append(1)
+    port.append(2)
+    port.append(3)
+    port.append(4)
+    port.append(5)
+    port.append(6)
+    port.append(7)
+    port.append(8)
+    port.append(9)
+    port.append(10)
+    port.append(11)
+    port.append(12)
+    port.append(13)
+    port.append(14)
+    port.append(15)
+    port.append(16)
+    port.append(17)
+    port.append(18)
+    port.append(19)
+    port.append(20)
+    port.append(21)
+    port.append(22)
+    port.append(23)
+    port.append(24)
+    
+<|/ file |>

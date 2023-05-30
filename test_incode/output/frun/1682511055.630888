@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    """ A function that converts words. """    
+    words = word_list
+    word_list = word_list.replace(' ','')
+    word_list = word_list.replace(',','')
+    word_list = word_list.replace('.','')
+    word_list = word_list.replace('?','')
+    word_list = word_list.replace('!','')
+    word_list = word_list.replace(':','')
+    word_list = word_list.replace(';','')
+    word_list = word_list.replace('-','')
+    word_list = word_list.replace('_','')
+    word_list = word_list.replace('(','')
+    word_list = word_list.replace(')','')
+    word_list = word_list.replace('[','')
+    word_
+<|/ file |>

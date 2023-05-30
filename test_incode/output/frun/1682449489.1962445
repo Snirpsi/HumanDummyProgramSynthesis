@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that calculates fruits. """    
+    fruits = [ 'apple', 'banana', 'cherry', 'grape', 'orange', 'plum' ]
+    fruits.sort()
+    return fruits
+<|/ file |>

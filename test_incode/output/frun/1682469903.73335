@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A list that calculates a list of numbers. """    
+    return [ x + 1 for x in xrange(10)]
+<|/ file |>

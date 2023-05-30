@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    sys.path.append('../')
+    from pymunk import Vec2d
+    
+    world = World(gravity=(0, -9.81))
+    world.debug_draw = True
+    
+    ports = [Vec2d(x, y) for x in range(-10, 10) for y in range(-10, 10)]
+    
+    """ A array that removes a port. """    
+    world.remove_body(ports)
+<|/ file |>

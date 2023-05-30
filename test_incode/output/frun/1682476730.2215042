@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A list that converts words. """    
+    words = ['hello', 'world']
+    
+    words = [word.lower() for word in words]
+    
+    words = ['hello', 'world']
+    
+    words = ['hello', 'world']
+<|/ file |>

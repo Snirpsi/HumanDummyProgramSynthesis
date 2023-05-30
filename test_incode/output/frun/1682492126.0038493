@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = enumerate()
+    """ A programm that enumerates a port. """    
+    
+    
+    
+<|/ file |>

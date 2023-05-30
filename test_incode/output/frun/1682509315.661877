@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    
+    for word in words:
+        word = word.strip()
+        
+        if word:
+            sys.stdout.write(word + '\n')
+            
+    
+    """ A array that enumerates a list of words. """    
+<|/ file |>

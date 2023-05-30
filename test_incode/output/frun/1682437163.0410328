@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    """ A array that calculates words. """    
+    words = ['hello', 'world']
+    
+    words.extend(['goodbye', 'cruel'])
+    
+    words.extend(['hello', 'world', 'goodbye'])
+    
+    words.extend(['hello', 'world', 'goodbye', 'cruel'])
+    
+    words.extend(['hello', 'world', 'goodbye', 'cruel', 'hello', 'world', 'goodbye', 'cruel'])
+    
+    words.extend(['hello', 'world', 'goodbye', 'cruel', 'hello', 'world', 'goodbye', 'cruel', 'hello', 'world', 'goodbye', 'cruel'])
+    
+    words.extend(['hello', 'world', '
+<|/ file |>

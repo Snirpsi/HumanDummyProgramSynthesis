@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    numbers = [1,2,3,4,5]
+    """ A function that stores a list of numbers. """    
+    numbers.append(6)
+    print(numbers)
+<|/ file |>

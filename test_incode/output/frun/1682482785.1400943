@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    
+    array1 = Array()
+    array2 = Array()
+    array3 = Array()
+    
+    array1.add(1)
+    array2.add(2)
+    array3.add(3)
+    
+    print array1
+    print array2
+    print array3
+    
+    """ A array that adds numbers. """    
+<|/ file |>

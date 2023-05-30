@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that returns a list of words. """    
+    
+    words = list(words.keys())
+    
+    
+    
+    
+    
+    
+<|/ file |>

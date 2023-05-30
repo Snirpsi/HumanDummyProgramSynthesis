@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    
+    fruit = Fruit()
+    fruit.add("apple")
+    fruit.add("banana")
+    fruit.add("orange")
+    
+    fruits = FruitArray()
+    fruits.add(fruit)
+    
+    fruits.display()
+    
+    
+    
+    """ A array that returns fruits. """    
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A array that prints numbers. """    
+    
+    arr = [1,2,3,4,5]
+    
+    for num in arr:
+        print num
+<|/ file |>

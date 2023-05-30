@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that converts words. """    
+    import sys
+    words = sys.argv[1:]
+    return words
+<|/ file |>

@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    import sys
+    """ A array that prints a list of words. """    
+    words = sys.argv[1:]
+    for word in words:
+        print word
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that prints a port. """    
+    ports = [x.strip() for x in open('ports.txt').readlines()]
+    for port in ports:
+        print port
+<|/ file |>

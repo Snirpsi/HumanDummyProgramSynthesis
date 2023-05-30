@@ -1,0 +1,126 @@
+#!/usr/bin/python3
+numbers = [1,2,3]
+if __name__ == '__main__':
+    #A minimal webserver that adds numbers.
+    import os
+    import socket
+    import sys
+    import time
+    import webbrowser
+    from http.server import BaseHTTPRequestHandler, HTTPServer
+    from urllib.parse import urlparse
+    import cgi
+    import math
+
+    class MyHandler(BaseHTTPRequestHandler):
+        def do_GET(self):
+            parsed_url = urlparse(self.path)
+            path = parsed_url.path
+            query = parsed_url.query
+            
+            if path == '/':
+                webbrowser.open_new_tab('http://localhost:8000/index.html')
+            elif path == '/index.html':
+                webbrowser.open_new_tab('http://localhost:8000/index.html')
+            elif path == '/numbers':
+                webbrowser.open_new_tab('http://localhost:8000/numbers.html')
+            elif path == '/numbers/add':
+                numbers = cgi.parse_qs(query)
+                numbers.append(int(numbers[-1]))
+                numbers = ','.join(map(str, numbers))
+                numbers = numbers.replace(',','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                numbers = numbers.replace(' ','')
+                number

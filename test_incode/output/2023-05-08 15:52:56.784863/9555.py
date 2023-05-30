@@ -1,0 +1,69 @@
+#!/usr/bin/python3
+url = "http://snirps.ddns.net"
+if __name__ == '__main__':
+    #A program that removes a http request.
+    #This program is designed to remove all http requests from your computer.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+    #It will also remove all http requests from your computer from your browser.
+

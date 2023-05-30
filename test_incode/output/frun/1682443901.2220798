@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    """ A programm that calculates words. """    
+    words = []
+    words.append(raw_input('Enter a word: '))
+    words.append(raw_input('Enter another word: '))
+    words.append(raw_input('Enter a third word: '))
+    words.append(raw_input('Enter a fourth word: '))
+    words.append(raw_input('Enter a fifth word: '))
+    words.append(raw_input('Enter a sixth word: '))
+    words.append(raw_input('Enter a seventh word: '))
+    words.append(raw_input('Enter a eighth word: '))
+    words.append(raw_input('Enter a ninth word: '))
+    words.append(raw_input('Enter a ten
+<|/ file |>

@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    array = [1,2,3,4,5]
+    
+    array2 = array
+    """ A array that returns a list of numbers. """    
+    
+    
+    
+    
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A programm that adds a list of words. """    
+    wordlist = ['word1', 'word2', 'word3']
+    wordlist.sort()
+    print(wordlist)
+<|/ file |>

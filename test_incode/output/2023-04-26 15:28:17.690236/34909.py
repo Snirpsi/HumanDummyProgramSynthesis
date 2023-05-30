@@ -1,0 +1,63 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that stores words and iterates over fruits. """    
+    fruits = ['apple', 'banana', 'cherry']
+    
+    # Iterate over fruits.
+    for fruit in fruits:
+        print('The fruit is', fruit)
+    
+    # Iterate over fruits and print their names.
+    for fruit in fruits:
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('The fruit is', fruit)
+        print('

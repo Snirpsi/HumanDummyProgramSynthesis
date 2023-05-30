@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that stores all ports and iterates over user input. """    
+    
+    ports = []
+    
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number of the device you want to use: "))
+    ports.append(input("Enter the port number 

@@ -1,0 +1,78 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = sys.argv[1:]
+    
+    wordlist = list(words)
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+
+    """ A array that enumerates a list of words. """    
+    
+    wordlist = list(words)
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+    
+    wordlist.sort()
+
+<|/ file |>

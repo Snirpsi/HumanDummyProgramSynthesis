@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = [int(x) for x in sys.argv[1:]]
+    
+    arr.remove(0)
+    
+    print(arr)
+    """ A array that removes numbers. """    
+<|/ file |>

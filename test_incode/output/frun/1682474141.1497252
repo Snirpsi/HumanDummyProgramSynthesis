@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    wordlist = WordList()
+    """ A hash map that enumerates words. """    
+    wordlist.enumerate()
+<|/ file |>

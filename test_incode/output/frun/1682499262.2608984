@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that adds words. """    
+    
+    words = words.split()
+    
+    words.extend(['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog'])
+    
+    print ' '.join(words)
+<|/ file |>

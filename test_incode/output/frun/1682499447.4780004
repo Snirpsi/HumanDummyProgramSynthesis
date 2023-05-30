@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that enumerates words. """    
+    import sys
+    words = [w for w in sys.stdin.read().split()]
+    for w in words:
+        print w
+<|/ file |>

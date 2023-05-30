@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    """ A programm that returns words. """    
+    words = []
+    words.append( word('hello') )
+    words.append( word('world') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append( word('!') )
+    words.append(
+<|/ file |>

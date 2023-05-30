@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    
+    words = ['word1', 'word2', 'word3']
+    
+    wordHash = WordHash(words)
+    
+    for word in wordHash:
+        print word
+    
+    
+    
+    
+    
+    """ A hash map that iterates a list of words. """    
+    
+    
+    
+<|/ file |>

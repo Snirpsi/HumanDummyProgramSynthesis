@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that returns words. """    
+    
+    words = [w for w in words if len(w) > 2]
+    
+    
+    
+    
+    
+<|/ file |>

@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    import sys
+    words = []
+    for arg in sys.argv[1:]:
+        words.append(arg)
+    
+    words = words[:]
+    
+    words.sort()
+    
+    
+    """ A array that prints words. """    
+    for word in words:
+        print word
+<|/ file |>

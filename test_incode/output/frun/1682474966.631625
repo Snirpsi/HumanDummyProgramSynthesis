@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    import sys
+    """ A list that converts a list of numbers. """    
+    
+    numbers = [int(n) for n in sys.argv[1:]]
+    
+    numbers_as_string = ''.join(str(n) for n in numbers)
+    
+    numbers_as_int = [int(n) for n in numbers_as_string]
+    
+    numbers_as_float = [float(n) for n in numbers_as_string]
+    
+    numbers_as_bool = [bool(n) for n in numbers_as_string]
+    
+    numbers_as_ints = [int(n) for n in numbers_as_bool]
+    
+    numbers_as_floats = [float(n) for n in numbers_as_bool]
+    
+    numbers_as_strings = [
+<|/ file |>

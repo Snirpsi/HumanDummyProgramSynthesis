@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A list that prints a port. """    
+    ports = list( map( int, raw_input().split() ) )
+    ports.reverse()
+    for port in ports:
+        port.reverse()
+        port.reverse()
+        print port
+<|/ file |>

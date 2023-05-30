@@ -1,0 +1,61 @@
+if __name__ == '__main__': 
+    
+    array = [ 1, 2, 3 ]
+    
+    array.append( 4 )
+    
+    array.append( 5 )
+    
+    array.append( 6 )
+    
+    array.append( 7 )
+    
+    array.append( 8 )
+    
+    array.append( 9 )
+    
+    array.append( 10 )
+    
+    array.append( 11 )
+    
+    array.append( 12 )
+    
+    array.append( 13 )
+    
+    array.append( 14 )
+    
+    array.append( 15 )
+    
+    array.append( 16 )
+    
+    """ A array that stores a list of numbers. """    
+    
+    array = [ 1, 2, 3 ]
+    
+    array.append( 4 )
+    
+    array.append( 5 )
+    
+    array.append( 6 )
+    
+    array.append( 7 )
+    
+    array.append( 8 )
+    
+    array.append( 9 )
+    
+    array.append( 10 )
+    
+    array.append( 11 )
+    
+    array.append( 12 )
+    
+    array.append( 13 )
+    
+    array.append( 14 )
+    
+    array.append( 15 )
+    
+    array.append( 16 )
+    
+<|/ file |>

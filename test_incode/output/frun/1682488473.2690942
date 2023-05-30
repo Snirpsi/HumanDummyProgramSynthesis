@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    
+    arr[0] = 10
+    arr[1] = 20
+    arr[2] = 30
+    arr[3] = 40
+    
+    print arr
+    
+    
+    """ A array that enumerates numbers. """    
+<|/ file |>

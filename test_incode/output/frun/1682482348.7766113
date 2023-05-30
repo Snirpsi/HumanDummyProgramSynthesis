@@ -1,0 +1,34 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that stores a list of words. """    
+    
+    words.append("hello")
+    words.append("world")
+    
+    words.append("goodbye")
+    
+    words.append("hello")
+    
+    words.append("goodbye")
+    
+    words.append("hello")
+    
+    words.append("goodbye")
+    
+    words.append("hello")
+    
+    words.append("goodbye")
+    
+    words.append("hello")
+    
+    words.append("goodbye")
+    
+    words.append("hello")
+    
+    words.append("goodbye")
+    
+    words.append("hello")
+    
+    words.append("
+<|/ file |>

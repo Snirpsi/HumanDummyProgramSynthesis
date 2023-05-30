@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that converts words. """    
+    hashmap.add("hello")
+    hashmap.add("world")
+    print hashmap.get("hello")
+<|/ file |>

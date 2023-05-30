@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    arr = [1,2,3]
+    
+    
+    """ A array that stores a list of numbers. """    
+    
+    
+    
+<|/ file |>

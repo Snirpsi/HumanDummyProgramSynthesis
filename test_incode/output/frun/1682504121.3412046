@@ -1,0 +1,29 @@
+if __name__ == '__main__': 
+    
+    """ A list that calculates a list of words. """    
+    words = []
+    words.append("hello")
+    words.append("world")
+    words.append("goodbye")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("!")
+    words.append("
+<|/ file |>

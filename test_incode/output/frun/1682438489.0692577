@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that opens words. """    
+    
+    words.append( Word('word1') )
+    words.append( Word('word2') )
+    words.append( Word('word3') )
+    
+    for word in words:
+        print word
+<|/ file |>

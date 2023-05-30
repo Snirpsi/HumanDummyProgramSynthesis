@@ -1,0 +1,29 @@
+if __name__ == '__main__': 
+    
+    words = {}
+    """ A hash map that opens words. """    
+    
+    words['hello'] = 'world'
+    
+    words['goodbye'] = 'world'
+    
+    words['goodbye'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['goodbye'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['goodbye'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['goodbye'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['goodbye'] = 'world'
+    
+    words['
+<|/ file |>

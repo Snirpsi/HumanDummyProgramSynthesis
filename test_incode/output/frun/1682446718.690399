@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = ['a', 'b', 'c', 'd', 'e']
+    """ A hash map that enumerates a list of words. """    
+    
+    words = ['a', 'b', 'c', 'd', 'e']
+    
+    words = ['a', 'b', 'c', 'd', 'e']
+    
+    words = ['a', 'b', 'c', 'd', 'e']
+<|/ file |>

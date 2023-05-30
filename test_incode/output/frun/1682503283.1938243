@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = [line.strip() for line in sys.stdin.readlines()]
+    
+    
+    """ A array that prints words. """    
+    
+    for word in words:
+        print word
+<|/ file |>

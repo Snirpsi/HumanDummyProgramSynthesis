@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A array that prints a list of words. """    
+    words = ['hello', 'world']
+    
+    array = []
+    for word in words:
+        array.append(word)
+    
+    print(array)
+<|/ file |>

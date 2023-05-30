@@ -1,0 +1,62 @@
+#!/usr/bin/python3
+numbers = [1,2,3]
+if __name__ == '__main__':
+    #A program that calculates numbers.
+    #It will ask the user for two numbers and then print them out.
+    #The program will ask the user for three numbers and then print them out.
+    #The program will ask the user for four numbers and then print them out.
+    #The program will ask the user for five numbers and then print them out.
+    #The program will ask the user for six numbers and then print them out.
+    #The program will ask the user for seven numbers and then print them out.
+    #The program will ask the user for eight numbers and then print them out.
+    #The program will ask the user for nine numbers and then print them out.
+    #The program will ask the user for ten numbers and then print them out.
+    #The program will ask the user for eleven numbers and then print them out.
+    #The program will ask the user for twelve numbers and then print them out.
+    #The program will ask the user for thirteen numbers and then print them out.
+    #The program will ask the user for fourteen numbers and then print them out.
+    #The program will ask the user for fifteen numbers and then print them out.
+    #The program will ask the user for sixteen numbers and then print them out.
+    #The program will ask the user for seventeen numbers and then print them out.
+    #The program will ask the user for eighteen numbers and then print them out.
+    #The program will ask the user for nineteen numbers and then print them out.
+    #The program will ask the user for twenty numbers and then print them out.
+    #The program will ask the user for thirty numbers and then print them out.
+    #The program will ask the user for forty numbers and then print them out.
+    #The program will ask the user for fifty numbers and then print them out.
+    #The program will ask the user for sixty numbers and then print them out.
+    #The program will ask the user for seventy numbers and then print them out.
+    #The program will ask the user for eighteen numbers and then print them out.
+    #The program will ask the user for nineteen numbers and then print them out.
+    #The program will ask the user for twenty numbers and then print them out.
+    #The program will ask the user for thirty numbers and then print them out.
+    #The program will ask the user for forty numbers and then print them out.
+    #The program will ask the user for fifty numbers and then print them out.
+    #The program will ask the user for sixty numbers and then print them out.
+    #The program will ask the user for seventy numbers and then print them out.
+    #The program will ask the user for eighteen numbers and then print them out.
+    #The program will ask the user for nineteen numbers and then print them out.
+    #The program will ask the user for twenty numbers and then print them out.
+    #The program will ask the user for thirty numbers and then print them out.
+    #The program will ask the user for forty numbers and then print them out.
+    #The program will ask the user for fifty numbers and then print them out.
+    #The program will ask the user for sixty numbers and then print them out.
+    #The program will ask the user for seventy numbers and then print them out.
+    #The program will ask the user for eighteen numbers and then print them out.
+    #The program will ask the user for nineteen numbers and then print them out.
+    #The program will ask the user for twenty numbers and then print them out.
+    #The program will ask the user for thirty numbers and then print them out.
+    #The program will ask the user for forty numbers and then print them out.
+    #The program will ask the user for fifty numbers and then print them out.
+    #The program will ask the user for sixty numbers and then print them out.
+    #The program will ask the user for seventy numbers and then print them out.
+    #The program will ask the user for eighteen numbers and then print them out.
+    #The program will ask the user for nineteen numbers and then print them out.
+    #The program will ask the user for twenty numbers and then print them out.
+    #The program will ask the user for thirty numbers and then print them out.
+    #The program will ask the user for forty numbers and then print them out.
+    #The program will ask the user for fifty numbers and then print them out.
+    #The program will ask the user for sixty numbers and then print them out.
+    #The program will ask the user for seventy numbers and then print them out.
+    #The program will ask the user for eighteen numbers and then print them out.
+    #The program will ask the user for nineteen numbers and then print them out.

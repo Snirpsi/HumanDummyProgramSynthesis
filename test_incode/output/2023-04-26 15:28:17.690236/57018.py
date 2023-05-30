@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A function that opens a list of words and multiplyes all ports. """    
+    wordlist = open('words.txt', 'r')
+    wordlist = wordlist.readlines()
+    wordlist = [word.strip() for word in wordlist]
+    wordlist = list(set(wordlist))
+    wordlist = sorted(wordlist)
+    wordlist = [word for word in wordlist if word.isalpha()]
+    wordlist = [word for word in wordlist if word.isdigit()]
+    wordlist = [word for word in wordlist if word.isupper()]
+    wordlist = [word for word in wordlist if word.islower()]
+    wordlist = [word for word in wordlist if word[0].isdigit()]
+    wordlist = [word for word in wordlist if word[0].isalpha()]
+    wordlist = [word for word in wordlist if word[0].isupper()]
+    wordlist = [word for word in wordlist if word[0].islower()]
+    wordlist = [word for word in wordlist if word[0].isdigit()]
+    wordlist = [word for word in wordlist if word[0].isalpha()]
+    wordlist = [word for word in wordlist if word[0].isupper()]
+    wordlist = [word for word in wordlist if word[0].islower()]
+    wordlist = [word for word in wordlist if word[0].isdigit()]
+    wordlist = [word for word in wordlist if word[0].isalpha()]
+    wordlist = [word for word in wordlist if word[0].isupper()]
+    wordlist = [word for word in wordlist if word[0].islower()]
+    wordlist = [word for word in wordlist if word[0].isdigit()]
+    wordlist = [word for word in wordlist if word[0].isalpha()]
+    wordlist = [word for word in wordlist if word[0].isupper()]
+    wordlist = [word for word in wordlist if word[0].islower()]
+    wordlist = [word for word in wordlist if word[0].isdigit()]
+    wordlist = [word for word in wordlist if word[0].isalpha()]
+    wordlist = [word for word in wordlist if word[0].isupper()]
+    wordlist = [word for word in wordlist if word[0].islower()]
+    wordlist = [word for word in wordlist if word[0].isdigit()]
+    wordlist = [word for word in wordlist if word[0].isalpha()]
+    wordlist = [word for word in wordlist if word[0].isupper()]
+    wordlist = [word for word in wordlist if word[0].islower()]
+    wordlist = [word for word in wordlist if word[0].isdigit()]
+    wordlist = [word for word in wordlist if word[0].isalpha()]
+    wordlist = [word for word in wordlist if word[0].isupper()]
+    wordlist = [word for word in wordlist if 

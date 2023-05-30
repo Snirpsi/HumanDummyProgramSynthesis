@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    numbers = list( map(int, sys.argv[1:]) )
+    
+    numbers.sort()
+    
+    for number in numbers:
+        print number
+    
+    """ A list that adds numbers. """    
+<|/ file |>

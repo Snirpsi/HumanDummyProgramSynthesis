@@ -1,0 +1,29 @@
+if __name__ == '__main__': 
+    """ A array that calculates words. """    
+    words = []
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(words)
+    words.extend(
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that opens a list of words. """    
+    words = []
+    
+    words = words + open('words.txt').read().splitlines()
+<|/ file |>

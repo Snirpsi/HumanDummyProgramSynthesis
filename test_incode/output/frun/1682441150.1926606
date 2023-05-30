@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that opens numbers. """    
+    numbers = open(sys.argv[1]).read().split()
+    numbers = [int(i) for i in numbers]
+    numbers = sum(numbers)
+    print numbers
+<|/ file |>

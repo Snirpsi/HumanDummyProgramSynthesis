@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    """ A programm that prints a port. """    
+    port = sys.argv[1]
+    
+    port = int(port)
+    
+    ports = range(port)
+    
+    for port in ports:
+        
+        print port
+    
+<|/ file |>

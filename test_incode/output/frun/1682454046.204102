@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    """ A programm that stores words. """    
+    words = []
+    
+    words = words + get_words()
+    
+    save_words_to_file(words)
+<|/ file |>

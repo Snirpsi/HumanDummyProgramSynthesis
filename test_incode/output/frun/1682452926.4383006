@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that enumerates fruits. """    
+    fruits = ['apple', 'orange', 'banana']
+    for fruit in fruits:
+        print fruit
+<|/ file |>

@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that returns a list of words. """    
+    hashmap.add('hello')
+    hashmap.add('world')
+    hashmap.add('goodbye')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+    hashmap.add('python')
+<|/ file |>

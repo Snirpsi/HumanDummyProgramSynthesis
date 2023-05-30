@@ -1,0 +1,30 @@
+if __name__ == '__main__': 
+    
+    wordlist = WordList()
+    wordlist.add( 'hello' )
+    wordlist.add( 'world' )
+    wordlist.add( 'goodbye' )
+    wordlist.add( 'again' )
+    wordlist.add( 'again' )
+    
+    for word in wordlist: 
+        print word
+    
+    
+    """ A hash map that returns a list of words. """    
+    
+    wordlist = WordList()
+    wordlist.add( 'hello' )
+    wordlist.add( 'world' )
+    wordlist.add( 'goodbye' )
+    wordlist.add( 'again' )
+    wordlist.add( 'again' )
+    
+    wordlist = wordlist.getWords()
+    
+    for word in wordlist: 
+        print word
+    
+    
+    
+<|/ file |>

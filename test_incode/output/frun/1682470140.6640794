@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A list that removes numbers. """    
+    numbers = [int(i) for i in raw_input().split()]
+    numbers.sort()
+    numbers.remove(0)
+    print numbers
+<|/ file |>

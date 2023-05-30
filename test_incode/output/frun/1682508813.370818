@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    """ A hash map that opens words. """    
+    hashmap.openWords()
+<|/ file |>

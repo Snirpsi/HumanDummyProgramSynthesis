@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = [w.strip() for w in sys.stdin.readlines()]
+    """ A array that converts words. """    
+    
+    words = [w.lower() for w in words]
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = [w for w in words if len(w) == 1]
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = [w for w in words if 
+<|/ file |>

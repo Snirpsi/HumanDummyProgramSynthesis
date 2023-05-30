@@ -1,0 +1,45 @@
+if __name__ == '__main__': 
+    
+    fruit = HashMap()
+    fruit.add('apple')
+    fruit.add('banana')
+    fruit.add('pear')
+    fruit.add('orange')
+    
+    fruit['apple']
+    fruit['banana']
+    fruit['pear']
+    fruit['orange']
+    
+    fruit.keys()
+    fruit.values()
+    fruit.items()
+    
+    fruit.clear()
+    
+    fruit.add('apple')
+    fruit.add('banana')
+    fruit.add('pear')
+    fruit.add('orange')
+    
+    fruit.keys()
+
+    """ A hash map that returns fruits. """    
+    
+    fruit = HashMap()
+    fruit.add('apple')
+    fruit.add('banana')
+    fruit.add('pear')
+    fruit.add('orange')
+    
+    fruit['apple']
+    fruit['banana']
+    fruit['pear']
+    fruit['orange']
+    
+    fruit.keys()
+    fruit.values()
+    fruit.items()
+    
+    fruit.clear()
+<|/ file |>

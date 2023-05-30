@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that opens numbers. """    
+    array = [int(i) for i in raw_input().split()]
+    
+    
+<|/ file |>

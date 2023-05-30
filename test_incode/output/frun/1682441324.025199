@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A function that removes a list of numbers. """    
+    
+    numbers = [1,2,3,4,5]
+    
+    remove_numbers(numbers)
+    
+    
+    
+<|/ file |>

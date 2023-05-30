@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that converts fruits. """    
+    fruits = fruits.split()
+    fruits = list(fruits)
+    fruits.sort()
+    print(fruits)
+<|/ file |>

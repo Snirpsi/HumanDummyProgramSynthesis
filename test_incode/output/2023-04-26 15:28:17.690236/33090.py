@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that opens a list of words or calculates user input. """    
+    while True:
+        word = input("Enter a word: ")
+        if word == "exit":
+            break
+        elif word == "help":
+            print("\nAvailable commands:")
+            print("\tadd\tAdd two numbers")
+            print("\tsub\tSubtract two numbers")
+            print("\tmul\tMultiply two numbers")
+            print("\tdiv\tDivide two numbers")
+            print("\tmod\tModulo two numbers")
+            print("\tpow\tRaise a number to the power of a number")
+            print("\tsqrt\tCalculate the square root of a number")
+            print("\tpow\tRaise a number to the power of a number")
+            print("\tlog\tCalculate the natural logarithm of a number")
+            print("\texp\tCalculate the exponential of a number")
+            print("\tsin\tCalculate the sine of a number")
+            print("\tcos\tCalculate the cosine of a number")
+            print("\ttan\tCalculate the tangent of a number")
+            print("\tasin\tCalculate the arc sine of a number")
+            print("\tacos\tCalculate the arc cosine of a number")
+            print("\tatan\tCalculate the arc tangent of a number")
+            print("\tsinh\tCalculate the hyperbolic sine of a number")
+            print("\tcosh\tCalculate the hyperbolic cosine of a number")
+            print("\ttanh\tCalculate the hyperbolic tangent of a number")
+            print("\tasinh\tCalculate the inverse hyperbolic sine of a number")
+            print("\tacosh\tCalculate the inverse hyperbolic cosine of a number")
+            print("\tatanh\tCalculate the inverse hyperbolic tangent of a number")
+            print("\tsinc\tCalculate the inverse sine of a number")
+            print("\tcosc\tCalculate the inverse cosine of a number")
+            print("\ttand\tCalculate the inverse tangent of a number")
+            print("\tasin\tCalculate the inverse arc sine of a number")
+            print("\tacot\tCalculate the inverse arc cosine of a number")
+            print("\tatan\tCalculate the inverse arc tangent of a number")
+            print("\tsinh\tCalculate the hyperbolic sine of a number")
+            print("\tcosh\tCalculate the hyperbolic cosine of a number")
+            print("\ttanh\tCalculate the hyperbolic tangent of a number")
+            print("\tasinh\tCalculate the inverse hyperbolic sine of a number")
+            print("\tacosh\tCalculate the inverse hyperbolic cosine of a number")
+            print("\tatanh\tCalculate the inverse hyperbolic tangent of a number")
+            print("\tsinc\tCalculate the inverse sine of a number")
+            print("\tcosc\tCalculate the inverse cosine of a number")
+            print("\ttand\tCalculate the inverse tangent of a number")
+            print("\tasin

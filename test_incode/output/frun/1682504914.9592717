@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    ports = PortList() 
+    ports.ports = [Port('COM3', 9600), Port('COM4', 9600), Port('COM5', 9600)]
+    
+    for port in ports:
+        print port
+        
+    
+    """ A list that iterates a port. """    
+    
+    
+    
+<|/ file |>

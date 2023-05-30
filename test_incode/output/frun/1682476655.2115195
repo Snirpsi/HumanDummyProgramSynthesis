@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    sys.path.append('../')
+    from array import Array
+    """ A array that adds a port. """    
+    
+    arr = Array('h')
+    arr.add(1)
+    arr.add(2)
+    arr.add(3)
+    
+    print arr
+<|/ file |>

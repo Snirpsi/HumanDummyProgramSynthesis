@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A programm that returns words. """    
+    words = []
+    for word in words.split():
+        words.append(word)
+    
+    print(words)
+<|/ file |>

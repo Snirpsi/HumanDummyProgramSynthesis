@@ -1,0 +1,55 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that multiplyes words or stores all ports. """    
+    import sys
+    from gevent.wsgi import WSGIServer
+    from geventwebsocket.handler import WebSocketHandler
+    from geventwebsocket.server import WebSocketServer
+    from geventwebsocket.util import url2pathname
+    from geventwebsocket.util import parse_url
+    from geventwebsocket.util import url2netloc
+    from geventwebsocket.util import url2path
+    from geventwebsocket.util import url2query
+    from geventwebsocket.util import url2fragment
+    from geventwebsocket.util import url2args
+    from geventwebsocket.util import url2data
+    from geventwebsocket.util import url2headers
+    from geventwebsocket.util import url2origin
+    from geventwebsocket.util import url2path
+    from geventwebsocket.util import url2query
+    from geventwebsocket.util import url2fragment
+    from geventwebsocket.util import url2args
+    from geventwebsocket.util import url2data
+    from geventwebsocket.util import url2headers
+    from geventwebsocket.util import url2origin
+    from geventwebsocket.util import url2path
+    from geventwebsocket.util import url2query
+    from geventwebsocket.util import url2fragment
+    from geventwebsocket.util import url2args
+    from geventwebsocket.util import url2data
+    from geventwebsocket.util import url2headers
+    from geventwebsocket.util import url2origin
+    from geventwebsocket.util import url2path
+    from geventwebsocket.util import url2query
+    from geventwebsocket.util import url2fragment
+    from geventwebsocket.util import url2args
+    from geventwebsocket.util import url2data
+    from geventwebsocket.util import url2headers
+    from geventwebsocket.util import url2origin
+    from geventwebsocket.util import url2path
+    from geventwebsocket.util import url2query
+    from geventwebsocket.util import url2fragment
+    from geventwebsocket.util import url2args
+    from geventwebsocket.util import url2data
+    from geventwebsocket.util import url2headers
+    from geventwebsocket.util import url2origin
+    from geventwebsocket.util import url2path
+    from geventwebsocket.util import url2query
+    from geventwebsocket.util import url2fragment
+    from geventwebsocket.util import url2args
+    from geventwebsocket.util import url2data
+    from geventwebsocket.util import url2headers
+    from geventwebsocket.util import url2origin
+    from geventwebsocket.util import url2path
+    from geventwebsocket.util import url2query
+    from geventwebsocket.util import 

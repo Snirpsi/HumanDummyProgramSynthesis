@@ -1,0 +1,21 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    hashmap.add('hello')
+    hashmap.add('world')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('goodbye')
+    hashmap.add('good
+    """ A hash map that removes a list of words. """    
+    
+    
+<|/ file |>

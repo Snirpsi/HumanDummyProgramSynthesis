@@ -1,0 +1,30 @@
+if __name__ == '__main__': 
+    
+    ports = PortMap()
+    ports.ports = range(65535)
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+    
+    ports.ports.reverse()
+
+    """ A hash map that enumerates a port. """    
+    
+    
+<|/ file |>

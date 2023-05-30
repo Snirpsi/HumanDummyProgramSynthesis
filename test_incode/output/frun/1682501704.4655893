@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    import sys
+    port = int(sys.argv[1])
+    """ A array that iterates a port. """    
+    
+    ports = [port]
+    
+    while port:
+        port = port - 1
+        ports.append(port)
+        
+    return ports
+<|/ file |>

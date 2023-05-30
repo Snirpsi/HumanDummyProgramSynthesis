@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    wordlist = WordList()
+    """ A programm that prints a list of words. """    
+    wordlist.print_list()
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A programm that adds a list of words. """    
+    words = ['one', 'two', 'three']
+    
+    words = words + words
+    
+    print words
+<|/ file |>

@@ -1,0 +1,67 @@
+if __name__ == '__main__': 
+    import sys
+    import numpy as np
+    
+    arr = np.array([1,2,3])
+    
+    arr2 = arr.copy()
+    
+    arr3 = arr.copy()
+    
+    arr4 = arr.copy()
+    
+    arr5 = arr.copy()
+    
+    arr6 = arr.copy()
+    
+    arr7 = arr.copy()
+    
+    arr8 = arr.copy()
+    
+    arr9 = arr.copy()
+    
+    arr10 = arr.copy()
+    
+    arr11 = arr.copy()
+    
+    arr12 = arr.copy()
+    
+    arr13 = arr.copy()
+    
+    arr14 = arr.copy()
+    
+    arr15 = arr.
+    """ A array that returns numbers. """    
+    
+    arr = np.array([1,2,3])
+    
+    arr2 = arr.copy()
+    
+    arr3 = arr.copy()
+    
+    arr4 = arr.copy()
+    
+    arr5 = arr.copy()
+    
+    arr6 = arr.copy()
+    
+    arr7 = arr.copy()
+    
+    arr8 = arr.copy()
+    
+    arr9 = arr.copy()
+    
+    arr10 = arr.copy()
+    
+    arr11 = arr.copy()
+    
+    arr12 = arr.copy()
+    
+    arr13 = arr.copy()
+    
+    arr14 = arr.copy()
+    
+    arr15 = arr.copy()
+    
+    arr
+<|/ file |>

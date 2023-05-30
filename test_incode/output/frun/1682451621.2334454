@@ -1,0 +1,22 @@
+if __name__ == '__main__': 
+    """ A programm that stores words. """    
+    words = []
+    
+    words.append(input("Enter a word: "))
+    
+    words.append(input("Enter another word: "))
+    
+    words.append(input("Enter a third word: "))
+    
+    words.append(input("Enter a fourth word: "))
+    
+    words.append(input("Enter a fifth word: "))
+    
+    words.append(input("Enter a sixth word: "))
+    
+    words.append(input("Enter a seventh word: "))
+    
+    words.append(input("Enter a eighth word: "))
+    
+    words.append(input("Enter a ninth word: "))
+<|/ file |>

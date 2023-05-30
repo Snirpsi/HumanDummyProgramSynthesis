@@ -1,0 +1,17 @@
+if __name__ == '__main__': 
+    """ A hash map that prints a port. """    
+    ports = HashMap()
+    ports.put('localhost', 8080)
+    ports.put('localhost', 8000)
+    ports.put('localhost', 8001)
+    ports.put('localhost', 8002)
+    ports.put('localhost', 8003)
+    ports.put('localhost', 8004)
+    ports.put('localhost', 8005)
+    ports.put('localhost', 8006)
+    ports.put('localhost', 8007)
+    ports.put('localhost', 8008)
+    ports.put('localhost', 8009)
+    ports.put('localhost', 8010)
+
+<|/ file |>

@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A array that prints a list of numbers. """    
+    numbers = [1,2,3,4,5]
+    
+    numbers_as_string = numbers.__str__()
+    
+    print(numbers_as_string)
+<|/ file |>

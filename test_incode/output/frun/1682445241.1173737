@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    """ A hash map that calculates fruits. """    
+    fruits = { 
+        'apple': 4,
+        'orange': 3,
+        'banana': 2,
+        'pear': 1
+    }
+    
+    fruits['apple']
+    fruits['orange']
+    fruits['banana']
+    fruits['pear']
+<|/ file |>

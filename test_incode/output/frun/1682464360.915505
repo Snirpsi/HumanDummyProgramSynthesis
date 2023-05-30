@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = Array()
+    """ A array that removes words. """    
+    
+    arr = Array()
+    
+    arr = Array()
+    
+    arr = Array()
+<|/ file |>

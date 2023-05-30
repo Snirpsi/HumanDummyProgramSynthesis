@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    words = [w.strip() for w in open('words.txt')]
+    """ A hash map that opens words. """    
+    words = [w.strip() for w in open('words.txt')]
+    
+    
+    
+<|/ file |>

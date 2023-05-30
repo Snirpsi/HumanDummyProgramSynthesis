@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    """ A programm that iterates a port. """    
+    port = sys.argv[1]
+    
+    ports = range(int(port))
+    
+    for port in ports:
+        print port
+        
+    
+<|/ file |>

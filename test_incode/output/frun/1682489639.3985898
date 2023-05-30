@@ -1,0 +1,26 @@
+if __name__ == '__main__': 
+    """ A programm that converts a list of numbers. """    
+    import sys
+    
+    numbers = map(int, sys.stdin.read().split())
+    
+    numbers = map(lambda x: x*2, numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    numbers = map(lambda x: str(x), numbers)
+    
+    
+<|/ file |>

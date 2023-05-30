@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    ports = PortMap()
+    """ A hash map that converts a port. """    
+    ports['80'] = 'http'
+    ports['443'] = 'https'
+<|/ file |>

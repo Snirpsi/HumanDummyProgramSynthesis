@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    fruits = FruitList() 
+    """ A list that enumerates fruits. """    
+    fruits.fruits = ['apple', 'banana', 'cherry']
+    fruits.fruits.sort()
+    print(fruits.fruits)
+<|/ file |>

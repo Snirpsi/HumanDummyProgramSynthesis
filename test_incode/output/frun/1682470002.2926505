@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A hash map that converts fruits. """    
+    fruits['apple'] = 'orange'
+    fruits['banana'] = 'apple'
+    
+    print fruits['apple']
+<|/ file |>

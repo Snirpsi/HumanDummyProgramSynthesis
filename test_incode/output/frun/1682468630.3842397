@@ -1,0 +1,5 @@
+if __name__ == '__main__': 
+    words = get_words()
+    """ A function that returns words. """    
+    return words
+<|/ file |>

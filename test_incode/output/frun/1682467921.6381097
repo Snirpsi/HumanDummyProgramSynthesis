@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A programm that adds a list of numbers. """    
+    numbers = map(int, raw_input().split())
+    numbers = map(lambda x: x+numbers[0], numbers)
+    print numbers
+<|/ file |>

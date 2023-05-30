@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = [1,2,3,4,5,6,7,8,9,10]
+    
+    
+    """ A array that enumerates a list of numbers. """    
+    
+    for i,num in enumerate(arr):
+        print "%d: %s" % (i,num)
+<|/ file |>

@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    hashmap = HashMap()
+    """ A hash map that returns numbers. """    
+    hashmap['one'] = 1
+    hashmap['two'] = 2
+    hashmap['three'] = 3
+    hashmap['four'] = 4
+    hashmap['five'] = 5
+    hashmap['six'] = 6
+    hashmap['seven'] = 7
+    hashmap['eight'] = 8
+    hashmap['nine'] = 9
+    hashmap['ten'] = 10
+    hashmap['eleven'] = 11
+    hashmap['twelve'] = 12
+    hashmap['thirteen'] = 13
+    hashmap['fourteen'] = 14
+    hashmap['fifteen
+<|/ file |>

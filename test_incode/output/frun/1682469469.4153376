@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A programm that removes a list of numbers. """    
+    numbers = sys.argv[1:]
+    numbers = [int(x) for x in numbers]
+    numbers.sort()
+    numbers.reverse()
+    numbers.remove(0)
+    print numbers
+<|/ file |>

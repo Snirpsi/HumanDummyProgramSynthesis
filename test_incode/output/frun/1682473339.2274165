@@ -1,0 +1,43 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = sys.argv[1:]
+    
+    words = [w.strip() for w in words]
+    
+    words = [w.lower() for w in words]
+    
+    words = [w for w in words if len(w) > 1]
+    
+    words = [w for w in words if len(w) > 2]
+    
+    words = [w for w in words if len(w) > 3]
+    
+    words = [w for w in words if len(w) > 4]
+    
+    words = [w for w in words if len(w) > 5]
+    
+    words = [w for w in words if len(w) > 6]
+    
+
+    """ A array that stores words. """    
+    
+    words = [w for w in words if len(w) > 7]
+    
+    words = [w for w in words if len(w) > 8]
+    
+    words = [w for w in words if len(w) > 9]
+    
+    words = [w for w in words if len(w) > 10]
+    
+    words = [w for w in words if len(w) > 11]
+    
+    words = [w for w in words if len(w) > 12]
+    
+    words = [w for w in words if len(w) > 13]
+    
+    words = [w for w in words if len(w) > 14]
+    
+    
+<|/ file |>

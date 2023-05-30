@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    wordlist = WordList('words.txt')
+    wordlist.printWords()
+    """ A hash map that iterates a list of words. """    
+    wordlist = WordList('words.txt')
+    wordlist.printWords()
+<|/ file |>

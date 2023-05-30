@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A minimal webserver that calculates a list of numbers. """    
+    
+    port = int(sys.argv[1])
+    
+    httpd = HTTPServer(('', port), SimpleHTTPRequestHandler)
+    
+    print('Serving on port %s' % port)
+    
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print('\nExiting...')
+        httpd.socket.close()
+        sys.exit(0)
+    
+    print('\nStopping...')
+    httpd.socket.close()
+    sys.exit(0)

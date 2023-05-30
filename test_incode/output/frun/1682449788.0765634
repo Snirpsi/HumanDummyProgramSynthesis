@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    import sys
+    port = int(sys.argv[1])
+    """ A array that iterates a port. """    
+    ports = [port]
+    
+    for port in ports:
+        port = socket.create_connection((host, port))
+        
+        ports.append(port)
+        
+    ports.reverse()
+    
+    for port in ports:
+        port.close()
+<|/ file |>

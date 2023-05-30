@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    """ A array that calculates words. """    
+    words = ['hello', 'world', 'python', 'is', 'fun']
+    
+    wordcounts = Counter(words)
+    
+    for word, count in wordcounts.iteritems():
+        print word, count
+<|/ file |>

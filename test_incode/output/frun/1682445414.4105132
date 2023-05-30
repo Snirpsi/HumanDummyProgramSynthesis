@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    wordlist = wordlist
+    """ A programm that returns a list of words. """    
+    wordlist = wordlist.split()
+    return wordlist
+<|/ file |>

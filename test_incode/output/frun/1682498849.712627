@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that enumerates a port. """    
+    ports = range(0,65535)
+    
+    
+<|/ file |>

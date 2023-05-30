@@ -1,0 +1,14 @@
+if __name__ == '__main__': 
+    
+    words = ['foo', 'bar', 'baz']
+    
+    words.sort()
+    
+    
+    
+    
+    """ A array that enumerates a list of words. """    
+    
+    
+    
+<|/ file |>

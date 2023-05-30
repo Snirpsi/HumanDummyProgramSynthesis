@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    ports = enumeratePorts(sys.argv[1])
+    """ A array that enumerates a port. """    
+    
+    for port in ports:
+        print port
+<|/ file |>

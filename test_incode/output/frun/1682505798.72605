@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A programm that enumerates numbers. """    
+    import sys
+    
+    numbers = range(1,sys.maxint+1)
+    
+    for number in numbers:
+        print number
+<|/ file |>

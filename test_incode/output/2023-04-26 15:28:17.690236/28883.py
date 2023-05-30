@@ -1,0 +1,41 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that enumerates words and calculates fruits. """    
+    words = ['apple', 'banana', 'cherry']
+    fruits = []
+    for word in words:
+        fruits.append(word)
+    print('\n'.join(words))
+    print('\n'.join(fruits))
+    print('Total fruits: %d' % len(fruits))
+    print('Total words: %d' % len(words))
+    print('Average fruits: %.2f' % sum(fruits) / len(fruits))
+    print('Average words: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(words))
+    print('Average fruit length: %.2f' % sum(fruits) / len(fruits))
+    print('Average word length: %.2f' % sum(words) / len(

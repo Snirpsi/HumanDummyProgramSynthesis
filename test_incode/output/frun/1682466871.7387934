@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that adds a list of words. """    
+    words = ['hello', 'world']
+    words.extend(['goodbye', 'world'])
+    print words
+<|/ file |>

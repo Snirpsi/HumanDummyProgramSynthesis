@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    
+    removeWords(words)
+    """ A array that removes a list of words. """    
+<|/ file |>

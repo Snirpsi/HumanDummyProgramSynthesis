@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    
+    ports = ports_generator()
+    
+    for port in ports:
+    """ A function that iterates a port. """    
+        
+        
+        
+<|/ file |>

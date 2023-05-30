@@ -1,0 +1,73 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    #A program that iterates over user input.
+    #It will take user input from the command line and print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask the user for an input and then print it out.
+    #The program will ask
+

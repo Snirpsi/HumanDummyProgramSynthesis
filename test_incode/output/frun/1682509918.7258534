@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = []
+    """ A array that stores a list of words. """    
+    
+    words.append(sys.argv[1])
+    
+    
+    
+    
+    
+    
+    
+<|/ file |>

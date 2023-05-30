@@ -1,0 +1,19 @@
+if __name__ == '__main__': 
+    
+    """ A array that opens a list of words. """    
+    words = []
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "world"])
+    words.append(["hello", "
+<|/ file |>

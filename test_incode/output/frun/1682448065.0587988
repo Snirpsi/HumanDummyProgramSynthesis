@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    
+    hashmap = HashMap()
+    """ A hash map that calculates words. """    
+    hashmap.addWord('hello')
+    hashmap.addWord('world')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    hashmap.addWord('python')
+    
+<|/ file |>

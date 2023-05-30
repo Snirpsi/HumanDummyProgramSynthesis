@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words = ['cat', 'dog', 'mouse']
+    words_by_count = Counter(words)
+    words_by_count.most_common()
+    """ A hash map that enumerates a list of words. """    
+<|/ file |>

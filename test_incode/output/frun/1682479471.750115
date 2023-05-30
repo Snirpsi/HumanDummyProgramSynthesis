@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that adds words. """    
+    words = ['python', 'programming', 'programming']
+    
+    for word in words:
+        print word
+<|/ file |>

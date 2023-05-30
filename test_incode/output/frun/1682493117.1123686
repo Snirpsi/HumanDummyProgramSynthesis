@@ -1,0 +1,4 @@
+if __name__ == '__main__': 
+    """ A function that removes fruits. """    
+    fruits.remove('apple')
+<|/ file |>

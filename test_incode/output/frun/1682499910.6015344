@@ -1,0 +1,56 @@
+if __name__ == '__main__': 
+    import sys
+    
+    arr = [1,2,3,4,5]
+    
+    arr2 = list(enumerate(arr))
+    
+    arr3 = list(enumerate(arr))
+    
+    arr4 = list(enumerate(arr))
+    
+    arr5 = list(enumerate(arr))
+    
+    arr6 = list(enumerate(arr))
+    
+    arr7 = list(enumerate(arr))
+    
+    arr8 = list(enumerate(arr))
+    
+    arr9 = list(enumerate(arr))
+    
+    arr10 = list(enumerate(arr))
+    
+    arr11 = list(enumerate(arr))
+    
+    arr12 = list(enumerate(arr))
+    
+    arr13
+    """ A array that enumerates a list of numbers. """    
+    
+    arr = [1,2,3,4,5]
+    
+    arr2 = list(enumerate(arr))
+    
+    arr3 = list(enumerate(arr))
+    
+    arr4 = list(enumerate(arr))
+    
+    arr5 = list(enumerate(arr))
+    
+    arr6 = list(enumerate(arr))
+    
+    arr7 = list(enumerate(arr))
+    
+    arr8 = list(enumerate(arr))
+    
+    arr9 = list(enumerate(arr))
+    
+    arr10 = list(enumerate(arr))
+    
+    arr11 = list(enumerate(arr))
+    
+    arr12 = list(enumerate(arr))
+    
+    arr13 = list(enumerate(arr
+<|/ file |>

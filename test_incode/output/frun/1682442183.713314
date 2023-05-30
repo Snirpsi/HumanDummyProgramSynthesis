@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    """ A list that returns fruits. """    
+    fruits = ['apple', 'banana', 'cherry']
+    
+    
+    
+    
+<|/ file |>

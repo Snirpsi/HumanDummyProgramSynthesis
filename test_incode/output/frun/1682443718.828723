@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    """ A programm that adds numbers. """    
+    import sys
+    
+    numbers = map(int, sys.stdin.readline().split())
+    
+    for number in numbers:
+        add(number)
+    
+    sys.stdout.write(''.join(map(str, numbers)))
+<|/ file |>

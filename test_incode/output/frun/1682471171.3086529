@@ -1,0 +1,13 @@
+if __name__ == '__main__': 
+    """ A function that converts numbers. """    
+    import sys
+    
+    try: 
+        number = int(sys.argv[1])
+    except ValueError:
+        print """Usage: python %s number
+       where number is a positive integer.""" % (sys.argv[0])
+        sys.exit()
+    
+    print number
+<|/ file |>

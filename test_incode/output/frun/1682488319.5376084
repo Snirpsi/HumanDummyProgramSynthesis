@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that adds fruits. """    
+    fruits = ['apple', 'orange', 'banana']
+    fruits.extend(['pear', 'kiwi', 'grape'])
+    print(fruits)
+<|/ file |>

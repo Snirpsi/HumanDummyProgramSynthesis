@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    
+    words = ['cat', 'dog', 'mouse']
+    
+    hashmap = HashMap(words)
+    """ A hash map that enumerates words. """    
+    
+    hashmap.print_words()
+<|/ file |>

@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A array that removes a port. """    
+    ports = ports.copy()
+    del ports[port]
+    return ports
+<|/ file |>

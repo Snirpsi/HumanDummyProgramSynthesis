@@ -1,0 +1,115 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A programm that enumerates a list of words and enumerates words. """    
+    words = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    
+    for index, word in enumerate(words):
+        print('{} : {}'.format(index, word))
+    
+    print('\n\n')
+    

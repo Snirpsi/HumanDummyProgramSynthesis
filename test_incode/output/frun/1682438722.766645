@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    fruits = Fruits(fruits)
+    """ A array that converts fruits. """    
+    
+    
+    
+<|/ file |>

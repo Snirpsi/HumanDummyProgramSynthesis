@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    """ A list that opens a list of words. """    
+    words = []
+    
+    words.append(raw_input('Enter a word: ').lower())
+    
+    words.append(raw_input('Enter another word: ').lower())
+    
+    words.append(raw_input('Enter a third word: ').lower())
+    
+    words.append(raw_input('Enter a fourth word: ').lower())
+    
+    words.append(raw_input('Enter a fifth word: ').lower())
+    
+    words.append(raw_input('Enter a sixth word: ').lower())
+    
+    words.append(raw_input('Enter a seventh word: ').lower())
+    
+    words.append(raw_input('Enter a eighth word: ').
+<|/ file |>

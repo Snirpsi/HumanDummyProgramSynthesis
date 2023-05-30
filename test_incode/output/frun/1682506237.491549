@@ -1,0 +1,20 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    port = int(sys.argv[1])
+    
+    port2hashmap = Port2HashMap()
+    
+    port2hashmap.add(port)
+    
+    hashmap = port2hashmap.getHashMap()
+    
+    print "Hash map for port %d" % port
+    
+    for key, value in hashmap.iteritems():
+        print "%s: %d" % (key, value)
+    
+    
+    """ A hash map that converts a port. """    
+<|/ file |>

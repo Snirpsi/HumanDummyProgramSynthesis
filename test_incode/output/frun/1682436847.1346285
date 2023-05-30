@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    numbers = enumerate( range( 1, sys.maxint + 1 ) )
+    
+    for number, count in numbers:
+        print number, count
+    
+    
+    """ A programm that enumerates numbers. """    
+<|/ file |>

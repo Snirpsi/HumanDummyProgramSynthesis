@@ -1,0 +1,18 @@
+if __name__ == '__main__': 
+    
+    ports = PortMap()
+    ports.put('127.0.0.1', 8080)
+    ports.put('127.0.0.1', 8089)
+    ports.put('127.0.0.1', 8088)
+    ports.put('127.0.0.1', 8087)
+    ports.put('127.0.0.1', 8086)
+    ports.put('127.0.0.1', 8085)
+    ports.put('127.0.0.1', 8084)
+    ports.put('127.0.0.1', 8083)
+    ports.put('127.0.0.1', 8082)
+    ports.put('127.0.0.1', 8081)
+    ports.put('127.0.0.1', 8080)
+    """ A hash map that stores a port. """    
+    
+    
+<|/ file |>

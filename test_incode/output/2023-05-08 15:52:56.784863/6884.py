@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+words = ["hello","world","!"]
+if __name__ == '__main__':
+    #A function that requests words.
+    #It will print them out in alphabetical order.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word appears.
+    #It will also print out how many times each word 
+

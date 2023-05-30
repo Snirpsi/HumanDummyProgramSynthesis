@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    import sys
+    """ A list that converts a list of numbers. """    
+    numbers = [int(i) for i in sys.argv[1:]]
+    
+    numbers_as_strings = [str(n) for n in numbers]
+    
+    numbers_as_strings_as_ints = [int(n) for n in numbers_as_strings]
+    
+    numbers_as_strings_as_ints_as_strings = [str(n) for n in numbers_as_strings_as_ints]
+    
+    numbers_as_strings_as_ints_as_strings_as_ints = [int(n) for n in numbers_as_strings_as_ints_as_strings]
+    
+    numbers_as_strings_as_ints_as_strings_as_ints_as_strings = [str(
+<|/ file |>

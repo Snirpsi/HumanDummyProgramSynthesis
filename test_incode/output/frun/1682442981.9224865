@@ -1,0 +1,74 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    arr = [1,2,3,4,5]
+    
+    arr2 = arr
+    
+    arr3 = arr
+    
+    arr4 = arr
+    
+    arr5 = arr
+    
+    arr6 = arr
+    
+    arr7 = arr
+    
+    arr8 = arr
+    
+    arr9 = arr
+    
+    arr10 = arr
+    
+    arr11 = arr
+    
+    arr12 = arr
+    
+    arr13 = arr
+    
+    arr14 = arr
+    
+    arr15 = arr
+    
+    arr16 = arr
+    
+    arr
+    """ A array that returns numbers. """    
+    
+    arr = [1,2,3,4,5]
+    
+    arr2 = arr
+    
+    arr3 = arr
+    
+    arr4 = arr
+    
+    arr5 = arr
+    
+    arr6 = arr
+    
+    arr7 = arr
+    
+    arr8 = arr
+    
+    arr9 = arr
+    
+    arr10 = arr
+    
+    arr11 = arr
+    
+    arr12 = arr
+    
+    arr13 = arr
+    
+    arr14 = arr
+    
+    arr15 = arr
+    
+    arr16 = arr
+    
+    arr17 = arr
+    
+<|/ file |>

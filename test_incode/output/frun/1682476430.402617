@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A programm that adds a port. """    
+    
+    port = int(sys.argv[1])
+    
+    ports = Ports()
+    ports.add_port(port)
+    
+    ports.print_ports()
+<|/ file |>

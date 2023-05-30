@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    import sys
+    
+    words = ['hello', 'world', 'python', 'is', 'fun']
+    
+    
+    """ A array that enumerates words. """    
+    
+    for word in words:
+        print word
+<|/ file |>

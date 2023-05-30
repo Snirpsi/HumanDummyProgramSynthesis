@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    ports = PortList() 
+    """ A list that iterates a port. """    
+    ports.ports = [Port('tcp', 80, 8080), Port('tcp', 8080, 8088)]
+    ports.ports[0].start()
+    ports.ports[1].start()
+<|/ file |>

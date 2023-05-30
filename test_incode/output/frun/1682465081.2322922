@@ -1,0 +1,30 @@
+if __name__ == '__main__': 
+    """ A programm that opens a list of numbers. """    
+    numbers = range(1,11)
+    
+    numbers_open = numbers.copy()
+    
+    numbers_open.append(numbers_open.pop(0))
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse()
+    
+    numbers_open.reverse
+<|/ file |>

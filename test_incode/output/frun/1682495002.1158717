@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    """ A function that adds a list of words. """    
+    words = [word.strip() for word in open(sys.argv[1])]
+    words.extend(sys.argv[2:])
+    words.sort()
+    
+    words = ' '.join(words)
+    
+    sys.stdout.write(words)
+    
+<|/ file |>

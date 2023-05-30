@@ -1,0 +1,15 @@
+if __name__ == '__main__': 
+    """ A programm that converts fruits. """    
+    fruits = fruits.split()
+    fruits = [fruit.lower() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+    fruits = [fruit.capitalize() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+    fruits = [fruit.title() for fruit in fruits]
+
+<|/ file |>

@@ -1,0 +1,55 @@
+if __name__ == '__main__': 
+    
+    arr = [ 1, 2, 3, 4, 5 ]
+    
+    arr2 = [ 1, 2, 3, 4, 5 ]
+    
+    arr3 = arr + arr2
+    
+    arr4 = arr + arr2
+    
+    arr5 = arr + arr2
+    
+    arr6 = arr + arr2
+    
+    arr7 = arr + arr2
+    
+    arr8 = arr + arr2
+    
+    arr9 = arr + arr2
+    
+    arr10 = arr + arr2
+    
+    arr11 = arr + arr2
+    
+    arr12 = arr + arr2
+    
+    arr13 = 
+    """ A array that calculates a list of numbers. """    
+    
+    arr = [ 1, 2, 3, 4, 5 ]
+    
+    arr2 = [ 1, 2, 3, 4, 5 ]
+    
+    arr3 = arr + arr2
+    
+    arr4 = arr + arr2
+    
+    arr5 = arr + arr2
+    
+    arr6 = arr + arr2
+    
+    arr7 = arr + arr2
+    
+    arr8 = arr + arr2
+    
+    arr9 = arr + arr2
+    
+    arr10 = arr + arr2
+    
+    arr11 = arr + arr2
+    
+    arr12 = arr + arr2
+    
+    arr13 = 
+<|/ file |>

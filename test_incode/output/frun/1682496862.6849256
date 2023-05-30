@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A list that calculates a port. """    
+    ports = []
+    ports.append( int( sys.argv[1] ) )
+    return ports
+<|/ file |>

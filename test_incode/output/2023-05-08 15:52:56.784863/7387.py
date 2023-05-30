@@ -1,0 +1,84 @@
+#!/usr/bin/python3
+url = "http://snirps.ddns.net"
+if __name__ == '__main__':
+    #A program that enumerates a http request.
+    #The program is intended to be run as a daemon.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is stopped.
+    #The program will exit when the daemon is 
+

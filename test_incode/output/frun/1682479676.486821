@@ -1,0 +1,31 @@
+if __name__ == '__main__': 
+    
+    words = {}
+    """ A hash map that calculates words. """    
+    
+    words['hello'] = 'world'
+    
+    words['world'] = 'hello'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = 'world'
+    
+    words['hello'] = '
+<|/ file |>

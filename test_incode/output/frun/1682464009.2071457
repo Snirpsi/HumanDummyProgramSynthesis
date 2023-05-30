@@ -1,0 +1,24 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    """ A array that stores words. """    
+    
+    words = [word.strip() for word in words]
+    
+    words = [word.lower() for word in words]
+    
+    words = [word for word in words if word.isalpha()]
+    
+    words = [word for word in words if word not in STOPWORDS]
+    
+    words = [word for word in words if word not in STOPWORDS]
+    
+    words = [word for word in words if word not in STOPWORDS]
+    
+    words = [word for word in words if word not in STOPWORDS]
+    
+    words = [word for word in words if word not in STOPWORDS]
+    
+    word
+<|/ file |>

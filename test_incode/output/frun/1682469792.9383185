@@ -1,0 +1,42 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = []
+    
+    for arg in sys.argv[1:]:
+        words.append(arg)
+    
+    words = " ".join(words)
+    
+    words = words.split()
+    
+    words = " ".join(words)
+    
+    words = words.split()
+    
+    words = " ".join(words)
+    
+    words = words.split()
+    
+    words = " ".join(words)
+    
+    words = words.split()
+    
+    words = " ".join(words)
+    
+    words = words.split()
+    
+    words = " ".join(words)
+    
+    words = words.split()
+    
+    words = " ".join(words)
+    
+    words = words.split()
+    
+    words = " ".join(words)
+
+    """ A array that adds a list of words. """    
+    
+    return words
+<|/ file |>

@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that returns words or converts numbers. """    
+    while True:
+        word = input("Enter a word: ")
+        if word == "exit":
+            break
+        elif word.isdigit():
+            print(int(word))
+        else:
+            print(word)
+    

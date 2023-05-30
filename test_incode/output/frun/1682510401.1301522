@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A hash map that converts fruits. """    
+    fruits.convert()
+<|/ file |>

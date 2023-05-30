@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that calculates a port. """    
+    
+    port = 0
+    while True:
+        port = port + 1
+        
+        if port > 65535:
+            port = 0
+            
+        print("Port 

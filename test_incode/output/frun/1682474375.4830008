@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    """ A programm that stores numbers. """    
+    numbers = range(10)
+    
+    store = Store(numbers)
+    store.store()
+<|/ file |>

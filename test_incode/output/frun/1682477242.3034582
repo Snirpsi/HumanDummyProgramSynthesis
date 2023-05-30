@@ -1,0 +1,9 @@
+if __name__ == '__main__': 
+    """ A programm that prints a list of words. """    
+    words = ['word1', 'word2', 'word3']
+    
+    words.sort()
+    
+    for word in words:
+        print word
+<|/ file |>

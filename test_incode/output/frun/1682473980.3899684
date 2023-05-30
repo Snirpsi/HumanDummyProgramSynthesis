@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A function that adds fruits. """    
+    fruits = ['apple', 'banana', 'cherry']
+    fruits.extend(['pear', 'pineapple', 'peach'])
+    print(fruits)
+<|/ file |>

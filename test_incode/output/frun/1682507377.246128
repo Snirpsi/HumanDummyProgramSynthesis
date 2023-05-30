@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    
+    words = word_list
+    """ A function that returns a list of words. """    
+    return words
+<|/ file |>

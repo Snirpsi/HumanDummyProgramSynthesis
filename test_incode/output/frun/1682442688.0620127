@@ -1,0 +1,16 @@
+if __name__ == '__main__': 
+    """ A array that opens a list of words. """    
+    words = []
+    words.append( Word('word1') )
+    words.append( Word('word2') )
+    words.append( Word('word3') )
+    words.append( Word('word4') )
+    words.append( Word('word5') )
+    words.append( Word('word6') )
+    words.append( Word('word7') )
+    words.append( Word('word8') )
+    words.append( Word('word9') )
+    words.append( Word('word10') )
+    words.append( Word('word11') )
+    words.append(
+<|/ file |>

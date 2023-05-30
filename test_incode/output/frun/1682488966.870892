@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    import sys
+    """ A list that converts a list of numbers. """    
+    
+    numbers = [int(i) for i in sys.argv[1:]]
+    
+    numbers_as_string = ''.join([str(i) for i in numbers])
+    
+    print numbers_as_string
+<|/ file |>

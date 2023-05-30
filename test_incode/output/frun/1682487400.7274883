@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    import sys
+    
+    ports = PortArray()
+    """ A array that stores a port. """    
+    ports.port = 'COM1'
+    ports.open()
+    
+    ports.close()
+<|/ file |>

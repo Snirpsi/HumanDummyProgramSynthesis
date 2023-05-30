@@ -1,0 +1,29 @@
+if __name__ == '__main__': 
+    """ A array that adds words. """    
+    words = sys.argv[1:]
+    words.extend(sys.argv[2:])
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+    words = words.split()
+    words = ' '.join(words)
+
+<|/ file |>

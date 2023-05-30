@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A array that converts a list of numbers. """    
+    
+    array = []
+    
+    for num in numbers:
+        array.append(num*2)
+        
+    return array
+<|/ file |>

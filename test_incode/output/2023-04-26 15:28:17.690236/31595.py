@@ -1,0 +1,51 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that calculates words. """    
+    while True:
+        word = input("Enter a word: ")
+        if word == 'quit':
+            break
+        word = word.lower()
+        word = word.split()
+        word = [word.index(c) for c in 'aeiou']
+        word = [word + [word[-1]]]
+        word = [word + [word[0]]]
+        word = [word + [word[1]]]
+        word = [word + [word[2]]]
+        word = [word + [word[3]]]
+        word = [word + [word[4]]]
+        word = [word + [word[5]]]
+        word = [word + [word[6]]]
+        word = [word + [word[7]]]
+        word = [word + [word[8]]]
+        word = [word + [word[9]]]
+        word = [word + [word[10]]]
+        word = [word + [word[11]]]
+        word = [word + [word[12]]]
+        word = [word + [word[13]]]
+        word = [word + [word[14]]]
+        word = [word + [word[15]]]
+        word = [word + [word[16]]]
+        word = [word + [word[17]]]
+        word = [word + [word[18]]]
+        word = [word + [word[19]]]
+        word = [word + [word[20]]]
+        word = [word + [word[21]]]
+        word = [word + [word[22]]]
+        word = [word + [word[23]]]
+        word = [word + [word[24]]]
+        word = [word + [word[25]]]
+        word = [word + [word[26]]]
+        word = [word + [word[27]]]
+        word = [word + [word[28]]]
+        word = [word + [word[29]]]
+        word = [word + [word[30]]]
+        word = [word + [word[31]]]
+        word = [word + [word[32]]]
+        word = [word + [word[33]]]
+        word = [word + [word[34]]]
+        word = [word + [word[35]]]
+        word = [word + [word[36]]]
+        word = [word + [word[37]]]
+        word = [word + [word[38]]]
+        word = [word + [word[39]]]

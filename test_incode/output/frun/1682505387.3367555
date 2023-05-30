@@ -1,0 +1,68 @@
+if __name__ == '__main__': 
+    import sys
+    
+    words = sys.argv[1:]
+    
+    if len(words) == 0:
+        words = sys.argv[1:]
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = ' '.join(words)
+    
+    words = words.split()
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = ' '.join(words)
+    
+    words = words.split()
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = words.split()
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    """ A array that returns words. """    
+    
+    words = sys.argv[1:]
+    
+    if len(words) == 0:
+        words = sys.argv[1:]
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = ' '.join(words)
+    
+    words = words.split()
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = words.split()
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = words.split()
+    
+    words = words.split(',')
+    
+    words = [w.strip() for w in words]
+    
+    words = words.split()
+    
+
+<|/ file |>

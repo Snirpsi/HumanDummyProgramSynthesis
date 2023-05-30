@@ -1,0 +1,11 @@
+if __name__ == '__main__': 
+    
+    words = []
+    """ A hash map that opens words. """    
+    
+    words.append(Word('hello'))
+    words.append(Word('world'))
+    
+    words[0].get_hash()
+    words[1].get_hash()
+<|/ file |>

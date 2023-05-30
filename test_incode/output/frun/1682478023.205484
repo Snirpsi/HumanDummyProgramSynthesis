@@ -1,0 +1,12 @@
+if __name__ == '__main__': 
+    
+    fruits = HashMap()
+    """ A hash map that opens fruits. """    
+    fruits.open()
+    
+    fruits.put('apple', 'banana')
+    fruits.put('orange', 'apple')
+    fruits.put('pear', 'orange')
+    
+    fruits.close()
+<|/ file |>

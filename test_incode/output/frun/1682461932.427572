@@ -1,0 +1,7 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A hash map that enumerates fruits. """    
+    
+    fruits.print_fruits()
+<|/ file |>

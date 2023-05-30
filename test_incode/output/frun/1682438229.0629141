@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    """ A programm that calculates a list of words. """    
+    wordlist = wordlist()
+    wordlist.sort()
+    wordlist.print_wordlist()
+<|/ file |>

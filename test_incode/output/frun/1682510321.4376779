@@ -1,0 +1,8 @@
+if __name__ == '__main__': 
+    
+    fruits = Fruits()
+    """ A hash map that removes fruits. """    
+    fruits.remove('apple')
+    
+    print(fruits)
+<|/ file |>

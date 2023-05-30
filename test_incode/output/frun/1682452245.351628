@@ -1,0 +1,6 @@
+if __name__ == '__main__': 
+    words = [word.strip() for word in open('words.txt')]
+    """ A hash map that prints words. """    
+    for word in words:
+        print word
+<|/ file |>

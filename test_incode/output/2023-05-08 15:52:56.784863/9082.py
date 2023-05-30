@@ -1,0 +1,91 @@
+#!/usr/bin/python3
+numbers = [1,2,3]
+if __name__ == '__main__':
+    #A function that iterates over numbers.
+    #The function returns True if all numbers are divisible by 3.
+    #The function returns False if any number is divisible by 3.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #The function returns None if the function encounters an error.
+    #
+

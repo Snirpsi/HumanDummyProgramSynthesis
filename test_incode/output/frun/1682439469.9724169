@@ -1,0 +1,10 @@
+if __name__ == '__main__': 
+    """ A hash map that calculates numbers. """    
+    numbers = { }
+    
+    numbers['one'] = 1
+    numbers['two'] = 2
+    numbers['three'] = 3
+    
+    print(numbers)
+<|/ file |>

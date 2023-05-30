@@ -1,0 +1,62 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that converts fruits and calculates a port. """    
+    while True:
+        fruit = input("Enter a fruit: ")
+        fruit = fruit.lower()
+        if fruit == "apple":
+            print("The fruit is", fruit)
+        elif fruit == "banana":
+            print("The fruit is", fruit)
+        elif fruit == "cherry":
+            print("The fruit is", fruit)
+        elif fruit == "orange":
+            print("The fruit is", fruit)
+        elif fruit == "mango":
+            print("The fruit is", fruit)
+        elif fruit == "pineapple":
+            print("The fruit is", fruit)
+        elif fruit == "peach":
+            print("The fruit is", fruit)
+        elif fruit == "strawberry":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit)
+        elif fruit == "watermelon":
+            print("The fruit is", fruit

@@ -1,0 +1,50 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    """ A endless loop that stores a list of numbers. """    
+    numbers = []
+    while True:
+        numbers.append(int(input('Enter a number: ')))
+        if len(numbers) == 10:
+            break
+    print('The numbers entered were:')
+    for number in numbers:
+        print(number)
+    print('The sum of the numbers entered was:', sum(numbers))
+    print('The average of the numbers entered was:', sum(numbers) / len(numbers))
+    print('The median of the numbers entered was:', sorted(numbers)[int(len(numbers) / 2)])
+    print('The mode of the numbers entered was:', max(numbers))
+    print('The mode of the numbers entered was:', min(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers entered was:', mode(numbers))
+    print('The mode of the numbers 

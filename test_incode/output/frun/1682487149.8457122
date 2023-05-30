@@ -1,0 +1,23 @@
+if __name__ == '__main__': 
+    """ A function that converts words. """    
+    import sys
+    
+    words = sys.argv[1:]
+    
+    for word in words:
+        word = word.lower()
+        word = word.replace(' ', '_')
+        word = word.replace('-', '_')
+        word = word.replace('_', ' ')
+        word = word.replace('.', '_')
+        word = word.replace(',', '_')
+        word = word.replace(';', '_')
+        word = word.replace('!', '_')
+        word = word.replace('?', '_')
+        word = word.replace(':', '_')
+        word = word.replace(';', '_')
+        word = word.replace(':', '_')
+        word = word.replace(':', '_')
+        word = word.replace(':', '_')
+        word = 
+<|/ file |>

@@ -1,0 +1,28 @@
+if __name__ == '__main__': 
+    
+    array1 = Array()
+    array2 = Array()
+    array3 = Array()
+    array4 = Array()
+    
+    array1.append(1)
+    array1.append(2)
+    array1.append(3)
+    
+    array2.append(4)
+    array2.append(5)
+    array2.append(6)
+    
+    array3.append(7)
+    array3.append(8)
+    array3.append(9)
+    
+    array4.append(10)
+    array4.append(11)
+    array4.append(12)
+    
+    
+    """ A array that adds a list of numbers. """    
+    
+    
+<|/ file |>
