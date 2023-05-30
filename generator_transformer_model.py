@@ -7,6 +7,9 @@
 # import torch
 # from torch.multiprocessing import Pool, Process, set_start_method
 
+
+
+
 class ProgramGenerator:
     def __init__(self) -> None:
 
@@ -16,21 +19,37 @@ class ProgramGenerator:
     # wird erst von dem tread initialisiert von dem es tazächlich zur generierung gebraucht wird.
 
     def __inofficial_init__(self) -> None:
+        print("init")
         import torch
         from transformers import GPT2Tokenizer, GPT2LMHeadModel, AutoTokenizer, AutoModelForCausalLM
-
+        from transformers import AutoTokenizer, AutoModelWithLMHead
+        from transformers import pipeline
+        
         if torch.cuda.is_available():
             dev = "cuda:1"
         else:
             dev = "cpu"
         self.device = torch.device(dev)
+        #self.pipe = pipeline("text-generation", model="codeparrot/codeparrot")
+       
+        #print("===============PIPE===============")
+        #print(self.pipe.__dict__)
+        #print("===============PIPE Gen===============")
+        #erg = self.pipe("#a simple hello world programm with a loop") 
+        #print(erg)
+        #print("===============PIPE GEN END===============")
+        #print("Usind device:", str(self.device))
 
-        print("Usind device:", str(self.device))
+        self.tokenizer = AutoTokenizer.from_pretrained("codeparrot/codeparrot")
+        self.model = AutoModelWithLMHead.from_pretrained("codeparrot/codeparrot")
 
-        self.tokenizer = GPT2Tokenizer.from_pretrained(
-            "SIC98/GPT2-python-code-generator")
-        self.model = GPT2LMHeadModel.from_pretrained(
-            "SIC98/GPT2-python-code-generator")
+        #inputs = tokenizer("def hello_world():", return_tensors="pt")
+        #outputs = model(**inputs)
+
+        #self.tokenizer = GPT2Tokenizer.from_pretrained(
+        #    "SIC98/GPT2-python-code-generator")
+        #self.model = GPT2LMHeadModel.from_pretrained(
+        #    "SIC98/GPT2-python-code-generator")
         self.model.to(self.device)
         self.prompts = []
         self.was_initialized = True
@@ -46,16 +65,16 @@ class ProgramGenerator:
         self.outputs = self.model.generate(
             input_ids=input_ids,
             max_new_tokens=265,
-            min_length=64,
-            max_length=64 + len(inputProgramStr),  # keine maximahle länge
-            temperature=0.5,
-            top_k=100,
-            top_p=0.90,
-            repetition_penalty=20.0,
-            do_sample=True,
+            min_length=0,
+            #max_length=64 + len(inputProgramStr),  # keine maximahle länge
+            #temperature=0.5,
+            #top_k=100,
+            #top_p=0.90,
+            #repetition_penalty=20.0,
+            #do_sample=True,
             num_return_sequences=200,  # anzahl der sequenzen die zurückkommen
-            length_penalty=1000,
-            early_stopping=False
+            #length_penalty=1000,
+            #early_stopping=False
         )
         # outputs[1...n] sind die verschiedenen vektoren
         decoded = []

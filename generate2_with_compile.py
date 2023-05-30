@@ -38,6 +38,15 @@ def dateStr():
 
 
 generator  =  ProgramGenerator()
+
+#output folder
+dateStrS = dateStr()
+outFolder = "outputPrograms/exp" + dateStrS 
+try: 
+    os.mkdir(outFolder) 
+except OSError as error: 
+    print(error)
+    
 #Producer aka Program expander
 def program_expander (queue_source:Queue, queue_destination:Queue):
     #take one item from source 
@@ -46,8 +55,9 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
     program_to_be_extendet = None
 
     #the transformer to generate programs
-    
-    while not queue_source.empty():
+    i:int = 0 
+    while not queue_source.empty() and i < 10:
+        print("generator: "+ str(i))
         #take a node from the data and extract the program data from the node 
         program_dict =  queue_source.get()
         print("len source queue", queue_source.qsize())
@@ -105,6 +115,7 @@ def program_expander (queue_source:Queue, queue_destination:Queue):
             print("len destQueue:", queue_destination.qsize())
             #fügt valides programm am anfang der zeile an 
             #queue_destination.insert(0,prog)
+        i+=1
             
 def remove_lines_below_error(program_string, error_line):
     """
@@ -119,14 +130,7 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
     print("Evaluation Startet")
     evaluator = programEvaluator.ProgramEvaluator()
 
-    #output folder
-    dateStrS = dateStr()
-    
-    outFolder = "outputPrograms/exp" + dateStrS 
-    try: 
-        os.mkdir(outFolder) 
-    except OSError as error: 
-        print(error)  
+
 
     #program_tree = Tree()
 
@@ -135,6 +139,7 @@ def program_evaluator(queue_source:Queue, queue_destination:Queue):
 
     i:int = 0
     while not queue_source.empty():
+        print("eval"+str(i))
         program_dict = queue_source.get()        
         program_to_be_evaluated = program_dict["program"]
         program_to_be_evaluated_ID = program_dict["index"]
@@ -213,12 +218,16 @@ if __name__ == "__main__":
         print("Iteration!" , iter_count)
         
         print("Start Generator")
-        while (not queue_program_expansion.empty()):
-            program_expander(queue_program_expansion,queue_program_evaluation)
+        gen_count_max = 10
+        gen_count = 0
+        #while (not queue_program_expansion.empty() and gen_count < gen_count_max):
+        program_expander(queue_program_expansion,queue_program_evaluation)
+        #    gen_count+=1
+            
         print("Start Evaluator")
-        while (not queue_program_evaluation.empty()):
-            program_evaluator(queue_program_evaluation,queue_program_expansion)
-            print("eval_loop")
+        #while (not queue_program_evaluation.empty()):
+        program_evaluator(queue_program_evaluation,queue_program_expansion)
+        print("eval_loop")
         print("End Eval")
         iter_count = iter_count + 1
 
